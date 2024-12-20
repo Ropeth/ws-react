@@ -27,16 +27,6 @@ a:hover {
   color: var(--wsdarkgreen);
 }
 
-.main {
-  width: calc(100% - var(--mainmargin));
-  display: flex;
-  min-height: 80vh;
-  margin: 0;
-  padding: 0 0 0 var(--mainmargin);
-  background-color: rgb(227, 229, 241);
-  flex-grow: 1;
-}
-
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -47,15 +37,15 @@ a:hover {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-*/
+  }
+  button:hover {
+    border-color: #646cff;
+    }
+    button:focus,
+    button:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
+      }
+      */
 @media (prefers-color-scheme: dark) {
   .main {
     background-color: #213547;
@@ -75,8 +65,8 @@ button:focus-visible {
 }
 
 /*///////////
-// HEADER  //
-///////////*/
+      // HEADER  //
+      ///////////*/
 .header {
   margin: 0;
   width: 100%;
@@ -141,6 +131,20 @@ button:focus-visible {
 /*///////////
 // CONTENT //
 ///////////*/
+
+.main {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  /* width: calc(100% - var(--mainmargin)); */
+  width: 100%;
+  display: flex;
+  min-height: 80vh;
+  margin: 0;
+  padding: 0 0 0 var(--mainmargin);
+  background-color: rgb(227, 229, 241);
+  flex-grow: 1;
+}
 .info {
   width: 30%;
 }
@@ -148,6 +152,8 @@ button:focus-visible {
   width: 70%;
   min-width: 500px;
   display: grid;
+  flex-grow: 1;
+  /* transition: 0.5s ease-in-out; //can use with width change but not with flex-grow*/
 }
 .map img.map-background,
 .pins-layer {

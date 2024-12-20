@@ -2,7 +2,7 @@ export default function Info() {
   return (
     <div className="info">
       <p>
-        <span class="h1-inline">Water School Africa (WSA) </span>is a
+        <span className="h1-inline">Water School Africa (WSA) </span>is a
         partnership between communities engaged in natural water retention
         practices in their local villages/areas/regions.
       </p>
