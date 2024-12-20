@@ -36,7 +36,7 @@ export const pins = [
         y: 55.3,
         publish: "WSA session 04/06/2024",
         intro:
-          "<p>John Macharia, the National Coordinator presents SCOPE Kenya’s work. John focuses on water harvesting and management for enhanced land regeneration, and food production and biodiversity conservation among school communities.</p><p>We hear case studies of schools which have excelled well in putting up rain surface runoff management systems, resulting in reduced soil erosion, and increased regreening of their landscapes, with well-established food forest through permaculture approaches. Also, we will hear how this knowledge has been adopted by neighbouring community members, contributing to improved food security, livelihoods and environmental conservation.</p>",
+          "<p>John Macharia, the National Coordinator presents SCOPE Kenya's work. John focuses on water harvesting and management for enhanced land regeneration, and food production and biodiversity conservation among school communities.</p><p>We hear case studies of schools which have excelled well in putting up rain surface runoff management systems, resulting in reduced soil erosion, and increased regreening of their landscapes, with well-established food forest through permaculture approaches. Also, we will hear how this knowledge has been adopted by neighbouring community members, contributing to improved food security, livelihoods and environmental conservation.</p>",
         src: "https://www.youtube.com/embed/8GXeEZUS8H4?si=k4iaLOKxtWuSdJOo",
         presentation:
           "https://waterways.world/SCOPE_SCHOOLS_WATER_MANAGMENT_2024.pdf",
@@ -88,8 +88,8 @@ export const pins = [
         theme: "Water harvesting",
         lat: "-20.218736",
         lon: "28.619749",
-        x: 30,
-        y: 60,
+        x: 64.3,
+        y: 77.4,
         publish: "WSA session 05/09/2023",
         intro:
           "<p>Dabane Trust is a Non-Governmental organization founded in 1991 and registered in Zimbabwe. In this online Water School Africa meeting, they  share 32 years' experience working in South and North Zimbabwe. Dabane Trust presents how they use participatory, community-led development approach integrated with technical expertise for protection and improvement of soil, water and vegetation resources in the watershed, including co-creation of watershed infrastructure.</p>",
@@ -100,8 +100,8 @@ export const pins = [
         theme: "Water pioneer",
         lat: "-20.506297",
         lon: "30.2839",
-        x: 30,
-        y: 60,
+        x: 66,
+        y: 77.3,
         publish: "WSA session 06/06/23",
         intro:
           "<p>A tribute to the life and work of Zephaniah Phiri, who was an inspiration to thousands of people in Zimbabwe and beyond. He understood water and the role of farmers in their relationship with water brilliantly. He applied this understanding in a very practical way on his own farm and also in urging others to put in their own water-harvesting systems. In this discussion forum of Water School Africa we watch and hear about both his water-harvesting systems and how he inspired so many others.</p>",
@@ -112,8 +112,8 @@ export const pins = [
         theme: "Water harvesting",
         lat: "-19.713210",
         lon: "32.945171",
-        x: 30,
-        y: 60,
+        x: 68.6,
+        y: 76.8,
         publish: "WSA session 01/08/2023",
         intro:
           "<p>Chikukwa Ecological Land Use Community Trust (CELUCT) is a community-based organization founded in 1991. CELUCT's purpose is to facilitate the regeneration of community cohesion and landscape through training programs, strengthening community relations, advocacy, research and critical awareness raising. They use different approaches according to a community's needs. In their presentation, CELUCT will share 30 years of experience working in Chikukwa communal land and beyond in Chimanimani district in Zimbabwe. At the heart of their work has been how to hold water in their landscapes. Given the topography of Chikukwa and the cyclones that inevitably arrive periodically, they have had no alternative but to focus on water. They have had many successes but also learnt from what has not gone so well.</p>",
@@ -124,22 +124,22 @@ export const pins = [
         theme: "Water harvesting",
         lat: "-20.506297",
         lon: "30.2839",
-        x: 30,
-        y: 60,
+        x: 64.5,
+        y: 77,
         publish: "WSA session 08/02/2022",
         intro:
           "<p>The Muonde Trust is a community-based organisation in the dry, south-west of Zimbabwe. Community-driven water-harvesting is at the heart of their work. Their formation was inspired by the work of Zimbabwe's Waterman, Zephaniah Phiri, who spent some years working in Mazvihwa in the 1980s, with those who later formed the Muonde Trust.</p><p>Well worth watching for anyone interested in this kind of grounded holding-water-in-the-landscape work. Members of Muonde Trust now have years of experience, which comes through in their presentation and in the Q and A session which followed.</p>",
         src: "https://www.youtube.com/embed/XKpWC1-K7NI?si=yF8n0XlI-NLWO3Cu",
         presentation:
-          "https://waterways.world/images/Muonde_Trust’s_Water_Harvesting.pdf",
+          "https://waterways.world/images/Muonde_Trust's_Water_Harvesting.pdf",
       },
       {
         name: "Poret",
         theme: "Water harvesting",
         lat: "-18.626272",
         lon: "31.510702",
-        x: 30,
-        y: 60,
+        x: 68,
+        y: 74,
         publish: "WSA session 16/09/2021",
         intro:
           "<p>Julious and Mercy Piti of PORET present experiences of water-harvesting practices in the low altitude/semi-arid parts of Chimanimani District in Zimbabwe. The community-based organisation, PORET, has designed and is developing an extensive interconnected water-harvesting system of swales and ponds/small dams at their community learning centre. Many farmers in the area are increasingly taking up similar water-harvesting practices in a farmer to farmer learning process, facilitated by PORET. All are learning a great deal from season to season.</p>",
@@ -151,8 +151,8 @@ export const pins = [
         theme: "Community case study",
         lat: "-21.83193",
         lon: "29.118",
-        x: 30,
-        y: 60,
+        x: 65.2,
+        y: 78.8,
         publish: "WSA session 06/08/2021",
         intro:
           "<p>Nelson Mudzingwa of Shashe Block of Farms, Zimbabwe, presents his experiences of restoring the water cycle through traditional methods of earth dams, dead level contours and stone barriers/ walls, and interlocked keyhole beds as part of a social, ecological and agricultural transformation.</p><p>Everything in Nelson's story from the collapse to the regeneration with the community of the water cycle, is told through the simple observation of nature and the experience of doing the work. It  highlights what can happen when the collaboration of local communities and their knowledge, wisdom and successes are shared widely.</p>",
@@ -164,8 +164,8 @@ export const pins = [
         theme: "Community case study",
         lat: "-19.8032",
         lon: "32.8733",
-        x: 30,
-        y: 60,
+        x: 68.4,
+        y: 77.5,
         publish: "WSA session 03/10/2023",
         intro:
           "<p>Rob Sacco presents on a series of interventions over the 42 hectare site of Nyahode Union Learning Centre , with earth core dams, weirs, swales, spillways, hillside dams, interconnected water systems, soakaways, managed woodlands, orchards and gardens, and an extensive reticulation system, consisting of pipings and storage tanks. This Working Examples system has survived a number of cyclones, including both Eline and Idai.</p><p>Nyahode Union Learning Centre  is  a centre for adult education set up by Rob Sacco and his wife Liesel in 1985, The adult education section of it has developed into the Nyahode Union Community Technical College, which carries out intensive Post O Level training in carpentry, tailoring, building, mechanics, and  agroecology. They have an Agroecology/Watershed Management team of 11 people.</p>",
@@ -181,7 +181,7 @@ export const pins = [
         theme: "Transforming desert",
         lat: "12.323701",
         lon: "-1.499876",
-        x: 30,
+        x: 31,
         y: 39,
         publish: "WSA session 04/04/2023",
         intro:
@@ -200,8 +200,8 @@ export const pins = [
         theme: "Deep bed farming",
         lat: "-11.4623",
         lon: "34.0295",
-        x: 30,
-        y: 60,
+        x: 70.2,
+        y: 68.4,
         publish: "WSA session 14/06/2022",
         intro:
           "<p>Mr Isaac Monjo Chavula, an Executive Director of Tiyeni, Malawi,  introduces us to a pioneering method  called  Deep Bed Farming (DBF) which they have developed over  several years of trial and error working with farmers and communities in Malawi . DBF involves breaking up hard compacted layers of earth several inches under the ground, which allows roots, water and air to penetrate more deeply underground, and helps the soil retain water and moisture long after the rains, instead of running off immediately after rainfall and causing devastating soil erosion.</p>",
@@ -213,6 +213,8 @@ export const pins = [
         theme: "Water harvesting",
         lat: "-13.6915143",
         lon: "33.8501715",
+        x: 70.8,
+        y: 69.4,
         publish: "WSA session 02/07/2024",
         intro:
           "<p>In this video Daniel Chinkhuntha discusses the rain water harvesting structures that he is using to hold water at Tikondwe Freedom Gardens in central Malawi, work that was started by his late father.</p><p>Daniel Chinkhuntha applies a wealth of knowledge, skills and capacity from permaculture, agroecology and organic farming into his understanding of water. He is an organic farmer and he manages Tikondwe Freedom Gardens, a farm near Lilongwe, Malawi on which permaculture is practised with the aim of achieving food sovereignty and secure livelihoods. He specializes in planning and designing the landscape for sustainable development as well as facilitating trainings and teaching agroecology to farmers, academics & extension workers</p>",
@@ -228,8 +230,8 @@ export const pins = [
         theme: "Water harvesting",
         lat: "-15.424862",
         lon: "28.362691",
-        x: 30,
-        y: 60,
+        x: 62.8,
+        y: 72.8,
         publish: "WSA session 15/03/2021",
         intro:
           "<p>In December 2021 ReScope conducted an Integrated Land Use Design (ILUD) training for 16 participants from the Haanamoonga community. As always they looked at the issue of rain water harvesting. Soon after the training the participants started building swales around their homesteads and on their fields. When the rains came, the participants were enthralled to see the results of their work. Walter Mugove will share with us the exciting immediate results of this work. This work with the Haanamoonga community is part of SKI's pilot programme in three southern African countries working with communities at the landscape level.</p>",
@@ -241,8 +243,8 @@ export const pins = [
         theme: "Water harvesting work",
         lat: "-14.424862",
         lon: "29.362691",
-        x: 30,
-        y: 60,
+        x: 65.6,
+        y: 70.5,
         publish: "WSA session 6/08/2024",
         intro:
           "<p>Cosmas Hanyanga, a young man will present about his outstanding rainwater harvesting work in Haanamoonga community. He has dug many swales and a 5m x 10m x 2.5m pond by hand. He helps others by sharing his experience and motivating the community.</p><p>The average age of a farmer in Africa is over 60 years. Young people tend to turn away from farming, but this young man can inspire and motivate others with his passion and energy for rainwater harvesting.</p>",
@@ -258,8 +260,8 @@ export const pins = [
         theme: "Water harvesting",
         lat: "0",
         lon: "8.362691",
-        x: 10,
-        y: 10,
+        x: 42,
+        y: 60,
         publish: "WSA session 01/10/2024",
         intro:
           "A dicussion amonst participants into the essence of water harvesting around the questions <ul><li>How do we make sure that our rain water harvesting structures can withstand heavy storms which are becoming more common and more intense due to climate change?</li><li>How do we reduce seepage from ponds when we aim to store water in surface ponds and/or keep fish?</li><li>What is the biggest barrier to doing water holding work in small local communities?</li><li>How can we increase the local knowledge of, and spread of effective community based solutions for droughts or floods?</li><li>What kind of livelihood opportunities arise when there is ample water? How can these be enhanced?</li></ul> This session is moderated by Minni Jain of the Flow Partnership and Walter Mugove of ReSCOPE Zambia.</p>",

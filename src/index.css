@@ -2,7 +2,7 @@
 
 :root {
   font-family: Candara, "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   --wsblue: #21b6a8;
   --wslightblue: #d2e8f0;
   --wsgreen: #18a558;
@@ -28,6 +28,7 @@ a:hover {
 }
 
 .main {
+  width: calc(100% - var(--mainmargin));
   display: flex;
   min-height: 80vh;
   margin: 0;
@@ -73,26 +74,12 @@ button:focus-visible {
   }
 }
 
+/*///////////
+// HEADER  //
+///////////*/
 .header {
   margin: 0;
   width: 100%;
-}
-.footer {
-  margin: 0;
-  width: 100%;
-  background-color: var(--wsblue);
-  font-size: 0.7rem;
-  color: white;
-  font-style: italic;
-  font-weight: bold;
-}
-.footer-inner {
-  padding: 0.5rem var(--mainmargin);
-  display: flex;
-  justify-content: space-between;
-}
-.footer a {
-  color: #fff;
 }
 .header .nav {
   width: calc(100vw - 2 * var(--mainmargin));
@@ -150,6 +137,10 @@ button:focus-visible {
   font-size: 1rem;
   letter-spacing: 2px;
 }
+
+/*///////////
+// CONTENT //
+///////////*/
 .info {
   width: 30%;
 }
@@ -185,4 +176,25 @@ button:focus-visible {
   font-size: 1.3em;
   color: var(--wsblue);
   font-weight: bold;
+}
+
+/*///////////
+// FOOTER //
+///////////*/
+.footer {
+  margin: 0;
+  width: 100%;
+  background-color: var(--wsblue);
+  font-size: 0.7rem;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+.footer-inner {
+  padding: 0.5rem var(--mainmargin);
+  display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  color: #fff;
 }

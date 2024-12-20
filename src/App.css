@@ -1,11 +1,19 @@
+html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 #root {
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   place-items: flex-start;
 }
 
-
 body {
+  position: relative;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
