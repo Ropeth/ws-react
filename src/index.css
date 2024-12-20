@@ -170,16 +170,16 @@ button:focus-visible {
 .map-pin {
   margin: 0;
   padding: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
+  position: absolute;
   translate: -50% -100%;
   transform-origin: 50% 100%;
   transition: 0.2s ease-out;
   filter: drop-shadow(3px 2px 2px rgb(73 59 46 / 0.4));
+  z-index: unset;
 }
 .map-pin:hover {
   transform: scale(1.5);
+  z-index: 1000;
 }
 .h1-inline {
   font-size: 1.3em;
