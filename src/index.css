@@ -65,8 +65,8 @@ a:hover {
 }
 
 /*///////////
-      // HEADER  //
-      ///////////*/
+// HEADER  //
+///////////*/
 .header {
   margin: 0;
   width: 100%;
@@ -74,45 +74,52 @@ a:hover {
 .header .nav {
   width: calc(100vw - 2 * var(--mainmargin));
   margin: 0 var(--mainmargin);
-  display: grid;
-  grid-template-columns: 7% 93%;
-  grid-template-rows: 1fr auto;
-  grid-template-areas:
+  padding: 0;
+  /* display: grid; */
+  /* grid-template-columns: 7% 93%; */
+  /* grid-template-rows: 1fr auto; */
+  /* grid-template-areas:
     "logo menu"
-    "tagline tagline";
-  align-items: center;
+    "tagline tagline"; */
+  /* align-items: center; */
 }
 .logo {
   height: 5vw;
   max-height: 50px;
   min-height: 30px;
   margin: 10px 10px 10px 0;
-  grid-area: logo;
+  /* grid-area: logo; */
+  padding: 0 0 0 0;
 }
 .menu {
-  grid-area: menu;
+  /* grid-area: menu; */
 }
 .menu ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: flex-end;
-  padding: 0;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* list-style: none; */
+  /* justify-content: flex-end; */
+  /* padding: 0; */
 }
 .menu ul li {
-  display: block;
-  margin: 0;
-  padding: 0;
-  margin: 0 3% 0 0;
+  /* display: block; */
+  /* margin: 0; */
+  /* padding: 0; */
+  /* margin: 0 3% 0 0; */
 }
 .menu ul li:last-of-type {
-  margin: 0;
+  /* margin: 0; */
 }
 .menu a {
-  color: var(--wsgreen);
-  text-decoration: none;
+  /* color: var(--wsgreen);
+  text-decoration: none;*/
   font-weight: bold;
   font-size: 1.2rem;
+}
+@media (prefers-color-scheme: light) {
+  a:hover {
+    color: var(--wslightgreen);
+  }
 }
 .tagline {
   grid-area: tagline;
@@ -147,6 +154,7 @@ a:hover {
 }
 .info {
   width: 30%;
+  margin-top: 1rem;
 }
 .map {
   width: 70%;
