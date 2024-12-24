@@ -1,8 +1,15 @@
 import pin from "../assets/pin.svg";
-const onPinClick = () => {
-  console.log("pin clicked ");
-};
-export default function Pin({ project, country }) {
+import Modal from "./modal";
+
+export default function Pin({ project, country, pinId }) {
+  // useEffect(() => {
+  //   console.log(selectedProject);
+  //   $("#modal .modal-body").innerHTML = "gg";
+  // }, [selectedProject]);
+
+  function onPinClick(thisProject) {
+    //setSelectedProject(thisProject);
+  }
   return (
     <>
       <img
@@ -11,8 +18,13 @@ export default function Pin({ project, country }) {
         alt={country}
         title={project.name}
         style={{ top: project.y + "%", left: project.x + "%" }}
-        onClick={onPinClick}
+        value={{ project }}
+        //onClick={(e) => onPinClick(project)}
+        //onClick={onPinClick}
+        data-toggle="modal"
+        data-target={"#" + pinId}
       />
+      <Modal id={pinId} project={project} />
     </>
   );
 }

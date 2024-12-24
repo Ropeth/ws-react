@@ -4,17 +4,7 @@ import wsLogo from "../assets/logo.svg";
 export default function Header() {
   return (
     <div className="header">
-      {/* <div className="nav">
-        <a href="/" target="_blank">
-          <img src={wsLogo} className="logo" alt="Water Schools" />
-        </a>
-        <Menu />
-        <div className="tagline">
-        <p>A co-created community space for water regeneration</p>
-      </div>
-      </div>
-       */}
-      <nav className="nav navbar navbar-expand-lg">
+      <nav className="nav navbar navbar-expand-md navbar-light">
         <a className="navbar-brand" href="#">
           <img src={wsLogo} className="logo" alt="Water Schools" />
         </a>
@@ -37,3 +27,4 @@ export default function Header() {
     </div>
   );
 }
+//navbar-light makes burger menu appear but changes colour of menu
