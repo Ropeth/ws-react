@@ -24,19 +24,87 @@ export default function Menu() {
       id="navbarNavDropdown"
     >
       <ul className="navbar-nav">
-        <li className="nav-item active">
-          <a className="nav-link" href="#">
-            Water School Africa <span className="sr-only">(current)</span>
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Water School Africa
           </a>
+          <div
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <a className="dropdown-item" href="#">
+              Literacy
+            </a>
+            <a className="dropdown-item" href="#">
+              Action
+            </a>
+            <a className="dropdown-item" href="#">
+              Methods
+            </a>
+            <a className="dropdown-item" href="#">
+              Partners
+            </a>
+          </div>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
             Water School India
           </a>
+          <div
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <a className="dropdown-item" href="#">
+              Literacy
+            </a>
+            <a className="dropdown-item" href="#">
+              Action
+            </a>
+            <a className="dropdown-item" href="#">
+              Methods
+            </a>
+          </div>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
             Water School Europe
+          </a>
+          <div
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <a className="dropdown-item" href="#">
+              Literacy
+            </a>
+            <a className="dropdown-item" href="#">
+              Methods
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Contact
           </a>
         </li>
         <li className="nav-item dropdown">
@@ -48,20 +116,20 @@ export default function Menu() {
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Contact
+            More
           </a>
           <div
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
             <a className="dropdown-item" href="#">
-              Action
+              Water Schools
             </a>
             <a className="dropdown-item" href="#">
-              Another action
+              Flow Partnership
             </a>
             <a className="dropdown-item" href="#">
-              Something else here
+              One Pond Fund
             </a>
           </div>
         </li>
