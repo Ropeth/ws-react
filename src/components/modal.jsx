@@ -12,9 +12,7 @@ export default function Modal({ id, project }) {
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="modalLabel">
-                {project.name}
-              </h5>
+              <p className="modal-date">{project.publish}</p>
               <button
                 type="button"
                 className="close"
@@ -24,11 +22,33 @@ export default function Modal({ id, project }) {
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div
-              className="modal-body"
-              dangerouslySetInnerHTML={{ __html: project.intro }}
-            ></div>
-            <div className="modal-footer"></div>
+            <div className="modal-body">
+              <h5 className="modal-title" id="modalLabel">
+                {project.name}
+              </h5>
+              
+              <p dangerouslySetInnerHTML={{ __html: project.intro }}></p>
+            </div>
+            <div className="modal-footer">
+              {project.src && (
+                <iframe
+                  className="video"
+                  src={project.src}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen=""
+                ></iframe>
+              )}
+              {project.presentation && (
+                <a
+                  href={project.presentation}
+                  target="_blank"
+                  className="pres"
+                  title="Download the presentation"
+                ></a>
+              )}
+            </div>
           </div>
         </div>
       </div>
