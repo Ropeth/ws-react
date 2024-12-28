@@ -102,8 +102,8 @@ export default function Menu() {
             </a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
+        <li className="nav-item">
+          <a className="nav-link" href="#">
             Contact
           </a>
         </li>
