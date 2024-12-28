@@ -1,24 +1,11 @@
-export default function Menu() {
+export default function Menu({ setDataUrl }) {
+  const menuClick = (event, link) => {
+    event.preventDefault();
+    console.log(link);
+    setDataUrl(link);
+  };
+
   return (
-    // <div className="menu">
-    //   <ul>
-    //     <li>
-    //       <a href="">Water School Africa</a>
-    //     </li>
-    //     <li>
-    //       <a href="">Water School India</a>
-    //     </li>
-    //     <li>
-    //       <a href="">Water School Europe</a>
-    //     </li>
-    //     <li>
-    //       <a href="">Contact</a>
-    //     </li>
-    //     <li>
-    //       <a href="">More</a>
-    //     </li>
-    //   </ul>
-    // </div>
     <div
       className="menu collapse navbar-collapse justify-content-end"
       id="navbarNavDropdown"
@@ -39,7 +26,13 @@ export default function Menu() {
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a className="dropdown-item" href="#">
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() =>
+                menuClick(event, "http://localhost:5173/africa-literacy.json")
+              }
+            >
               Literacy
             </a>
             <a className="dropdown-item" href="#">
@@ -68,7 +61,13 @@ export default function Menu() {
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a className="dropdown-item" href="#">
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() =>
+                menuClick(event, "http://localhost:5173/india-literacy.json")
+              }
+            >
               Literacy
             </a>
             <a className="dropdown-item" href="#">

@@ -1,24 +1,17 @@
 import Country from "./country";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
-export default function PinsLayer() {
-  let [pins, setPins] = useState([]);
-  let [dataUrl, setDataUrl] = useState(
-    "http://localhost:5173/africa-literacy.json"
-  );
+export default function PinsLayer({ dataUrl, setPins, pins }) {
+  // let [pins, setPins] = useState([]);
 
   useEffect(() => {
-    //fetch("http://localhost:5173/africa-literacy.json")
     fetch(dataUrl)
       .then((response) => response.json())
       .then((data) => setPins(data.pins));
   }, [dataUrl]);
-  const changeData = () => {
-    setDataUrl("http://localhost:5173/india-literacy.json");
-  };
+
   return (
     <>
-      <button onClick={changeData}>Load JSON</button>
       <div className="pins-layer">
         {pins.map((data, key) => {
           return (

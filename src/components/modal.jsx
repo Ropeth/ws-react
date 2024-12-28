@@ -26,7 +26,7 @@ export default function Modal({ id, project }) {
               <h5 className="modal-title" id="modalLabel">
                 {project.name}
               </h5>
-              
+
               <p dangerouslySetInnerHTML={{ __html: project.intro }}></p>
             </div>
             <div className="modal-footer">
@@ -37,6 +37,7 @@ export default function Modal({ id, project }) {
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen=""
                 ></iframe>
               )}
