@@ -1,7 +1,7 @@
 import pin from "../assets/pin.svg";
 import Modal from "./modal";
 
-export default function Pin({ project, country, pinId }) {
+export default function Pin({ project, country, pinId, setCurrentPin }) {
   return (
     <>
       <img
@@ -13,6 +13,7 @@ export default function Pin({ project, country, pinId }) {
         value={{ project }}
         data-toggle="modal"
         data-target={"#" + pinId}
+        onClick={() => setCurrentPin(pinId)}
       />
       <Modal id={pinId} project={project} />
     </>

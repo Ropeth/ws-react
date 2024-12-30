@@ -7,20 +7,22 @@ import Footer from "./components/footer";
 import { useState } from "react";
 
 function App() {
-  let [dataUrl, setDataUrl] = useState(
-    "http://localhost:5173/africa-literacy.json"
-  );
+  let [dataUrl, setDataUrl] = useState("/africa-literacy.json");
   let [pins, setPins] = useState([]);
-  const stopVid = () => {
-    stopVideo();
-  };
+  let [currentPin, setCurrentPin] = useState([]);
+
   return (
     <>
       <Header setDataUrl={setDataUrl} />
-      <button onClick={stopVid}>Stop Video</button>
+      {/* {currentPin} */}
       <div className="main">
         <Main />
-        <Map dataUrl={dataUrl} setPins={setPins} pins={pins} />
+        <Map
+          dataUrl={dataUrl}
+          setPins={setPins}
+          pins={pins}
+          setCurrentPin={setCurrentPin}
+        />
       </div>
       <Footer />
     </>
