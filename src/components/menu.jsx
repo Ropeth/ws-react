@@ -29,19 +29,29 @@ export default function Menu({ setDataUrl }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() =>
-                menuClick(event, "http://localhost:5173/africa-literacy.json")
-              }
+              onClick={() => menuClick(event, "/africa-literacy.json")}
             >
               Literacy
             </a>
-            <a className="dropdown-item" href="#">
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => menuClick(event, "/africa-action.json")}
+            >
               Action
             </a>
-            <a className="dropdown-item" href="#">
+            {/* <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => menuClick(event, "/africa-methods.json")}
+            >
               Methods
-            </a>
-            <a className="dropdown-item" href="#">
+            </a> */}
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => menuClick(event, "/africa-partners.json")}
+            >
               Partners
             </a>
           </div>
@@ -64,18 +74,22 @@ export default function Menu({ setDataUrl }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() =>
-                menuClick(event, "http://localhost:5173/india-literacy.json")
-              }
+              onClick={() => menuClick(event, "/india-literacy.json")}
             >
               Literacy
             </a>
-            <a className="dropdown-item" href="#">
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => menuClick(event, "/india-action.json")}
+            >
               Action
             </a>
-            <a className="dropdown-item" href="#">
+            {/* <a className="dropdown-item" href="#" 
+              onClick={() => menuClick(event, "/india-methods.json")}
+            >
               Methods
-            </a>
+            </a> */}
           </div>
         </li>
         <li className="nav-item dropdown">
@@ -93,12 +107,18 @@ export default function Menu({ setDataUrl }) {
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a className="dropdown-item" href="#">
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => menuClick(event, "/europe-literacy.json")}
+            >
               Literacy
             </a>
-            <a className="dropdown-item" href="#">
+            {/* <a className="dropdown-item" href="#"
+              onClick={() => menuClick(event, "/europe-methods.json")}
+            >
               Methods
-            </a>
+            </a> */}
           </div>
         </li>
         <li className="nav-item">

@@ -11,13 +11,13 @@ function App() {
     "http://localhost:5173/africa-literacy.json"
   );
   let [pins, setPins] = useState([]);
-  const changeData = () => {
-    setDataUrl("http://localhost:5173/india-literacy.json");
+  const stopVid = () => {
+    stopVideo();
   };
   return (
     <>
       <Header setDataUrl={setDataUrl} />
-      <button onClick={changeData}>Load JSON</button>
+      <button onClick={stopVid}>Stop Video</button>
       <div className="main">
         <Main />
         <Map dataUrl={dataUrl} setPins={setPins} pins={pins} />

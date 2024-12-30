@@ -1,4 +1,6 @@
 export default function Modal({ id, project }) {
+  
+
   return (
     <>
       <div
@@ -14,6 +16,7 @@ export default function Modal({ id, project }) {
             <div className="modal-header">
               <p className="modal-date">{project.publish}</p>
               <button
+                id="stop"
                 type="button"
                 className="close"
                 data-dismiss="modal"
