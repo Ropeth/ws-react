@@ -1,14 +1,19 @@
-import africaMap from "../assets/Africa-brown.svg";
 import PinsLayer from "../components/pinsLayer";
-export default function Map({ dataUrl, setPins, pins, setCurrentPin }) {
+export default function Map({
+  dataUrl,
+  setPins,
+  pins,
+  mapImg,
+  //setCurrentPin
+}) {
   return (
     <div className="map">
-      <img className="map-background" src={africaMap} alt="Water Schools" />
+      <img className="map-background" src={mapImg} alt="Water Schools" />
       <PinsLayer
         dataUrl={dataUrl}
         setPins={setPins}
         pins={pins}
-        setCurrentPin={setCurrentPin}
+        //setCurrentPin={setCurrentPin}
       />
     </div>
   );

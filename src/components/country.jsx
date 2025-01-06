@@ -5,7 +5,7 @@ export default function Country({
   country,
   setSelectedProject,
   countryId,
-  setCurrentPin,
+  //setCurrentPin,
 }) {
   return (
     <>
@@ -17,7 +17,7 @@ export default function Country({
             country={country}
             project={project}
             setSelectedProject={setSelectedProject}
-            setCurrentPin={setCurrentPin}
+            //setCurrentPin={setCurrentPin}
           />
         );
       })}

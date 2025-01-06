@@ -1,8 +1,12 @@
-export default function Menu({ setDataUrl }) {
-  const menuClick = (event, link) => {
+import africaBrown from "../assets/Africa-brown.svg";
+import africaBlue from "../assets/Africa-blue.svg";
+export default function Menu({ setDataUrl, setMapImg }) {
+  const menuClick = (event, link, thisMapImg) => {
     event.preventDefault();
-    console.log(link);
+    //console.log(link);
     setDataUrl(link);
+    console.log(thisMapImg);
+    setMapImg(thisMapImg);
   };
 
   return (
@@ -29,14 +33,18 @@ export default function Menu({ setDataUrl }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/africa-literacy.json")}
+              onClick={() =>
+                menuClick(event, "/africa-literacy.json", africaBrown)
+              }
             >
               Literacy
             </a>
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/africa-action.json")}
+              onClick={() =>
+                menuClick(event, "/africa-action.json", africaBlue)
+              }
             >
               Action
             </a>

@@ -1,7 +1,12 @@
 import Country from "./country";
 import { useEffect } from "react";
 
-export default function PinsLayer({ dataUrl, setPins, pins, setCurrentPin }) {
+export default function PinsLayer({
+  dataUrl,
+  setPins,
+  pins,
+  //setCurrentPin
+}) {
   useEffect(() => {
     fetch(dataUrl)
       .then((response) => response.json())
@@ -18,7 +23,7 @@ export default function PinsLayer({ dataUrl, setPins, pins, setCurrentPin }) {
               countryId={key}
               projects={data.projects}
               country={data.country}
-              setCurrentPin={setCurrentPin}
+              //setCurrentPin={setCurrentPin}
             />
           );
         })}
