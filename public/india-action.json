@@ -2,14 +2,14 @@
   "pins": [
     {
       "country": "India",
-      "x": "330",
-      "y": "386",
       "projects": [
         {
           "name": "Rainpura",
           "theme": "Pond and outlet",
-          "lat": "24.9",
-          "lon": "75.7",
+          "lat": 24.9,
+          "lon": 75.7,
+          "x": 35,
+          "y": 24.1,
           "publish": "",
           "intro": "",
           "link": "https://www.onepondfund.org/projects/ranipura-1"
@@ -17,8 +17,10 @@
         {
           "name": "Choura Khari",
           "theme": "Stop dam",
-          "lat": "24.7",
-          "lon": "76.8",
+          "lat": 24.7,
+          "lon": 76.8,
+          "x": 37,
+          "y": 24.9,
           "publish": "",
           "intro": "",
           "link": "https://www.onepondfund.org/projects/choura-khari"
@@ -26,8 +28,10 @@
         {
           "name": "Bhoyal",
           "theme": "Pond and outlet",
-          "lat": "24.9",
-          "lon": "77.1",
+          "lat": 24.9,
+          "lon": 77.1,
+          "x": 38,
+          "y": 24.9,
           "publish": "",
           "intro": "",
           "link": "https://www.onepondfund.org/projects/bhoyal"

@@ -2,14 +2,12 @@
   "pins": [
     {
       "country": "United Kingdom",
-      "x": "250",
-      "y": "300",
       "projects": [
         {
           "name": "Belford",
           "theme": "Water harvesting",
-          "lat": "53.5",
-          "lon": "-4",
+          "lat": 53.5,
+          "lon": -4,
           "publish": "WS 07-03-2023",
           "intro": "<p>Dr Paul Quinn, a pioneering hydrologist presents his field work, GIS and modelling methods to address water-based issues. With his colleagues he has developed the concept of catchment systems engineering. Working with stakeholders, policy makers and industry, they are now engineering solutions to water quantity and quality issues, by building bunds, wetlands and ponds on farms and in forests.</p><p>Our landscape is now malfunctioning, and the climate is changing so we must manage the water once it falls from the sky. We have too much runoff and not enough water in the soil and rocks. We should lower floods, droughts and erosion. Runoff Attenuation Features are small, engineered features to slow and store water in the landscape. </p><p> Paul shows a number of case studies and the lessons they have learned so far and the evidence they have for changing the whole landscape whilst still producing food and trees.</p><p>Paul Quinn is also a Senior Scientist at the James Hutton Institute/Scotland; a Visiting Fellow Newcastle University/UK as well as at Trinity College Dublin/Ireland.</p>",
           "src": "https://www.youtube.com/embed/ykIm5y3-tac?si=fFKe4jMozCaRKNQG",
@@ -19,14 +17,14 @@
     },
     {
       "country": "Slovakia",
-      "x": "250",
-      "y": "300",
       "projects": [
         {
           "name": "People and Water",
           "theme": "Wooden log dams",
-          "lat": "46.716385",
-          "lon": "20",
+          "lat": 46.716385,
+          "lon": 20,
+          "x": 76.6,
+          "y": 61,
           "publish": "",
           "intro": "<p>Michal Kravcik and Danka Kravcikova of People and Water Solvakia have developed far reaching tools to estimate the run off of water in a region and to implement measures to hold the water in the ground. </p><p>One way of slowing the rain so it can sink into the ground is to build log dams higher up the catchment, in the forest, which will impede the run off from storm events, allow infiltration and distribute the water into the wider landscape.</p><p>The footage is filmed from the building of a leaky wooden dam at a Summer School event in 2019, attended by the Flow Partnership",
           "src": "https://www.youtube.com/embed/ULHDRyvpL0k?si=wU-Bc3bGoY9rg-UG"

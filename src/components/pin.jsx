@@ -20,10 +20,11 @@ export default function Pin({
   const y =
     thisMapCoords[0].y1 +
     ydif * ((project.lat - thisMapCoords[0].lat1) / latdif);
-  // console.log("project.lon", project.lon);
-  // console.log("project.lat", project.lat);
-  // console.log("x", x);
-  // console.log("y", y);
+
+  function logXy() {
+    console.log("calc x", x);
+    console.log("calc y", y);
+  }
   return (
     <>
       <img
@@ -31,10 +32,6 @@ export default function Pin({
         src={pin}
         alt={country}
         title={project.name}
-        //style={{ top: y + "%", left: x + "%" }}
-        //style={{ top: project.y + "%", left: project.x + "%" }}
-        // style={project.x ? { left: project.x + "%" } : { left: x + "%" }}
-        // style={project.y ? { top: project.y + "%" } : { top: y + "%" }}
         style={
           project.x && project.y
             ? { left: project.x + "%", top: project.y + "%" }
@@ -44,6 +41,7 @@ export default function Pin({
         data-toggle="modal"
         data-target={"#" + pinId}
         //onClick={() => setCurrentPin(pinId)}
+        onClick={() => logXy(pinId)}
       />
       <Modal id={pinId} project={project} />
     </>

@@ -2,14 +2,12 @@
   "pins": [
     {
       "country": "Kenya",
-      "x": "375",
-      "y": "280",
       "projects": [
         {
           "name": "RIDEP Kenya",
           "theme": "Water harvesting",
-          "lat": "-0.14753",
-          "lon": "37.97373",
+          "lat": -0.14753,
+          "lon": 37.97373,
           "publish": "",
           "intro": "<p>RIDEP enhances the resilience of Tharaka through demonstrations on soil and water conservation</p>",
           "link": "https://ridepkenya.org/"
@@ -18,14 +16,12 @@
     },
     {
       "country": "Zimbabwe",
-      "x": "335",
-      "y": "426",
       "projects": [
         {
           "name": "Muonde Trust",
           "theme": "Water harvesting",
-          "lat": "-20.506297",
-          "lon": "30.2839",
+          "lat": -20.506297,
+          "lon": 30.2839,
           "publish": "",
           "intro": "<p>The Muonde Trust is a community-based organisation in the dry, south-west of Zimbabwe. Community-driven water-harvesting is at the heart of their work. Their formation was inspired by the work of Zimbabwe's Waterman, Zephaniah Phiri, who spent some years working in Mazvihwa in the 1980s, with those who later formed the Muonde Trust.</p>",
           "link": "https://muonde.org"
@@ -34,14 +30,12 @@
     },
     {
       "country": "Burkino Faso",
-      "x": "120",
-      "y": "188",
       "projects": [
         {
           "name": "Groundswell International",
           "theme": "Transforming desert",
-          "lat": "12.323701",
-          "lon": "-1.499876",
+          "lat": 12.323701,
+          "lon": -1.499876,
           "publish": "",
           "intro": "<p>Groundswell West Africa is a partnership in four countries in West Africa – Mali, Burkina Faso, Senegal and Ghana. Much of their work happens in the Sahel region where every drop of rain counts so over the years various practices have been developed by farmers and communities in the region to hold more water in their landscapes. </p>",
           "link": "https://www.groundswellinternational.org/"
@@ -50,14 +44,12 @@
     },
     {
       "country": "Zambia",
-      "x": "330",
-      "y": "386",
       "projects": [
         {
           "name": "Rescope",
           "theme": "Water harvesting",
-          "lat": "-15.424862",
-          "lon": "28.362691",
+          "lat": -15.424862,
+          "lon": 28.362691,
           "publish": "",
           "intro": "<p>ReScope focuses on education in water</p>",
           "link": "https://www.seedingschools.org/"
