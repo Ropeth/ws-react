@@ -133,6 +133,7 @@ a:hover {
   padding: 0 0 0 var(--mainmargin);
   background-color: rgb(227, 229, 241);
   flex-grow: 1;
+  flex-wrap: wrap;
 }
 .info {
   width: 30%;
@@ -140,10 +141,23 @@ a:hover {
 }
 .map {
   width: 70%;
-  min-width: 500px;
+  min-width: 300px;
   display: grid;
   flex-grow: 1;
   /* transition: 0.5s ease-in-out; //can use with width change but not with flex-grow*/
+}
+@media screen and (max-width: 768px) {
+  .info {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .map {
+    width: 100%;
+    min-width: 300px;
+    display: grid;
+    flex-grow: 1;
+    /* transition: 0.5s ease-in-out; //can use with width change but not with flex-grow*/
+  }
 }
 .map img.map-background,
 .pins-layer {
