@@ -5,6 +5,8 @@ export default function Country({
   country,
   setSelectedProject,
   countryId,
+  coords,
+  map,
   //setCurrentPin,
 }) {
   return (
@@ -17,6 +19,8 @@ export default function Country({
             country={country}
             project={project}
             setSelectedProject={setSelectedProject}
+            coords={coords}
+            map={map}
             //setCurrentPin={setCurrentPin}
           />
         );

@@ -4,13 +4,15 @@ import africaGreen from "../assets/Africa-green.svg";
 import indiaBrown from "../assets/India-brown.svg";
 import indiaGreen from "../assets/India-green.svg";
 import europeBrown from "../assets/Europe-brown.svg";
-export default function Menu({ setDataUrl, setMapImg }) {
-  const menuClick = (event, link, thisMapImg) => {
+
+export default function Menu({ setDataUrl, setMapImg, setMap }) {
+  const menuClick = (event, link, thisMapImg, thisMap) => {
     event.preventDefault();
     //console.log(link);
     setDataUrl(link);
-    console.log(thisMapImg);
+    //console.log(thisMapImg);
     setMapImg(thisMapImg);
+    setMap(thisMap);
   };
 
   return (
@@ -38,7 +40,7 @@ export default function Menu({ setDataUrl, setMapImg }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-literacy.json", africaBrown)
+                menuClick(event, "/africa-literacy.json", africaBrown, "Africa")
               }
             >
               Literacy
@@ -47,7 +49,7 @@ export default function Menu({ setDataUrl, setMapImg }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-action.json", africaGreen)
+                menuClick(event, "/africa-action.json", africaGreen, "Africa")
               }
             >
               Action
@@ -63,7 +65,7 @@ export default function Menu({ setDataUrl, setMapImg }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-partners.json", africaBlue)
+                menuClick(event, "/africa-partners.json", africaBlue, "Africa")
               }
             >
               Partners
@@ -89,7 +91,7 @@ export default function Menu({ setDataUrl, setMapImg }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/india-literacy.json", indiaBrown)
+                menuClick(event, "/india-literacy.json", indiaBrown, "India")
               }
             >
               Literacy
@@ -97,7 +99,9 @@ export default function Menu({ setDataUrl, setMapImg }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/india-action.json", indiaGreen)}
+              onClick={() =>
+                menuClick(event, "/india-action.json", indiaGreen, "India")
+              }
             >
               Action
             </a>
@@ -127,7 +131,7 @@ export default function Menu({ setDataUrl, setMapImg }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/europe-literacy.json", europeBrown)
+                menuClick(event, "/europe-literacy.json", europeBrown, "Europe")
               }
             >
               Literacy

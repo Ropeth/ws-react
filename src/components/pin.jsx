@@ -5,8 +5,25 @@ export default function Pin({
   project,
   country,
   pinId,
+  coords,
+  map,
   //setCurrentPin
 }) {
+  const thisMapCoords = coords.filter((item) => item.map === map);
+  const londif = thisMapCoords[0].lon2 - thisMapCoords[0].lon1;
+  const latdif = thisMapCoords[0].lat2 - thisMapCoords[0].lat1;
+  const xdif = thisMapCoords[0].x2 - thisMapCoords[0].x1;
+  const ydif = thisMapCoords[0].y2 - thisMapCoords[0].y1;
+  const x =
+    thisMapCoords[0].x1 +
+    xdif * ((project.lon - thisMapCoords[0].lon1) / londif);
+  const y =
+    thisMapCoords[0].y1 +
+    ydif * ((project.lat - thisMapCoords[0].lat1) / latdif);
+  // console.log("project.lon", project.lon);
+  // console.log("project.lat", project.lat);
+  // console.log("x", x);
+  // console.log("y", y);
   return (
     <>
       <img
@@ -14,7 +31,15 @@ export default function Pin({
         src={pin}
         alt={country}
         title={project.name}
-        style={{ top: project.y + "%", left: project.x + "%" }}
+        //style={{ top: y + "%", left: x + "%" }}
+        //style={{ top: project.y + "%", left: project.x + "%" }}
+        // style={project.x ? { left: project.x + "%" } : { left: x + "%" }}
+        // style={project.y ? { top: project.y + "%" } : { top: y + "%" }}
+        style={
+          project.x && project.y
+            ? { left: project.x + "%", top: project.y + "%" }
+            : { left: x + "%", top: y + "%" }
+        }
         value={{ project }}
         data-toggle="modal"
         data-target={"#" + pinId}

@@ -1,10 +1,11 @@
 import Country from "./country";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function PinsLayer({
   dataUrl,
   setPins,
   pins,
+  map,
   //setCurrentPin
 }) {
   useEffect(() => {
@@ -12,6 +13,14 @@ export default function PinsLayer({
       .then((response) => response.json())
       .then((data) => setPins(data.pins));
   }, [dataUrl]);
+
+  let [coordsUrl, setCoordsUrl] = useState("/coords.json");
+  let [coords, setCoords] = useState([]);
+  useEffect(() => {
+    fetch(coordsUrl)
+      .then((response) => response.json())
+      .then((data) => setCoords(data.coords));
+  }, []);
 
   return (
     <>
@@ -23,6 +32,8 @@ export default function PinsLayer({
               countryId={key}
               projects={data.projects}
               country={data.country}
+              coords={coords}
+              map={map}
               //setCurrentPin={setCurrentPin}
             />
           );

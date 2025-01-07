@@ -9,13 +9,14 @@ import { useState } from "react";
 function App() {
   let [dataUrl, setDataUrl] = useState("/africa-literacy.json");
   let [pins, setPins] = useState([]);
+  let [map, setMap] = useState("Africa");
   let [mapImg, setMapImg] = useState("./src/assets/Africa-brown.svg");
 
   //let [currentPin, setCurrentPin] = useState([]);
 
   return (
     <>
-      <Header setDataUrl={setDataUrl} setMapImg={setMapImg} />
+      <Header setDataUrl={setDataUrl} setMapImg={setMapImg} setMap={setMap} />
       {/* {currentPin} */}
       <div className="main">
         <Main />
@@ -24,6 +25,7 @@ function App() {
           setPins={setPins}
           pins={pins}
           mapImg={mapImg}
+          map={map}
           //setCurrentPin={setCurrentPin}
         />
       </div>

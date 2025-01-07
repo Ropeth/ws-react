@@ -4,6 +4,7 @@ export default function Map({
   setPins,
   pins,
   mapImg,
+  map,
   //setCurrentPin
 }) {
   return (
@@ -13,6 +14,7 @@ export default function Map({
         dataUrl={dataUrl}
         setPins={setPins}
         pins={pins}
+        map={map}
         //setCurrentPin={setCurrentPin}
       />
     </div>
