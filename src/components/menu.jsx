@@ -1,5 +1,9 @@
 import africaBrown from "../assets/Africa-brown.svg";
 import africaBlue from "../assets/Africa-blue.svg";
+import africaGreen from "../assets/Africa-green.svg";
+import indiaBrown from "../assets/India-brown.svg";
+import indiaGreen from "../assets/India-green.svg";
+import europeBrown from "../assets/Europe-brown.svg";
 export default function Menu({ setDataUrl, setMapImg }) {
   const menuClick = (event, link, thisMapImg) => {
     event.preventDefault();
@@ -43,7 +47,7 @@ export default function Menu({ setDataUrl, setMapImg }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-action.json", africaBlue)
+                menuClick(event, "/africa-action.json", africaGreen)
               }
             >
               Action
@@ -58,7 +62,9 @@ export default function Menu({ setDataUrl, setMapImg }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/africa-partners.json")}
+              onClick={() =>
+                menuClick(event, "/africa-partners.json", africaBlue)
+              }
             >
               Partners
             </a>
@@ -82,14 +88,16 @@ export default function Menu({ setDataUrl, setMapImg }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/india-literacy.json")}
+              onClick={() =>
+                menuClick(event, "/india-literacy.json", indiaBrown)
+              }
             >
               Literacy
             </a>
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/india-action.json")}
+              onClick={() => menuClick(event, "/india-action.json", indiaGreen)}
             >
               Action
             </a>
@@ -118,7 +126,9 @@ export default function Menu({ setDataUrl, setMapImg }) {
             <a
               className="dropdown-item"
               href="#"
-              onClick={() => menuClick(event, "/europe-literacy.json")}
+              onClick={() =>
+                menuClick(event, "/europe-literacy.json", europeBrown)
+              }
             >
               Literacy
             </a>
