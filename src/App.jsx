@@ -4,7 +4,7 @@ import Map from "./components/map";
 import "./App.css";
 import Footer from "./components/footer";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   let [dataUrl, setDataUrl] = useState("/africa-literacy.json");
@@ -12,14 +12,19 @@ function App() {
   let [map, setMap] = useState("Africa");
   let [mapImg, setMapImg] = useState("./src/assets/Africa-brown.svg");
 
-  //let [currentPin, setCurrentPin] = useState([]);
+  let [intro, setIntro] = useState([]);
+  useEffect(() => {
+    fetch("./intros.json")
+      .then((response) => response.json())
+      .then((data) => setIntro(data.intros));
+  }, []);
 
   return (
     <>
       <Header setDataUrl={setDataUrl} setMapImg={setMapImg} setMap={setMap} />
       {/* {currentPin} */}
       <div className="main">
-        <Main />
+        <Main dataUrl={dataUrl} intro={intro} />
         <Map
           dataUrl={dataUrl}
           setPins={setPins}

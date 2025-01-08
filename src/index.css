@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 :root {
-  font-family: Candara, "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   --wsblue: #21b6a8;
   --wslightblue: #d2e8f0;
   --wsgreen: #18a558;
@@ -19,7 +18,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body {
+  font-family: Candara, "Montserrat", sans-serif;
+}
 a {
   color: var(--wsblue);
 }
@@ -92,7 +93,7 @@ a:hover {
 .menu ul li:last-of-type {
 }
 .menu a {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 @media (prefers-color-scheme: light) {
@@ -100,8 +101,15 @@ a:hover {
     color: var(--wslightgreen);
   }
 }
+.navbar-light .navbar-nav .nav-link {
+  color: var(--wsgreen);
+}
 .dropdown-menu {
+  left: unset;
   right: 0;
+}
+.dropdown-toggle::after {
+  display: none;
 }
 .tagline {
   grid-area: tagline;
@@ -116,7 +124,6 @@ a:hover {
   font-size: 1rem;
   letter-spacing: 2px;
 }
-
 /*///////////
 // CONTENT //
 ///////////*/

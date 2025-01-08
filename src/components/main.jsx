@@ -1,7 +1,19 @@
-export default function Main() {
+import { useState, useEffect } from "react";
+
+export default function Main({ dataUrl, intro }) {
+  const [thisIntro, setThisIntro] = useState("unset");
+
+  useEffect(() => {
+    //const thisIntro = intro.filter((item) => item.page === "africa-literacy");
+    //const thisIntro = );
+    setThisIntro(dataUrl);
+    //setThisIntro(intro.filter((item) => item.page === "africa-literacy");
+  }, [dataUrl]);
+
   return (
-    <div className="info">
-      <p>
+    <div className="info" dangerouslySetInnerHTML={{ __html: intro.content }}>
+      {/* {thisIntro} */}
+      {/* <p>
         <span className="h1-inline">Water School Africa (WSA) </span>is a
         partnership between communities engaged in natural water retention
         practices in their local villages/areas/regions.
@@ -27,7 +39,7 @@ export default function Main() {
         (droughts). This Water Schools web portal presents their successful
         methods of water retention interventions through their own presentations
         and videos of their successful methods.
-      </p>
+      </p>  */}
     </div>
   );
 }
