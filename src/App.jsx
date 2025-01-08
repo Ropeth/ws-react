@@ -12,11 +12,11 @@ function App() {
   let [map, setMap] = useState("Africa");
   let [mapImg, setMapImg] = useState("./src/assets/Africa-brown.svg");
 
-  let [intro, setIntro] = useState([]);
+  let [intros, setIntros] = useState([]);
   useEffect(() => {
     fetch("./intros.json")
       .then((response) => response.json())
-      .then((data) => setIntro(data.intros));
+      .then((data) => setIntros(data.intros));
   }, []);
 
   return (
@@ -24,7 +24,7 @@ function App() {
       <Header setDataUrl={setDataUrl} setMapImg={setMapImg} setMap={setMap} />
       {/* {currentPin} */}
       <div className="main">
-        <Main dataUrl={dataUrl} intro={intro} />
+        <Main dataUrl={dataUrl} intros={intros} />
         <Map
           dataUrl={dataUrl}
           setPins={setPins}
