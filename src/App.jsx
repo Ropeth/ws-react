@@ -7,26 +7,34 @@ import Footer from "./components/footer";
 import { useState, useEffect } from "react";
 
 function App() {
-  let [dataUrl, setDataUrl] = useState("/africa-literacy.json");
+  let [thisPage, setThisPage] = useState("africa-literacy");
   let [pins, setPins] = useState([]);
-  let [map, setMap] = useState("Africa");
+  let [map, setMap] = useState("Africa"); //used for calculating x and y
   let [mapImg, setMapImg] = useState("./src/assets/Africa-brown.svg");
-
   let [intros, setIntros] = useState([]);
+  let [thisIntro, setThisIntro] = useState([]);
+
   useEffect(() => {
-    fetch("./intros.json")
-      .then((response) => response.json())
-      .then((data) => setIntros(data.intros));
+    const fetchData = async () => {
+      const response = await fetch("./intros.json");
+      const data = await response.json();
+      setIntros(data.intros);
+    };
+    fetchData();
   }, []);
+
+  useEffect(() => {
+    setThisIntro(intros.filter((intro) => intro.page === thisPage));
+  }, [intros, thisPage]);
 
   return (
     <>
-      <Header setDataUrl={setDataUrl} setMapImg={setMapImg} setMap={setMap} />
+      <Header setThisPage={setThisPage} setMapImg={setMapImg} setMap={setMap} />
       {/* {currentPin} */}
       <div className="main">
-        <Main dataUrl={dataUrl} intros={intros} />
+        <Main thisIntro={thisIntro} />
         <Map
-          dataUrl={dataUrl}
+          thisPage={thisPage}
           setPins={setPins}
           pins={pins}
           mapImg={mapImg}

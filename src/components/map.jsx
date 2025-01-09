@@ -1,6 +1,6 @@
 import PinsLayer from "../components/pinsLayer";
 export default function Map({
-  dataUrl,
+  thisPage,
   setPins,
   pins,
   mapImg,
@@ -8,15 +8,18 @@ export default function Map({
   //setCurrentPin
 }) {
   return (
-    <div className="map">
+    <div id="map">
       <img className="map-background" src={mapImg} alt="Water Schools" />
       <PinsLayer
-        dataUrl={dataUrl}
+        thisPage={thisPage}
         setPins={setPins}
         pins={pins}
         map={map}
         //setCurrentPin={setCurrentPin}
       />
+      <div className="map-label">
+        <p>Click on the map pins above for more information.</p>
+      </div>
     </div>
   );
 }

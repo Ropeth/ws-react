@@ -1,7 +1,7 @@
 import Menu from "./menu";
 import wsLogo from "../assets/logo.svg";
 
-export default function Header({ setDataUrl, setMapImg, setMap }) {
+export default function Header({ setThisPage, setMapImg, setMap }) {
   return (
     <div className="header">
       <nav className="nav navbar navbar-expand-md navbar-light">
@@ -19,7 +19,7 @@ export default function Header({ setDataUrl, setMapImg, setMap }) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Menu setDataUrl={setDataUrl} setMapImg={setMapImg} setMap={setMap} />
+        <Menu setThisPage={setThisPage} setMapImg={setMapImg} setMap={setMap} />
       </nav>
       <div className="tagline">
         <p>A co-created community space for water regeneration</p>

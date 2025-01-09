@@ -146,12 +146,15 @@ a:hover {
 .info {
   width: auto;
   margin-top: 1rem;
+  min-width: 30%;
 }
-.map {
+#map {
   width: 70%;
   max-width: 90vh;
   display: grid;
   flex-shrink: 0;
+  align-items: start;
+  grid-template-rows: auto 1fr;
   /* transition: 0.5s ease-in-out; //can use with width change but not with flex-grow*/
 }
 @media screen and (max-width: 768px) {
@@ -161,11 +164,11 @@ a:hover {
   .info {
     width: 100%;
   }
-  .map {
+  #map {
     width: 100%;
   }
 }
-.map img.map-background,
+#map img.map-background,
 .pins-layer {
   grid-area: 1/1;
 }
@@ -188,12 +191,22 @@ a:hover {
   transform: scale(1.5);
   z-index: 1000;
 }
+h1,
 .h1-inline {
   font-size: 1.3em;
   color: var(--wsblue);
   font-weight: bold;
 }
-
+.map-label {
+  display: flex;
+  justify-content: center;
+}
+.map-label p {
+  display: block;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 7px;
+}
 /*///////////
 // MODAL   //
 ///////////*/

@@ -2,17 +2,19 @@ import Country from "./country";
 import { useState, useEffect } from "react";
 
 export default function PinsLayer({
-  dataUrl,
+  thisPage,
   setPins,
   pins,
   map,
   //setCurrentPin
 }) {
   useEffect(() => {
+    //const thisPage = "africa-literacy";
+    const dataUrl = "./" + thisPage + ".json";
     fetch(dataUrl)
       .then((response) => response.json())
       .then((data) => setPins(data.pins));
-  }, [dataUrl]);
+  }, [thisPage]);
 
   let [coordsUrl, setCoordsUrl] = useState("/coords.json");
   let [coords, setCoords] = useState([]);

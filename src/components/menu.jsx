@@ -5,14 +5,18 @@ import indiaBrown from "../assets/India-brown.svg";
 import indiaGreen from "../assets/India-green.svg";
 import europeBrown from "../assets/Europe-brown.svg";
 
-export default function Menu({ setDataUrl, setMapImg, setMap }) {
-  const menuClick = (event, link, thisMapImg, thisMap) => {
+export default function Menu({ setThisPage, setMapImg, setMap }) {
+  const menuClick = (event, link, thisMapImg, thisMap, pageTitle) => {
     event.preventDefault();
-    //console.log(link);
-    setDataUrl(link);
-    //console.log(thisMapImg);
-    setMapImg(thisMapImg);
-    setMap(thisMap);
+    if (thisMapImg === "none") {
+      $("#map").hide();
+    } else {
+      $("#map").show();
+      setMapImg(thisMapImg);
+      setMap(thisMap);
+    }
+    setThisPage(link);
+    document.title = pageTitle;
   };
 
   return (
@@ -40,7 +44,13 @@ export default function Menu({ setDataUrl, setMapImg, setMap }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-literacy.json", africaBrown, "Africa")
+                menuClick(
+                  event,
+                  "africa-literacy",
+                  africaBrown,
+                  "Africa",
+                  "Water Schools Africa - Literacy"
+                )
               }
             >
               Literacy
@@ -49,23 +59,44 @@ export default function Menu({ setDataUrl, setMapImg, setMap }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-action.json", africaGreen, "Africa")
+                menuClick(
+                  event,
+                  "africa-action",
+                  africaGreen,
+                  "Africa",
+                  "Water Schools Africa - Action"
+                )
               }
             >
               Action
             </a>
-            {/* <a
-              className="dropdown-item"
-              href="#"
-              onClick={() => menuClick(event, "/africa-methods.json")}
-            >
-              Methods
-            </a> */}
+
             <a
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/africa-partners.json", africaBlue, "Africa")
+                menuClick(
+                  event,
+                  "africa-literacy",
+                  "none",
+                  "Africa",
+                  "Water Schools Africa - Methods"
+                )
+              }
+            >
+              Methods
+            </a>
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() =>
+                menuClick(
+                  event,
+                  "africa-partners",
+                  africaBlue,
+                  "Africa",
+                  "Water Schools Africa - Partners"
+                )
               }
             >
               Partners
@@ -91,7 +122,13 @@ export default function Menu({ setDataUrl, setMapImg, setMap }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/india-literacy.json", indiaBrown, "India")
+                menuClick(
+                  event,
+                  "india-literacy",
+                  indiaBrown,
+                  "India",
+                  "Water Schools India - Literacy"
+                )
               }
             >
               Literacy
@@ -100,16 +137,32 @@ export default function Menu({ setDataUrl, setMapImg, setMap }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/india-action.json", indiaGreen, "India")
+                menuClick(
+                  event,
+                  "india-action",
+                  indiaGreen,
+                  "India",
+                  "Water Schools India - Action"
+                )
               }
             >
               Action
             </a>
-            {/* <a className="dropdown-item" href="#" 
-              onClick={() => menuClick(event, "/india-methods.json")}
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() =>
+                menuClick(
+                  event,
+                  "india-literacy",
+                  "none",
+                  "India",
+                  "Water Schools India - Methods"
+                )
+              }
             >
               Methods
-            </a> */}
+            </a>
           </div>
         </li>
         <li className="nav-item dropdown">
@@ -131,16 +184,32 @@ export default function Menu({ setDataUrl, setMapImg, setMap }) {
               className="dropdown-item"
               href="#"
               onClick={() =>
-                menuClick(event, "/europe-literacy.json", europeBrown, "Europe")
+                menuClick(
+                  event,
+                  "europe-literacy",
+                  europeBrown,
+                  "Europe",
+                  "Water Schools Europe - Literacy"
+                )
               }
             >
               Literacy
             </a>
-            {/* <a className="dropdown-item" href="#"
-              onClick={() => menuClick(event, "/europe-methods.json")}
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() =>
+                menuClick(
+                  event,
+                  "europe-literacy",
+                  "none",
+                  "Europe",
+                  "Water Schools Europe - Literacy"
+                )
+              }
             >
               Methods
-            </a> */}
+            </a>
           </div>
         </li>
         <li className="nav-item">
