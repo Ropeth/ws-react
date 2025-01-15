@@ -38,8 +38,14 @@ export default function Modal({ id, project }) {
               <h5 className="modal-title" id="modalLabel">
                 {project.name}
               </h5>
+              <h6 className="modal-subtitle">{project.theme}</h6>
 
               <p dangerouslySetInnerHTML={{ __html: project.intro }}></p>
+              {project.link && (
+                <a href={project.link} target="_blank">
+                  <p>Visit website</p>
+                </a>
+              )}
             </div>
             <div className="modal-footer">
               {project.src && (
@@ -61,6 +67,9 @@ export default function Modal({ id, project }) {
                   className="pres"
                   title="Download the presentation"
                 ></a>
+              )}
+              {project.pic && (
+                <img src={project.pic} alt={project.name} width="100%" />
               )}
             </div>
           </div>

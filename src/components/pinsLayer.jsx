@@ -11,6 +11,12 @@ export default function PinsLayer({
   useEffect(() => {
     //const thisPage = "africa-literacy";
     const dataUrl = "./" + thisPage + ".json";
+
+    // const fetchData = async () => {
+    //   const response = await fetch(dataUrl);
+    //   const data = await setPins(data.pins);
+    // };
+    // fetchData();
     fetch(dataUrl)
       .then((response) => response.json())
       .then((data) => setPins(data.pins));
