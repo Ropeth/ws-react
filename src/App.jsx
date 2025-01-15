@@ -1,8 +1,10 @@
 import Header from "./components/header";
 import Main from "./components/main";
 import Map from "./components/map";
+import MethodsCont from "./components/methods-container";
 import "./App.css";
 import Footer from "./components/footer";
+import africaBrown from "/src/assets/Africa-brown.svg";
 
 import { useState, useEffect } from "react";
 
@@ -10,7 +12,7 @@ function App() {
   let [thisPage, setThisPage] = useState("africa-literacy");
   let [pins, setPins] = useState([]);
   let [map, setMap] = useState("Africa"); //used for calculating x and y
-  let [mapImg, setMapImg] = useState("./src/assets/Africa-brown.svg");
+  let [mapImg, setMapImg] = useState(africaBrown);
   let [intros, setIntros] = useState([]);
   let [thisIntro, setThisIntro] = useState([]);
 
@@ -31,7 +33,7 @@ function App() {
     <>
       <Header setThisPage={setThisPage} setMapImg={setMapImg} setMap={setMap} />
       {/* {currentPin} */}
-      <div className="main">
+      <div id="main">
         <Main thisIntro={thisIntro} />
         <Map
           thisPage={thisPage}
@@ -41,6 +43,19 @@ function App() {
           map={map}
           //setCurrentPin={setCurrentPin}
         />
+        <div id="methods-container" style={{ display: "none" }}>
+          {pins.map((data, key) => {
+            return (
+              <MethodsCont
+                key={key}
+                countryId={key}
+                projects={data.projects}
+                country={data.country}
+                map={map}
+              />
+            );
+          })}
+        </div>
       </div>
       <Footer />
     </>

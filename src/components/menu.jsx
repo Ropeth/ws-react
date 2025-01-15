@@ -10,8 +10,12 @@ export default function Menu({ setThisPage, setMapImg, setMap }) {
     event.preventDefault();
     if (thisMapImg === "none") {
       $("#map").hide();
+      $("#methods-container").show();
+      $("#main").css("flex-direction", "column");
     } else {
       $("#map").show();
+      $("#methods-container").hide();
+      $("#main").css("flex-direction", "row");
       setMapImg(thisMapImg);
       setMap(thisMap);
     }

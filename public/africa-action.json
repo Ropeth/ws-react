@@ -10,7 +10,7 @@
           "lon": 38.0215,
           "publish": "",
           "intro": "<p>The project has four components:</p><ol><li>To construct a 0.5 million litre - Community Water Pan</li><li>Set up and establish the RIDEP Demonstration Farm as an eﬃcient Water holding hub.</li><li>Training of 26 Farmer champions and buy them tools to enable them construct water holding structures on their farm; and make follows on farmers increasing water holding capacity of their farmers and set-up competition among them and reward the best performing farmers.</li></ol>",
-          "pic": "gallery/keraka.png",
+          "pic": "./src/assets/gallery/keraka.png",
           "link": "https://www.onepondfund.org/projects/keraka"
         }
       ]
@@ -25,7 +25,7 @@
           "lon": 30.051,
           "publish": "",
           "intro": "<p>Mazvihwa is one of the most arid areas in South Central Zimbabwe. The area has all typical characters of a marginalized community. The area receives very scanty and unpredictable rainfall averaging 400ml annually. Poor farming methods, increasing population and deforestation lead to regular river and dam siltation. Rivers and dams due to siltation and scanty rainfall quickly dries up leaving people and livestock struggling to get water for drinking and other purposes. Dam rescooping will increase the water holding capacity of dams; extend the duration in which dams can store water. This will curb the increasing death of livestock during drought years and give people water for domestic, horticulture and analogue forestry uses during the dry season. A well scooped dam might also support the community through provision of fish.</p>",
-          "pic": "gallery/mtomba.png",
+          "pic": "./src/assets/gallery/mtomba.png",
           "link": "https://www.onepondfund.org/projects/mtomba"
         }
       ]
@@ -40,7 +40,7 @@
           "lon": 27.789,
           "publish": "",
           "intro": "<p>Haanamoonga village is located on the edge of the Zambezi escarpment in southern Zambia. The community in the village is made up of small scale farmers. The village has a rugged landscape which is prone to erosion. Haanamonga is situated in agroecological region with low and unreliable rainfall which averages 600mm per year. As a result there is food insecurity and limited access to water.</p>",
-          "pic": "gallery/haanamoonga.png",
+          "pic": "./src/assets/gallery/haanamoonga.png",
           "link": "https://www.onepondfund.org/projects/haanamoonga"
         }
       ]

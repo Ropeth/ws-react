@@ -25,6 +25,10 @@ export default function Pin({
     console.log("calc x", x);
     console.log("calc y", y);
   }
+  function handleClick(event) {
+    logXy();
+    event.target.blur(); //remove focus from pin
+  }
   return (
     <>
       <img
@@ -41,7 +45,8 @@ export default function Pin({
         data-toggle="modal"
         data-target={"#" + pinId}
         //onClick={() => setCurrentPin(pinId)}
-        onClick={() => logXy(pinId)}
+        //onClick={() => logXy()}
+        onClick={handleClick}
       />
       <Modal id={pinId} project={project} />
     </>
