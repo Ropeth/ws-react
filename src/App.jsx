@@ -17,12 +17,25 @@ function App() {
   let [thisIntro, setThisIntro] = useState([]);
 
   useEffect(() => {
+    const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
     const fetchData = async () => {
-      const response = await fetch("./intros.json");
-      const data = await response.json();
-      setIntros(data.intros);
+      try {
+        const response = await fetch("./intros.json", {
+          signal: controller.signal,
+        });
+        const data = await response.json();
+        setIntros(data.intros);
+      } catch (error) {
+        if (error.name !== "AbortError") {
+          console.error("Fetch error:", error);
+        }
+      }
     };
     fetchData();
+
+    return () => {
+      controller.abort();
+    };
   }, []);
 
   useEffect(() => {
