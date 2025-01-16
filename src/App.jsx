@@ -15,6 +15,7 @@ function App() {
   let [mapImg, setMapImg] = useState(africaBrown);
   let [intros, setIntros] = useState([]);
   let [thisIntro, setThisIntro] = useState([]);
+  let [currentPin, setCurrentPin] = useState([]);
 
   useEffect(() => {
     const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
@@ -53,7 +54,6 @@ function App() {
   return (
     <>
       <Header setThisPage={setThisPage} setMapImg={setMapImg} setMap={setMap} />
-      {/* {currentPin} */}
       <div id="main">
         <Main thisIntro={thisIntro} />
         <Map
@@ -63,7 +63,8 @@ function App() {
           mapImg={mapImg}
           map={map}
           stopVideo={stopVideo}
-          //setCurrentPin={setCurrentPin}
+          currentPin={currentPin}
+          setCurrentPin={setCurrentPin}
         />
         <div id="methods-container" style={{ display: "none" }}>
           {pins.map((data, key) => {

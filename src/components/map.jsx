@@ -6,7 +6,8 @@ export default function Map({
   mapImg,
   map,
   stopVideo,
-  //setCurrentPin
+  setCurrentPin,
+  currentPin,
 }) {
   return (
     <div id="map">
@@ -17,7 +18,8 @@ export default function Map({
         pins={pins}
         map={map}
         stopVideo={stopVideo}
-        //setCurrentPin={setCurrentPin}
+        setCurrentPin={setCurrentPin}
+        currentPin={currentPin}
       />
       <div className="map-label">
         <p>Click on the map pins above for more information.</p>

@@ -7,7 +7,8 @@ export default function PinsLayer({
   pins,
   map,
   stopVideo,
-  //setCurrentPin
+  setCurrentPin,
+  currentPin,
 }) {
   useEffect(() => {
     //const thisPage = "africa-literacy";
@@ -44,7 +45,8 @@ export default function PinsLayer({
               coords={coords}
               map={map}
               stopVideo={stopVideo}
-              //setCurrentPin={setCurrentPin}
+              setCurrentPin={setCurrentPin}
+              currentPin={currentPin}
             />
           );
         })}

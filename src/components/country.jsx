@@ -8,7 +8,8 @@ export default function Country({
   coords,
   map,
   stopVideo,
-  //setCurrentPin,
+  setCurrentPin,
+  currentPin,
 }) {
   return (
     <>
@@ -23,7 +24,8 @@ export default function Country({
             coords={coords}
             map={map}
             stopVideo={stopVideo}
-            //setCurrentPin={setCurrentPin}
+            setCurrentPin={setCurrentPin}
+            currentPin={currentPin}
           />
         );
       })}

@@ -8,7 +8,8 @@ export default function Pin({
   coords,
   map,
   stopVideo,
-  //setCurrentPin
+  setCurrentPin,
+  currentPin,
 }) {
   const thisMapCoords = coords.filter((item) => item.map === map);
   const londif = thisMapCoords[0].lon2 - thisMapCoords[0].lon1;
@@ -29,6 +30,7 @@ export default function Pin({
   function handleClick(event) {
     logXy();
     event.target.blur(); //remove focus from pin
+    setCurrentPin(pinId);
   }
   return (
     <>
@@ -49,7 +51,12 @@ export default function Pin({
         //onClick={() => logXy()}
         onClick={handleClick}
       />
-      <Modal id={pinId} project={project} stopVideo={stopVideo} />
+      <Modal
+        id={pinId}
+        project={project}
+        stopVideo={stopVideo}
+        currentPin={currentPin}
+      />
     </>
   );
 }

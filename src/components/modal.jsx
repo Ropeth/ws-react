@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-export default function Modal({ id, project, stopVideo }) {
+export default function Modal({ id, project, stopVideo, currentPin }) {
   const videoRef = useRef(null);
   return (
     <>
@@ -41,7 +41,7 @@ export default function Modal({ id, project, stopVideo }) {
               )}
             </div>
             <div className="modal-footer">
-              {project.src && (
+              {project.src && id == currentPin && (
                 <iframe
                   className="video"
                   src={project.src}
