@@ -258,7 +258,7 @@ a.pres {
   margin: 0;
   width: 100%;
   background-color: var(--wsblue);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: white;
   font-style: italic;
   font-weight: bold;
@@ -266,6 +266,7 @@ a.pres {
 .footer-inner {
   padding: 0.5rem var(--mainmargin);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .footer a {

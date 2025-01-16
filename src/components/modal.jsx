@@ -41,7 +41,7 @@ export default function Modal({ id, project, stopVideo, currentPin }) {
               )}
             </div>
             <div className="modal-footer">
-              {project.src && id == currentPin && (
+              {project.src && id == currentPin ? (
                 <iframe
                   className="video"
                   src={project.src}
@@ -52,6 +52,10 @@ export default function Modal({ id, project, stopVideo, currentPin }) {
                   allowFullScreen=""
                   ref={videoRef}
                 ></iframe>
+              ) : project.src && id == !currentPin ? (
+                <p>Video available but not the current pin</p>
+              ) : (
+                <p>No video available</p>
               )}
               {project.presentation && (
                 <a
