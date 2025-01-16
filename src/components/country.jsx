@@ -7,6 +7,7 @@ export default function Country({
   countryId,
   coords,
   map,
+  stopVideo,
   //setCurrentPin,
 }) {
   return (
@@ -21,6 +22,7 @@ export default function Country({
             setSelectedProject={setSelectedProject}
             coords={coords}
             map={map}
+            stopVideo={stopVideo}
             //setCurrentPin={setCurrentPin}
           />
         );

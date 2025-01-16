@@ -1,14 +1,7 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 
-export default function Modal({ id, project }) {
+export default function Modal({ id, project, stopVideo }) {
   const videoRef = useRef(null);
-  const stopVideo = () => {
-    if (videoRef.current) {
-      const iframe = videoRef.current;
-      iframe.src = project.src;
-    }
-  };
-
   return (
     <>
       <div
@@ -29,7 +22,7 @@ export default function Modal({ id, project }) {
                 className="close"
                 data-dismiss="modal"
                 aria-label="Close"
-                onClick={stopVideo}
+                onClick={() => stopVideo(videoRef, project.src)}
               >
                 <span aria-hidden="true">&times;</span>
               </button>

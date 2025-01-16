@@ -6,6 +6,7 @@ export default function PinsLayer({
   setPins,
   pins,
   map,
+  stopVideo,
   //setCurrentPin
 }) {
   useEffect(() => {
@@ -42,6 +43,7 @@ export default function PinsLayer({
               country={data.country}
               coords={coords}
               map={map}
+              stopVideo={stopVideo}
               //setCurrentPin={setCurrentPin}
             />
           );

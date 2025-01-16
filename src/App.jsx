@@ -42,6 +42,14 @@ function App() {
     setThisIntro(intros.filter((intro) => intro.page === thisPage));
   }, [intros, thisPage]);
 
+  const stopVideo = (videoRef, src) => {
+    console.log("videoRef", videoRef);
+    if (videoRef.current) {
+      const iframe = videoRef.current;
+      iframe.src = src;
+    }
+  };
+
   return (
     <>
       <Header setThisPage={setThisPage} setMapImg={setMapImg} setMap={setMap} />
@@ -54,6 +62,7 @@ function App() {
           pins={pins}
           mapImg={mapImg}
           map={map}
+          stopVideo={stopVideo}
           //setCurrentPin={setCurrentPin}
         />
         <div id="methods-container" style={{ display: "none" }}>

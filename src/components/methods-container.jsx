@@ -3,7 +3,9 @@ import Method from "./method";
 export default function MethodsCont({ country, projects }) {
   return (
     <>
-      <Method country={country} projects={projects} />
+      {projects.map((c, key) => {
+        return <Method key={key} projects={projects} />;
+      })}
     </>
   );
 }

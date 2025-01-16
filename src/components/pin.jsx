@@ -7,6 +7,7 @@ export default function Pin({
   pinId,
   coords,
   map,
+  stopVideo,
   //setCurrentPin
 }) {
   const thisMapCoords = coords.filter((item) => item.map === map);
@@ -48,7 +49,7 @@ export default function Pin({
         //onClick={() => logXy()}
         onClick={handleClick}
       />
-      <Modal id={pinId} project={project} />
+      <Modal id={pinId} project={project} stopVideo={stopVideo} />
     </>
   );
 }
