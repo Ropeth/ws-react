@@ -2,10 +2,14 @@ import { useRef } from "react";
 
 export default function Method({ projects, selectedMethod }) {
   const videoRef = useRef(null);
+  const filteredProjects = projects.filter(
+    (project) => selectedMethod === "All" || project.theme === selectedMethod
+  );
   return (
-    <div>
-      {projects.map((project, index) =>
-        selectedMethod === "All" || project.theme === selectedMethod ? (
+    <>
+      <div>
+        {filteredProjects.map((project, index) => (
+          //selectedMethod === "All" || project.theme === selectedMethod ? (
           <div key={index} className="method">
             <div className="proj-header">
               <h5>{project.name}</h5>
@@ -26,13 +30,14 @@ export default function Method({ projects, selectedMethod }) {
               ></iframe>
             )}
           </div>
-        ) : (
-          <p>
-            <br />
-            There are currently no <strong>{selectedMethod}</strong> projects
-          </p>
-        )
+        ))}
+      </div>
+      {filteredProjects.length === 0 && (
+        <p>
+          <br />
+          There are currently no <strong>{selectedMethod}</strong> projects
+        </p>
       )}
-    </div>
+    </>
   );
 }
