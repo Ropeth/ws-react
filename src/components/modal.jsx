@@ -33,7 +33,7 @@ export default function Modal({ id, project, stopVideo, currentPin }) {
               </h5>
               <h6 className="modal-subtitle">{project.theme}</h6>
 
-              <p dangerouslySetInnerHTML={{ __html: project.intro }}></p>
+              <div dangerouslySetInnerHTML={{ __html: project.intro }}></div>
               {project.link && (
                 <a href={project.link} target="_blank">
                   <p>Visit website</p>

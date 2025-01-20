@@ -251,6 +251,27 @@ a.pres {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+/*///////////
+// METHOD  //
+///////////*/
+.method {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--wsdarkgreen);
+  border-radius: 7px;
+  background-color: #fff;
+}
+.proj-header {
+  width: 100%;
+  padding: 0 0 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: var(--wsgreen);
+}
+
 /*///////////
 // FOOTER //
 ///////////*/

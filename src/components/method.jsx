@@ -3,11 +3,14 @@ import { useRef } from "react";
 export default function Method({ projects }) {
   const videoRef = useRef(null);
   return (
-    <div id="method">
+    <div>
       {projects.map((project, index) => (
-        <div key={index}>
-          <h3>{project.name}</h3>
-          <p dangerouslySetInnerHTML={{ __html: project.intro }}></p>
+        <div key={index} className="method">
+          <div className="proj-header">
+            <h5>{project.name}</h5>
+            <p>{project.publish}</p>
+          </div>
+          <div dangerouslySetInnerHTML={{ __html: project.intro }}></div>
           {project.src && (
             <iframe
               className="video"
@@ -20,8 +23,7 @@ export default function Method({ projects }) {
               ref={videoRef}
             ></iframe>
           )}
-          <p>{project.theme}</p>
-          <p>{project.publish}</p>
+          {/* <p>{project.theme}</p> */}
         </div>
       ))}
     </div>
