@@ -5,13 +5,19 @@ import indiaBrown from "../assets/India-brown.svg";
 import indiaGreen from "../assets/India-green.svg";
 import europeBrown from "../assets/Europe-brown.svg";
 
-export default function Menu({ setThisPage, setMapImg, setMap }) {
+export default function Menu({
+  setThisPage,
+  setMapImg,
+  setMap,
+  setSelectedMethod,
+}) {
   const menuClick = (event, link, thisMapImg, thisMap, pageTitle) => {
     event.preventDefault();
     if (thisMapImg === "none") {
       $("#map").hide();
       $("#methods-container").show();
       $("#main").css("flex-direction", "column");
+      setSelectedMethod("All");
     } else {
       $("#map").show();
       $("#methods-container").hide();

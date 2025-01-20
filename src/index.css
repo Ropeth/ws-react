@@ -208,9 +208,14 @@ h1,
   padding: 1rem;
   border-radius: 7px;
 }
-methods-container {
+#methods-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1em;
+}
+#methods-container h4 {
+  color: var(--wsdarkgreen);
+  margin-top: 1em;
 }
 .col {
   flex-direction: column;
