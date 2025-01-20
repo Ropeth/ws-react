@@ -16,6 +16,7 @@ function App() {
   let [intros, setIntros] = useState([]);
   let [thisIntro, setThisIntro] = useState([]);
   let [currentPin, setCurrentPin] = useState([]);
+  const [selectedMethod, setSelectedMethod] = useState("All");
 
   useEffect(() => {
     const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
@@ -67,6 +68,28 @@ function App() {
           setCurrentPin={setCurrentPin}
         />
         <div id="methods-container" style={{ display: "none" }}>
+          <span>
+            <strong>Select a method:&nbsp;&nbsp;</strong>
+          </span>
+          <select
+            id="themeSelector"
+            value={selectedMethod}
+            onChange={(e) => setSelectedMethod(e.target.value)}
+          >
+            <option value="All">All Methods</option>
+            <option value="Water harvesting">Water harvesting</option>
+            <option value="Sand dams">Sand dams</option>
+            <option value="Water pioneer">Water pioneer</option>
+            <option value="Community case study">Community case study</option>
+            <option value="Transforming desert">Transforming desert</option>
+            <option value="Deep bed farming">Deep bed farming</option>
+            <option value="Water harvesting work">Water harvesting work</option>
+            <option value="Reflections on Holding Water in Africa">
+              Reflections on Holding Water in Africa
+            </option>
+            <option value="Water Harvesting">Water Harvesting</option>
+            <option value="Partners">Partners</option>
+          </select>
           {pins.map((data, key) => {
             return (
               <MethodsCont
@@ -75,6 +98,7 @@ function App() {
                 projects={data.projects}
                 country={data.country}
                 map={map}
+                selectedMethod={selectedMethod}
               />
             );
           })}

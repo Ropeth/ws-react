@@ -145,6 +145,7 @@ a:hover {
 }
 .info {
   width: auto;
+  margin-right: 1rem;
   margin-top: 1rem;
   min-width: 30%;
 }
@@ -258,7 +259,7 @@ a.pres {
 .method {
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem 0;
+  margin: 1rem 1rem 0 0;
   padding: 1rem;
   border: 1px solid var(--wsdarkgreen);
   border-radius: 7px;
@@ -271,7 +272,14 @@ a.pres {
   justify-content: space-between;
   color: var(--wsgreen);
 }
-
+.project-theme {
+  font-size: 0.85em;
+  font-weight: bold;
+  background-color: var(--wslightblue);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  letter-spacing: 1px;
+}
 /*///////////
 // FOOTER //
 ///////////*/
