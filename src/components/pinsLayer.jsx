@@ -13,9 +13,6 @@ export default function PinsLayer({
   useEffect(() => {
     const dataUrl = "./" + thisPage + ".json";
 
-    // fetch(dataUrl)
-    //   .then((response) => response.json())
-    //   .then((data) => setPins(data.pins));
     const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
     const fetchData = async () => {
       try {
@@ -35,11 +32,7 @@ export default function PinsLayer({
 
   let [coordsUrl, setCoordsUrl] = useState("/coords.json");
   let [coords, setCoords] = useState([]);
-
   useEffect(() => {
-    // fetch(coordsUrl)
-    //   .then((response) => response.json())
-    //   .then((data) => setCoords(data.coords));
     const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
     const fetchData = async () => {
       try {

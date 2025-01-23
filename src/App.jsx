@@ -2,48 +2,54 @@ import Header from "./components/header";
 import Main from "./components/main";
 import Map from "./components/map";
 import MethodsCont from "./components/methods-container";
+import { pages } from "./data/pages.json";
+import { useParams } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/footer";
-import africaBrown from "/src/assets/Africa-brown.svg";
+//import africaBrown from "/src/assets/Africa-brown.svg";
+
+//import { useParams } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-import Navbar from "./components/navbar";
-
+//console.log(pages);
 function App() {
-  let [thisPage, setThisPage] = useState("africa-literacy");
+  const { slug } = useParams();
+  const page = pages.find((x) => x.slug === slug);
+  //console.log("slug", slug);
+  //let [thisPage, setThisPage] = useState(page.slug);
   let [pins, setPins] = useState([]);
-  let [map, setMap] = useState("Africa"); //used for calculating x and y
-  let [mapImg, setMapImg] = useState(africaBrown);
-  let [intros, setIntros] = useState([]);
-  let [thisIntro, setThisIntro] = useState([]);
+  // let [map, setMap] = useState("Africa"); //used for calculating x and y
+  // let [mapImg, setMapImg] = useState(africaBrown);
+  //let [intros, setIntros] = useState([]);
+  //let [thisIntro, setThisIntro] = useState([]);
   let [currentPin, setCurrentPin] = useState([]);
-  const [selectedMethod, setSelectedMethod] = useState("All");
+  // const [selectedMethod, setSelectedMethod] = useState("All");
 
-  useEffect(() => {
-    const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
-    const fetchData = async () => {
-      try {
-        const response = await fetch("./intros.json", {
-          signal: controller.signal,
-        });
-        const data = await response.json();
-        setIntros(data.intros);
-      } catch (error) {
-        if (error.name !== "AbortError") {
-          console.error("Fetch error:", error);
-        }
-      }
-    };
-    fetchData();
+  // useEffect(() => {
+  //   const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await fetch("./intros.json", {
+  //         signal: controller.signal,
+  //       });
+  //       const data = await response.json();
+  //       setIntros(data.intros);
+  //     } catch (error) {
+  //       if (error.name !== "AbortError") {
+  //         console.error("Fetch error:", error);
+  //       }
+  //     }
+  //   };
+  //   fetchData();
 
-    return () => {
-      controller.abort();
-    };
-  }, []);
+  //   return () => {
+  //     controller.abort();
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    setThisIntro(intros.filter((intro) => intro.page === thisPage));
-  }, [intros, thisPage]);
+  // useEffect(() => {
+  //   setThisIntro(intros.filter((intro) => intro.page === page.slug));
+  // }, [intros, thisPage]);
 
   const stopVideo = (videoRef, src) => {
     console.log("videoRef", videoRef);
@@ -55,25 +61,25 @@ function App() {
 
   return (
     <>
-      <Navbar />
       <Header
-        setThisPage={setThisPage}
-        setMapImg={setMapImg}
-        setMap={setMap}
-        setSelectedMethod={setSelectedMethod}
+      //setThisPage={setThisPage}
+      //setMapImg={setMapImg}
+      //setMap={setMap}
+      //setSelectedMethod={setSelectedMethod}
       />
+
       <div id="main">
-        <Main thisIntro={thisIntro} />
+        <Main thisIntro={page.content} />
         <Map
-          thisPage={thisPage}
           setPins={setPins}
           pins={pins}
-          mapImg={mapImg}
-          map={map}
+          // mapImg={mapImg}
+          // map={map}
           stopVideo={stopVideo}
           currentPin={currentPin}
           setCurrentPin={setCurrentPin}
         />
+        {/*
         <div id="methods-container" style={{ display: "none" }}>
           <div>
             <label>
@@ -112,8 +118,7 @@ function App() {
               />
             );
           })}
-        </div>
-        />
+        </div>*/}
       </div>
       <Footer />
     </>

@@ -7,27 +7,29 @@ import europeBrown from "../assets/Europe-brown.svg";
 
 import { Link } from "react-router-dom";
 
-export default function Menu({
-  setThisPage,
-  setMapImg,
-  setMap,
-  setSelectedMethod,
-}) {
+export default function Menu(
+  {
+    //setThisPage,
+    //setMapImg,
+    //setMap,
+    //setSelectedMethod,
+  }
+) {
   const menuClick = (event, link, thisMapImg, thisMap, pageTitle) => {
     event.preventDefault();
     if (thisMapImg === "none") {
       $("#map").hide();
       $("#methods-container").show();
       $("#main").css("flex-direction", "column");
-      setSelectedMethod("All");
+      //setSelectedMethod("All");
     } else {
       $("#map").show();
       $("#methods-container").hide();
       $("#main").css("flex-direction", "row");
-      setMapImg(thisMapImg);
-      setMap(thisMap);
+      //setMapImg(thisMapImg);
+      //setMap(thisMap);
     }
-    setThisPage(link);
+    //setThisPage(link);
     document.title = pageTitle;
   };
 
@@ -54,7 +56,7 @@ export default function Menu({
           >
             <Link
               className="dropdown-item"
-              to="#"
+              to="/africa-literacy"
               onClick={() =>
                 menuClick(
                   event,
@@ -67,9 +69,9 @@ export default function Menu({
             >
               Literacy
             </Link>
-            <a
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/africa-actions"
               onClick={() =>
                 menuClick(
                   event,
@@ -80,12 +82,12 @@ export default function Menu({
                 )
               }
             >
-              Action
-            </a>
+              Actions
+            </Link>
 
             <Link
               className="dropdown-item"
-              to="#"
+              to="/africa-methods"
               onClick={() =>
                 menuClick(
                   event,
@@ -98,9 +100,9 @@ export default function Menu({
             >
               Methods
             </Link>
-            <a
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/africa-partners"
               onClick={() =>
                 menuClick(
                   event,
@@ -112,27 +114,27 @@ export default function Menu({
               }
             >
               Partners
-            </a>
+            </Link>
           </div>
         </li>
         <li className="nav-item dropdown">
-          <a
+          <Link
             className="nav-link dropdown-toggle"
-            href="#"
+            to="#"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             Water School India
-          </a>
+          </Link>
           <div
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/india-literacy"
               onClick={() =>
                 menuClick(
                   event,
@@ -144,10 +146,10 @@ export default function Menu({
               }
             >
               Literacy
-            </a>
-            <a
+            </Link>
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/india-actions"
               onClick={() =>
                 menuClick(
                   event,
@@ -158,11 +160,11 @@ export default function Menu({
                 )
               }
             >
-              Action
-            </a>
-            <a
+              Actions
+            </Link>
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/india-methods"
               onClick={() =>
                 menuClick(
                   event,
@@ -174,27 +176,27 @@ export default function Menu({
               }
             >
               Methods
-            </a>
+            </Link>
           </div>
         </li>
         <li className="nav-item dropdown">
-          <a
+          <Link
             className="nav-link dropdown-toggle"
-            href="#"
+            to="#"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             Water School Europe
-          </a>
+          </Link>
           <div
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/europe-literacy"
               onClick={() =>
                 menuClick(
                   event,
@@ -206,10 +208,10 @@ export default function Menu({
               }
             >
               Literacy
-            </a>
-            <a
+            </Link>
+            <Link
               className="dropdown-item"
-              href="#"
+              to="/europe-methods"
               onClick={() =>
                 menuClick(
                   event,
@@ -221,7 +223,7 @@ export default function Menu({
               }
             >
               Methods
-            </a>
+            </Link>
           </div>
         </li>
         <li className="nav-item">
@@ -230,23 +232,23 @@ export default function Menu({
           </Link>
         </li>
         <li className="nav-item dropdown">
-          <a
+          <Link
             className="nav-link dropdown-toggle"
-            href="#"
+            to="#"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             More
-          </a>
+          </Link>
           <div
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a className="dropdown-item" href="/about">
+            <Link className="dropdown-item" to="/about">
               About Water Schools
-            </a>
+            </Link>
             <Link
               className="dropdown-item"
               to="https://www.theflowpartnership.org/"

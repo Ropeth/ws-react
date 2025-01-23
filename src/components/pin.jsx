@@ -12,6 +12,7 @@ export default function Pin({
   currentPin,
 }) {
   const thisMapCoords = coords.filter((item) => item.map === map);
+  //console.log("thisMapCoords", thisMapCoords);
   const londif = thisMapCoords[0].lon2 - thisMapCoords[0].lon1;
   const latdif = thisMapCoords[0].lat2 - thisMapCoords[0].lat1;
   const xdif = thisMapCoords[0].x2 - thisMapCoords[0].x1;
@@ -47,8 +48,6 @@ export default function Pin({
         value={{ project }}
         data-toggle="modal"
         data-target={"#" + pinId}
-        //onClick={() => setCurrentPin(pinId)}
-        //onClick={() => logXy()}
         onClick={handleClick}
       />
       <Modal
