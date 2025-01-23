@@ -1,5 +1,6 @@
 import Menu from "./menu";
 import wsLogo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 export default function Header({
   setThisPage,
@@ -10,9 +11,9 @@ export default function Header({
   return (
     <div className="header">
       <nav className="nav navbar navbar-expand-md navbar-light">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img src={wsLogo} className="logo" alt="Water Schools" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

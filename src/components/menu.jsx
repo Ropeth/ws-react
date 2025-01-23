@@ -5,6 +5,8 @@ import indiaBrown from "../assets/India-brown.svg";
 import indiaGreen from "../assets/India-green.svg";
 import europeBrown from "../assets/Europe-brown.svg";
 
+import { Link } from "react-router-dom";
+
 export default function Menu({
   setThisPage,
   setMapImg,
@@ -36,23 +38,23 @@ export default function Menu({
     >
       <ul className="navbar-nav">
         <li className="nav-item dropdown">
-          <a
+          <Link
             className="nav-link dropdown-toggle"
-            href="#"
+            to="#"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             Water School Africa
-          </a>
+          </Link>
           <div
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a
+            <Link
               className="dropdown-item"
-              href="#"
+              to="#"
               onClick={() =>
                 menuClick(
                   event,
@@ -64,7 +66,7 @@ export default function Menu({
               }
             >
               Literacy
-            </a>
+            </Link>
             <a
               className="dropdown-item"
               href="#"
