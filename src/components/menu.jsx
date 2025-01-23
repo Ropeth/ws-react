@@ -83,9 +83,9 @@ export default function Menu({
               Action
             </a>
 
-            <a
+            <Link
               className="dropdown-item"
-              href="#"
+              to="#"
               onClick={() =>
                 menuClick(
                   event,
@@ -97,7 +97,7 @@ export default function Menu({
               }
             >
               Methods
-            </a>
+            </Link>
             <a
               className="dropdown-item"
               href="#"
@@ -225,9 +225,9 @@ export default function Menu({
           </div>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/contact">
             Contact
-          </a>
+          </Link>
         </li>
         <li className="nav-item dropdown">
           <a
@@ -244,15 +244,23 @@ export default function Menu({
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <a className="dropdown-item" href="#">
-              Water Schools
+            <a className="dropdown-item" href="/about">
+              About Water Schools
             </a>
-            <a className="dropdown-item" href="#">
+            <Link
+              className="dropdown-item"
+              to="https://www.theflowpartnership.org/"
+              target="_blank"
+            >
               Flow Partnership
-            </a>
-            <a className="dropdown-item" href="#">
+            </Link>
+            <Link
+              className="dropdown-item"
+              to="https://www.onepondfund.org/"
+              target="_blank"
+            >
               One Pond Fund
-            </a>
+            </Link>
           </div>
         </li>
       </ul>

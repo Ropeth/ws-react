@@ -1,10 +1,3 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useNavigate,
-} from "react-router-dom";
-
 import Header from "./components/header";
 import Main from "./components/main";
 import Map from "./components/map";
@@ -14,6 +7,7 @@ import Footer from "./components/footer";
 import africaBrown from "/src/assets/Africa-brown.svg";
 
 import { useState, useEffect } from "react";
+import Navbar from "./components/navbar";
 
 function App() {
   let [thisPage, setThisPage] = useState("africa-literacy");
@@ -24,8 +18,6 @@ function App() {
   let [thisIntro, setThisIntro] = useState([]);
   let [currentPin, setCurrentPin] = useState([]);
   const [selectedMethod, setSelectedMethod] = useState("All");
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
@@ -63,6 +55,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <Header
         setThisPage={setThisPage}
         setMapImg={setMapImg}
@@ -70,69 +63,57 @@ function App() {
         setSelectedMethod={setSelectedMethod}
       />
       <div id="main">
-        <Routes>
-          <Route
-            path=""
-            element={
-              <>
-                <Main thisIntro={thisIntro} />
-                <Map
-                  thisPage={thisPage}
-                  setPins={setPins}
-                  pins={pins}
-                  mapImg={mapImg}
-                  map={map}
-                  stopVideo={stopVideo}
-                  currentPin={currentPin}
-                  setCurrentPin={setCurrentPin}
-                />
-                <div id="methods-container" style={{ display: "none" }}>
-                  <div>
-                    <label>
-                      <strong>Select a method:&nbsp;&nbsp;</strong>
-                    </label>
-                    <select
-                      id="themeSelector"
-                      value={selectedMethod}
-                      onChange={(e) => setSelectedMethod(e.target.value)}
-                    >
-                      <option value="All">All Methods</option>
-                      <option value="Water harvesting">Water harvesting</option>
-                      <option value="Sand dams">Sand dams</option>
-                      <option value="Water pioneer">Water pioneer</option>
-                      <option value="Community case study">
-                        Community case study
-                      </option>
-                      <option value="Transforming desert">
-                        Transforming desert
-                      </option>
-                      <option value="Deep bed farming">Deep bed farming</option>
-                      <option value="Water harvesting work">
-                        Water harvesting work
-                      </option>
-                      <option value="Reflections on Holding Water in Africa">
-                        Reflections on Holding Water in Africa
-                      </option>
-                      <option value="Water Harvesting">Water Harvesting</option>
-                      <option value="Wooden log dams">Wooden log dams</option>
-                    </select>
-                  </div>
-                  {pins.map((data, key) => {
-                    return (
-                      <MethodsCont
-                        key={key}
-                        thisPage={thisPage}
-                        projects={data.projects}
-                        country={data.country}
-                        selectedMethod={selectedMethod}
-                      />
-                    );
-                  })}
-                </div>
-              </>
-            }
-          />
-        </Routes>
+        <Main thisIntro={thisIntro} />
+        <Map
+          thisPage={thisPage}
+          setPins={setPins}
+          pins={pins}
+          mapImg={mapImg}
+          map={map}
+          stopVideo={stopVideo}
+          currentPin={currentPin}
+          setCurrentPin={setCurrentPin}
+        />
+        <div id="methods-container" style={{ display: "none" }}>
+          <div>
+            <label>
+              <strong>Select a method:&nbsp;&nbsp;</strong>
+            </label>
+            <select
+              id="themeSelector"
+              value={selectedMethod}
+              onChange={(e) => setSelectedMethod(e.target.value)}
+            >
+              <option value="All">All Methods</option>
+              <option value="Water harvesting">Water harvesting</option>
+              <option value="Sand dams">Sand dams</option>
+              <option value="Water pioneer">Water pioneer</option>
+              <option value="Community case study">Community case study</option>
+              <option value="Transforming desert">Transforming desert</option>
+              <option value="Deep bed farming">Deep bed farming</option>
+              <option value="Water harvesting work">
+                Water harvesting work
+              </option>
+              <option value="Reflections on Holding Water in Africa">
+                Reflections on Holding Water in Africa
+              </option>
+              <option value="Water Harvesting">Water Harvesting</option>
+              <option value="Wooden log dams">Wooden log dams</option>
+            </select>
+          </div>
+          {pins.map((data, key) => {
+            return (
+              <MethodsCont
+                key={key}
+                thisPage={thisPage}
+                projects={data.projects}
+                country={data.country}
+                selectedMethod={selectedMethod}
+              />
+            );
+          })}
+        </div>
+        />
       </div>
       <Footer />
     </>
