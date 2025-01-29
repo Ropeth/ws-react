@@ -9,7 +9,11 @@ import Footer from "./components/footer";
 import "./App.css";
 
 function App() {
-  const { slug } = useParams();
+  var { slug } = useParams();
+  if (slug == undefined) {
+    slug = "africa-literacy";
+  }
+
   const page = pages.find((x) => x.slug === slug);
   const [pins, setPins] = useState([]);
   const [currentPin, setCurrentPin] = useState([]);

@@ -1,10 +1,3 @@
-import africaBrown from "../assets/Africa-brown.svg";
-import africaBlue from "../assets/Africa-blue.svg";
-import africaGreen from "../assets/Africa-green.svg";
-import indiaBrown from "../assets/India-brown.svg";
-import indiaGreen from "../assets/India-green.svg";
-import europeBrown from "../assets/Europe-brown.svg";
-
 import { Link } from "react-router-dom";
 
 export default function Menu() {

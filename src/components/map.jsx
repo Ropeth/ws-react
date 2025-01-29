@@ -1,19 +1,25 @@
 import PinsLayer from "../components/pinsLayer";
-import { pages } from "../data/pages.json";
 import { useParams } from "react-router-dom";
+import { pages } from "../data/pages.json";
 
 export default function Map({
   pins,
   stopVideo,
   setCurrentPin,
   currentPin,
-  coords
+  coords,
 }) {
-  const { slug } = useParams();
+  var { slug } = useParams();
+  if (slug == undefined) {
+    slug = "africa-literacy";
+  }
   const page = pages.find((x) => x.slug === slug);
+
+  const src = "/maps/" + page.map;
+  //const src = require(`../assets/${page.map}`).default;
   return (
     <div id="map">
-      <img className="map-background" src={page.map} alt="Water Schools" />
+      <img className="map-background" src={src} alt="Water Schools" />
       <PinsLayer
         pins={pins}
         map={page.school}
