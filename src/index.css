@@ -114,7 +114,6 @@ a:hover {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
-  /* width: calc(100% - var(--mainmargin)); */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -132,7 +131,7 @@ a:hover {
 
 .info {
   width: auto;
-  margin-right: 1rem;
+  padding-right: 1rem;
   margin-top: 1rem;
   min-width: 30%;
 }
@@ -144,24 +143,6 @@ a:hover {
   align-items: start;
   grid-template-rows: auto 1fr;
   /* transition: 0.5s ease-in-out; //can use with width change but not with flex-grow*/
-}
-@media screen and (max-width: 768px) {
-  #main {
-    padding: 0;
-  }
-  #map {
-    padding: 0;
-  }
-  #row1 {
-    flex-wrap: wrap;
-  }
-  .info {
-    width: 100%;
-    padding: 0 var(--mainmargin);
-  }
-  #map {
-    width: 100%;
-  }
 }
 #map img.map-background,
 .pins-layer {
@@ -208,7 +189,7 @@ h1,
 #methods-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin: 0 var(--mainmargin) 1em 0;
 }
 #methods-container h4 {
   color: var(--wsdarkgreen);
@@ -216,6 +197,32 @@ h1,
 }
 .col {
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  #main {
+    padding: 0;
+  }
+  #map {
+    padding: 0;
+  }
+  #row1 {
+    flex-wrap: wrap;
+  }
+  .info {
+    width: 100%;
+    padding: 0 var(--mainmargin);
+  }
+  #methods-container {
+    margin: 0 0 1em 0;
+    padding: 0 var(--mainmargin);
+  }
+  #methods-container .method {
+    margin: 1rem 0 0 0;
+  }
+  #map {
+    width: 100%;
+  }
 }
 /*///////////
 // MODAL   //
