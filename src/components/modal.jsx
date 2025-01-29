@@ -52,10 +52,8 @@ export default function Modal({ id, project, stopVideo, currentPin }) {
                   allowFullScreen=""
                   ref={videoRef}
                 ></iframe>
-              ) : project.src && id == !currentPin ? (
-                <p>Video available but not the current pin</p>
               ) : (
-                <p>No video available</p>
+                <p> </p>
               )}
               {project.presentation && (
                 <a

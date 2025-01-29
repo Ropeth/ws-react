@@ -2,54 +2,13 @@ import Country from "./country";
 import { useState, useEffect } from "react";
 
 export default function PinsLayer({
-  thisPage,
-  setPins,
   pins,
   map,
   stopVideo,
   setCurrentPin,
   currentPin,
+  coords,
 }) {
-  useEffect(() => {
-    const dataUrl = "./" + thisPage + ".json";
-
-    const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
-    const fetchData = async () => {
-      try {
-        const response = await fetch(dataUrl, {
-          signal: controller.signal,
-        });
-        const data = await response.json();
-        setPins(data.pins);
-      } catch (error) {
-        if (error.name !== "AbortError") {
-          console.error("Fetch error:", error);
-        }
-      }
-    };
-    fetchData();
-  }, [thisPage]);
-
-  let [coordsUrl, setCoordsUrl] = useState("/coords.json");
-  let [coords, setCoords] = useState([]);
-  useEffect(() => {
-    const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
-    const fetchData = async () => {
-      try {
-        const response = await fetch(coordsUrl, {
-          signal: controller.signal,
-        });
-        const data = await response.json();
-        setCoords(data.coords);
-      } catch (error) {
-        if (error.name !== "AbortError") {
-          console.error("Fetch error:", error);
-        }
-      }
-    };
-    fetchData();
-  }, []);
-
   return (
     <>
       <div className="pins-layer">

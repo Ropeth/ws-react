@@ -1,5 +1,5 @@
-import Method from "./method";
 import { useEffect } from "react";
+import Method from "./method";
 
 export default function MethodsCont({
   projects,
@@ -10,10 +10,11 @@ export default function MethodsCont({
   var filteredProjects = projects.filter(
     (project) => selectedMethod === "All" || project.theme === selectedMethod
   );
-  useEffect(() => {}, [thisPage, selectedMethod]);
-  filteredProjects = projects.filter(
-    (project) => selectedMethod === "All" || project.theme === selectedMethod
-  );
+  useEffect(() => {
+    filteredProjects = projects.filter(
+      (project) => selectedMethod === "All" || project.theme === selectedMethod
+    );
+  }, [thisPage, selectedMethod]);
 
   return (
     <>

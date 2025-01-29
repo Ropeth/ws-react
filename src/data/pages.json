@@ -4,6 +4,7 @@
       "id": 1,
       "title": "Water School Africa - Literacy",
       "slug": "africa-literacy",
+      "json": "africa-literacy",
       "map": "/src/assets/Africa-brown.svg",
       "school": "Africa",
       "content": "<p><span class='h1-inline'>Water School Africa (WSA) </span>is a partnership between communities engaged in natural water retention practices in their local villages/areas/regions.</p><p>The overall goal of this Pan African Water School is to stimulate community interaction and action to improve an understanding of, and boost capacity in sustainable local, community based water resource management across Africa. <strong><em>And then to share that widely with each other as well as with people and communities across the world. </em></strong></p><p>In countries across the world, small communities are doing pioneering work in creating and securing local water sources and reversing the adverse impacts of too much water (floods) or too little water (droughts). This Water Schools web portal presents their successful methods of water retention interventions through their own presentations and videos of their successful methods.</p>"
@@ -12,6 +13,7 @@
       "id": 2,
       "title": "Water School Africa - Actions",
       "slug": "africa-actions",
+      "json": "africa-actions",
       "map": "/src/assets/Africa-green.svg",
       "school": "Africa",
       "content": "<h1>Water Schools Africa Action</h1><p>Without action – nothing changes. In these following pages you will find water holding projects that are close to completion or need support to begin.</p><p>Click on the pins on the map to find out more about these projects on <a href='https://www.onepondfund.org/' target='_blank'>onepondfund.org</a>.</p>"
@@ -20,12 +22,15 @@
       "id": 3,
       "title": "Water School Africa - Methods",
       "slug": "africa-methods",
+      "json": "africa-literacy",
+      "map": null,
       "content": "<h1>Water Schools Africa Methods</h1><p>The following presentations and projects were presented by the various communities on the online forum of Water School Africa over the last couple of years.</p>"
     },
     {
       "id": 4,
       "title": "Water School Africa - Partners",
       "slug": "africa-partners",
+      "json": "africa-partners",
       "map": "/src/assets/Africa-blue.svg",
       "school": "Africa",
       "content": "<h1>Water Schools Africa Partners</h1><p>We trust in true partnership and facilitate mutual sharing of an unfiltered learning between communities. The successful methods of water retention are often based in traditional wisdom which becomes a resonant route to amplifying action locally. When a local method is successful, it gets talked about more and other communities find it easy to understand and replicate that success.</p><p>WSA partners with local respected and successful NGOs to facilitate water literacy in their communities, as articulated by the communities themselves.</p><p>Please click on a pin to see the current partners in different countries in Africa.</p>"
@@ -34,6 +39,7 @@
       "id": 5,
       "title": "Water School India - Literacy",
       "slug": "india-literacy",
+      "json": "india-literacy",
       "map": "/src/assets/india-brown.svg",
       "school": "India",
       "content": "<h1>Water Schools India Literacy</h1><p>Text to follow</p>"
@@ -42,6 +48,7 @@
       "id": 6,
       "title": "Water School India - Actions",
       "slug": "india-actions",
+      "json": "india-actions",
       "map": "/src/assets/india-green.svg",
       "school": "India",
       "content": "<h1>Water Schools India Action</h1><p>Without action – nothing changes. In these following pages you will find water holding projects that are close to completion or need support to begin.</p>"
@@ -50,12 +57,15 @@
       "id": 7,
       "title": "Water School India - Methods",
       "slug": "india-methods",
+      "json": "india-literacy",
+      "map": null,
       "content": "<h1>Water Schools India Methods</h1><p>The following presentations and projects ...</p>"
     },
     {
       "id": 8,
       "title": "Water School Europe - Literacy",
       "slug": "europe-literacy",
+      "json": "europe-literacy",
       "map": "/src/assets/europe-brown.svg",
       "school": "Europe",
       "content": "<h1>Water Schools Europe Literacy</h1><p>Text to follow</p>"
@@ -64,6 +74,8 @@
       "id": 9,
       "title": "Water School Europe - Methods",
       "slug": "europe-methods",
+      "json": "europe-literacy",
+      "map": null,
       "content": "<h1>Water Schools Europe Methods</h1><p>The following presentations and projects ...</p>"
     }
   ]

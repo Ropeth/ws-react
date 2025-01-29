@@ -2,14 +2,7 @@ import Menu from "./menu";
 import wsLogo from "../assets/logo.svg";
 import { Link } from "react-router-dom";
 
-export default function Header(
-  {
-    //setThisPage,
-    //setMapImg,
-    //setMap,
-    //setSelectedMethod,
-  }
-) {
+export default function Header() {
   return (
     <div className="header">
       <nav className="nav navbar navbar-expand-md navbar-light">
@@ -27,12 +20,7 @@ export default function Header(
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Menu
-        //setThisPage={setThisPage}
-        //setMapImg={setMapImg}
-        //setMap={setMap}
-        //setSelectedMethod={setSelectedMethod}
-        />
+        <Menu />
       </nav>
       <div className="tagline">
         <p>A co-created community space for water regeneration</p>

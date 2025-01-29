@@ -29,25 +29,6 @@ a:hover {
   color: var(--wsdarkgreen);
 }
 
-/* button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-  }
-  button:hover {
-    border-color: #646cff;
-    }
-    button:focus,
-    button:focus-visible {
-      outline: 4px auto -webkit-focus-ring-color;
-      }
-      */
 @media (prefers-color-scheme: dark) {
   #main {
     background-color: #213547;
@@ -136,14 +117,19 @@ a:hover {
   /* width: calc(100% - var(--mainmargin)); */
   width: 100%;
   display: flex;
+  flex-direction: column;
   min-height: 80vh;
   margin: 0;
   padding: 0 0 0 var(--mainmargin);
   background-color: rgb(227, 229, 241);
   flex-grow: 1;
+}
+#row1 {
+  display: flex;
   flex-wrap: none;
   align-content: flex-start;
 }
+
 .info {
   width: auto;
   margin-right: 1rem;
@@ -161,10 +147,17 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   #main {
+    padding: 0;
+  }
+  #map {
+    padding: 0;
+  }
+  #row1 {
     flex-wrap: wrap;
   }
   .info {
     width: 100%;
+    padding: 0 var(--mainmargin);
   }
   #map {
     width: 100%;
@@ -202,13 +195,16 @@ h1,
 .map-label {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 .map-label p {
   display: block;
   background-color: #ffffff;
   padding: 1rem;
   border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 #methods-container {
   display: flex;
   flex-direction: column;
