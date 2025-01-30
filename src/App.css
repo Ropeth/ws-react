@@ -8,7 +8,7 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  place-items: flex-start;
+  /* place-items: flex-start; */
 }
 
 body {

@@ -22,41 +22,17 @@ export default function Menu() {
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <Link
-              className="dropdown-item"
-              to="/africa-literacy"
-              // onClick={() =>
-              //   menuClick(event, africaBrown, "Water Schools Africa - Literacy")
-              // }
-            >
+            <Link className="dropdown-item" to="/africa-literacy">
               Literacy
             </Link>
-            <Link
-              className="dropdown-item"
-              to="/africa-actions"
-              // onClick={() =>
-              //   menuClick(event, africaGreen, "Water Schools Africa - Action")
-              // }
-            >
+            <Link className="dropdown-item" to="/africa-actions">
               Actions
             </Link>
 
-            <Link
-              className="dropdown-item"
-              to="/africa-methods"
-              // onClick={() =>
-              //   menuClick(event, "none", "Water Schools Africa - Methods")
-              // }
-            >
+            <Link className="dropdown-item" to="/africa-methods">
               Methods
             </Link>
-            <Link
-              className="dropdown-item"
-              to="/africa-partners"
-              // onClick={() =>
-              //   menuClick(event, africaBlue, "Water Schools Africa - Partners")
-              // }
-            >
+            <Link className="dropdown-item" to="/africa-partners">
               Partners
             </Link>
           </div>
@@ -76,31 +52,13 @@ export default function Menu() {
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <Link
-              className="dropdown-item"
-              to="/india-literacy"
-              // onClick={() =>
-              //   menuClick(event, indiaBrown, "Water Schools India - Literacy")
-              // }
-            >
+            <Link className="dropdown-item" to="/india-literacy">
               Literacy
             </Link>
-            <Link
-              className="dropdown-item"
-              to="/india-actions"
-              // onClick={() =>
-              //   menuClick(event, indiaGreen, "Water Schools India - Action")
-              // }
-            >
+            <Link className="dropdown-item" to="/india-actions">
               Actions
             </Link>
-            <Link
-              className="dropdown-item"
-              to="/india-methods"
-              // onClick={() =>
-              //   menuClick(event, "none", "Water Schools India - Methods")
-              // }
-            >
+            <Link className="dropdown-item" to="/india-methods">
               Methods
             </Link>
           </div>
@@ -120,22 +78,10 @@ export default function Menu() {
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
-            <Link
-              className="dropdown-item"
-              to="/europe-literacy"
-              // onClick={() =>
-              //   menuClick(event, europeBrown, "Water Schools Europe - Literacy")
-              // }
-            >
+            <Link className="dropdown-item" to="/europe-literacy">
               Literacy
             </Link>
-            <Link
-              className="dropdown-item"
-              to="/europe-methods"
-              // onClick={() =>
-              //   menuClick(event, "none", "Water Schools Europe - Literacy")
-              // }
-            >
+            <Link className="dropdown-item" to="/europe-methods">
               Methods
             </Link>
           </div>

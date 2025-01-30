@@ -1,5 +1,5 @@
 import Contact from "./routes/contact.jsx";
-import About from "./routes/about";
+import About from "./routes/about.jsx";
 import App from "./App.jsx";
 import { createBrowserRouter } from "react-router-dom";
 

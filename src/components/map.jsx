@@ -16,7 +16,6 @@ export default function Map({
   const page = pages.find((x) => x.slug === slug);
 
   const src = "/maps/" + page.map;
-  //const src = require(`../assets/${page.map}`).default;
   return (
     <div id="map">
       <img className="map-background" src={src} alt="Water Schools" />

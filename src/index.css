@@ -28,7 +28,10 @@ a {
 a:hover {
   color: var(--wsdarkgreen);
 }
-
+p.bigger {
+  font-size: 1.3em;
+  color: var(--wsdarkgreen);
+}
 @media (prefers-color-scheme: dark) {
   #main {
     background-color: #213547;
@@ -120,7 +123,7 @@ a:hover {
   min-height: 80vh;
   margin: 0;
   padding: 0 0 0 var(--mainmargin);
-  background-color: rgb(227, 229, 241);
+  background-color: rgb(219, 230, 255);
   flex-grow: 1;
 }
 #row1 {
@@ -172,6 +175,11 @@ h1,
   font-size: 1.3em;
   color: var(--wsblue);
   font-weight: bold;
+}
+h2 {
+  font-size: 1.2em;
+  color: var(--wsblue);
+  margin-bottom: 1rem;
 }
 .map-label {
   display: flex;
@@ -309,4 +317,48 @@ a.pres {
 }
 .footer a {
   color: #fff;
+}
+
+/*///////////
+// CONTACT //
+///////////*/
+.info.contact {
+  padding: 0 var(--mainmargin) 1rem 0;
+}
+#contact-form {
+  margin: 0 var(--mainmargin) 1rem var(--mainmargin);
+}
+#contact-form .elem-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0 1rem 0;
+}
+#contact-form label {
+  display: block;
+  width: 20%;
+  min-width: 200px;
+}
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  min-width: 60%;
+  flex-grow: 1;
+  margin-bottom: 1rempx;
+  padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .info.contact {
+    padding: 0 var(--mainmargin) 1rem var(--mainmargin);
+  }
+}
+/*///////////
+// ABOUT   //
+///////////*/
+.spaced {
+  margin-bottom: 1rem;
+}
+img.spaced {
+  max-width: calc(100vw - 2 * var(--mainmargin));
+
+  overflow-x: hidden;
 }

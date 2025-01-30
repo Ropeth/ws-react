@@ -50,7 +50,7 @@ function App() {
 
   useEffect(() => {
     page.map == null && setSelectedMethod("All");
-    const dataUrl = "./" + page.json + ".json";
+    const dataUrl = "./" + page.json + "-data.json";
     console.log("page.map", page.map);
     const controller = new AbortController(); //This code uses an `AbortController` to cancel the fetch request if the component unmounts before the request completes, preventing the error from occurring.
     const fetchData = async () => {
