@@ -4,9 +4,11 @@
   font-size: 16px;
   --wsblue: #21b6a8;
   --wslightblue: #d2e8f0;
+  --seablue: #d7eef7;
   --wsgreen: #18a558;
   --wsdarkgreen: #116530;
   --wslightgreen: #a3ebb1;
+  --wspromobg: #eeff90;
   --mainmargin: 7vw;
   line-height: 1.5;
   font-weight: 400;
@@ -117,6 +119,25 @@ p.bigger {
   background-position: right 0.6em center;
   display: inline-block;
 }
+
+/*///////////
+// PROMO   //
+///////////*/
+
+.carousel-container {
+  background-color: var(--wspromobg);
+}
+
+.carousel-container iframe {
+  padding: 1em;
+  border-radius: 37px;
+}
+.react-multi-carousel-dot--active button {
+  background: #072813 !important;
+}
+.react-multiple-carousel__arrow {
+  background: rgb(11 76 6 / 50%) !important;
+}
 /*///////////
 // CONTENT //
 ///////////*/
@@ -131,7 +152,7 @@ p.bigger {
   min-height: 80vh;
   margin: 0;
   padding: 0 0 0 var(--mainmargin);
-  background-color: rgb(219, 230, 255);
+  background-color: var(--seablue);
   flex-grow: 1;
 }
 #row1 {

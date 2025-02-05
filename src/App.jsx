@@ -7,6 +7,7 @@ import Map from "./components/map";
 import MethodsCont from "./components/methods-container";
 import Footer from "./components/footer";
 import "./App.css";
+import Promo from "./components/promo";
 
 function App() {
   var { slug } = useParams();
@@ -72,7 +73,7 @@ function App() {
   return (
     <>
       <Header />
-
+      {slug.includes("literacy") && <Promo school={page.school} />}
       <div id="main">
         <div id="row1">
           <Main thisIntro={page.content} />
