@@ -109,6 +109,14 @@ p.bigger {
   font-size: 1rem;
   letter-spacing: 2px;
 }
+.dropdown-item.newtab {
+  background-image: url(./assets/newtab.png);
+  padding-right: 2em;
+  background-size: 0.8em;
+  background-repeat: no-repeat;
+  background-position: right 0.6em center;
+  display: inline-block;
+}
 /*///////////
 // CONTENT //
 ///////////*/

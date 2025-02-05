@@ -110,14 +110,14 @@ export default function Menu() {
               About Water Schools
             </Link>
             <Link
-              className="dropdown-item"
+              className="dropdown-item newtab"
               to="https://www.theflowpartnership.org/"
               target="_blank"
             >
               Flow Partnership
             </Link>
             <Link
-              className="dropdown-item"
+              className="dropdown-item newtab"
               to="https://www.onepondfund.org/"
               target="_blank"
             >
