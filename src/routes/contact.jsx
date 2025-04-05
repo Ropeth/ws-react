@@ -58,7 +58,8 @@ export default function Contact() {
         <div id="form-messages"></div>
         <form
           id="contact-form"
-          //action="send-email.php" method="post"
+          //action="send-email.php"
+          //method="post"
           onSubmit={onSubmit}
         >
           <div className="elem-group">

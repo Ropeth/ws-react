@@ -8,7 +8,7 @@
   --wsgreen: #18a558;
   --wsdarkgreen: #116530;
   --wslightgreen: #a3ebb1;
-  --wspromobg: #eeff90;
+  --wspromobg: #2e87aa;
   --mainmargin: 7vw;
   line-height: 1.5;
   font-weight: 400;
@@ -71,17 +71,14 @@ p.bigger {
   margin: 10px 10px 10px 0;
   padding: 0 0 0 0;
 }
-.menu {
-}
-.menu ul {
-}
-.menu ul li {
-}
-.menu ul li:last-of-type {
-}
+
 .menu a {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+p.navbar-brand {
+  margin: 0;
 }
 @media (prefers-color-scheme: light) {
   a:hover {
@@ -118,6 +115,11 @@ p.bigger {
   background-repeat: no-repeat;
   background-position: right 0.6em center;
   display: inline-block;
+}
+li.nav-item {
+  min-width: 90px;
+  align-content: center;
+  text-align: center;
 }
 
 /*///////////

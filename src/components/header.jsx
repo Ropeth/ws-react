@@ -9,6 +9,7 @@ export default function Header() {
         <Link className="navbar-brand" to="/">
           <img src={wsLogo} className="logo" alt="Water Schools" />
         </Link>
+        <p className="navbar-brand">Water Schools</p>
         <button
           className="navbar-toggler"
           type="button"

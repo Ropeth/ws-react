@@ -7,6 +7,11 @@ export default function Menu() {
       id="navbarNavDropdown"
     >
       <ul className="navbar-nav">
+        <li className="nav-item">
+          <Link className="nav-link" to="/home">
+            Home
+          </Link>
+        </li>
         <li className="nav-item dropdown">
           <Link
             className="nav-link dropdown-toggle"
