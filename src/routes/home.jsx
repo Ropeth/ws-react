@@ -6,35 +6,57 @@ export default function Home() {
   return (
     <div id="root">
       <Header />
-      <Promo school="Africa" />
+      {/* <Promo school="Africa" /> */}
+      <Promo school="Home" />
       <div id="main">
-        <div className="info contact">
-          <h2>Welcome to the Water Schools platform</h2>
+        <div className="info home">
+          <h1>Welcome to Water Schools</h1>
           <p>
-            <strong>Water Schools</strong> is a platform to learn comprehensive
-            knowledge of diverse communities spread all across the world to
-            conserve water, recharge aquifers and revive catchments &
-            landscapes.
+            Water has no colour and gives life to all EQUALLY. The single
+            largest way to restore the water cycles of our planet is through the
+            myriad communities living on the planet and the wisdom of water
+            retention they hold within them. The Water Schools amplify{" "}
+            <strong>their voice</strong> in bringing the planet back to balance.
           </p>
-          <p>
-            <strong>Water Schools</strong> gives you access to an array of
-            successful community driven & managed, decentralised water
-            conservation methods. Language-neutral tools will help you find the
-            most suitable method to revive your own catchment and landscape.
-            (FREE to access for all.
-          </p>
-          <p>
-            <strong>Water Schools</strong> helps you visualise how global trends
-            in water availability, climate patterns and crop yields connect
-            together practically. Interactive catchment maps will be available
-            online and offline as a unique open resource tool for anyone across
-            the world to access.
-          </p>
-          <p>
-            <strong>Water Schools</strong> fills the gap between academic
-            research and data on the ground with a wave of community endeavour
-            globally, rejuvenating our landscapes and bringing the carbon and
-            water cycles back into harmony and balance.
+          <div className="inset">
+            <img src="/images/ws-icon-2.png" />
+            <p>
+              This is <strong>a space</strong> for you and your community to
+              learn how to hold water, stop droughts and floods and if you
+              already do that successfully, then to help you freely share your
+              knowledge and wisdom with other communities.
+            </p>
+            <p>
+              It's <strong>a school</strong> to learn from the comprehensive and
+              traditional knowledge of diverse communities, giving you access to
+              a growing body of real, successful, community driven,
+              decentralised water retention and water conservation methods from
+              across the planet. Find the most suitable method to revive your
+              own local catchments and landscape.
+            </p>
+            <img src="/images/ws-icon-6.png" />
+            <img src="/images/ws-icon-5.png" />
+            <p>
+              It's a <strong>network</strong> to connect with other
+              on-the-ground communities, weaving a net of successful action
+              across the planet. Your local water retention actions can feed
+              into global water availability and changing climate patterns.
+            </p>
+            <p>
+              This is a growing global <strong>movement</strong> of people and
+              their communities, without any political bias, colour, or colonial
+              echoes, restoring the planet's water cycles back to health.
+            </p>
+            <img src="/images/ws-icon-8.png" />
+          </div>
+
+          <p className="extra-space-above">
+            <strong>
+              <em>
+                Just ordinary and extraordinary people harvesting rain water, to
+                make a healthy and water rich planet possible.
+              </em>
+            </strong>
           </p>
         </div>
       </div>

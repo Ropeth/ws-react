@@ -24,7 +24,10 @@ export default function Header() {
         <Menu />
       </nav>
       <div className="tagline">
-        <p>A co-created community space for water regeneration</p>
+        <p>
+          Global, ground-level community sharing of successful water literacy
+          and water retention methods
+        </p>
       </div>
     </div>
   );

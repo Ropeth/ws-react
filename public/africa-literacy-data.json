@@ -123,6 +123,15 @@
           "presentation": "https://waterways.world/images/Muonde_Trust's_Water_Harvesting.pdf"
         },
         {
+          "name": "Muonde Trust Training",
+          "theme": "Exchange visit",
+          "lat": "-21.506297",
+          "lon": "28.2839",
+          "publish": "WSA session 07/01/2025",
+          "intro": "<p>Some farmers from Burkina Faso, Kenya and Zambia undertook a learning exchange visit to the Muonde community in Mazvihwa communal lands, Zvishavane, in Zimbabwe in December 2024. Representatives of the farmers from each participating country share what they took away from the exchange visit</p>",
+          "src": "https://www.youtube.com/embed/4csxfr7tv-c?si=-_0V6f_aB9qKeU4B"
+        },
+        {
           "name": "Poret",
           "theme": "Water harvesting",
           "lat": -18.626272,
@@ -156,6 +165,15 @@
           "publish": "WSA session 03/10/2023",
           "intro": "<p>Rob Sacco presents on a series of interventions over the 42 hectare site of Nyahode Union Learning Centre , with earth core dams, weirs, swales, spillways, hillside dams, interconnected water systems, soakaways, managed woodlands, orchards and gardens, and an extensive reticulation system, consisting of pipings and storage tanks. This Working Examples system has survived a number of cyclones, including both Eline and Idai.</p><p>Nyahode Union Learning Centre  is  a centre for adult education set up by Rob Sacco and his wife Liesel in 1985, The adult education section of it has developed into the Nyahode Union Community Technical College, which carries out intensive Post O Level training in carpentry, tailoring, building, mechanics, and  agroecology. They have an Agroecology/Watershed Management team of 11 people.</p>",
           "src": "https://www.youtube-nocookie.com/embed/wuWvGhkc9-8?si=LNQLELpcV-yX6TDI"
+        },
+        {
+          "name": "Water harvesting work at Poshayi primary school",
+          "theme": "Water harvesting",
+          "lat": "-19.0771",
+          "lon": "29.9769",
+          "publish": "WSA session 11/02/2025",
+          "intro": "<p>Learners at Poshayi primary school in Shurugwi district of Zimbabwe redesign their school grounds in a holistic way to include structures that help them to improve water retention on their landscape. </p>",
+          "src": "https://www.youtube.com/embed/XkISAUvaiKc?si=OFCQh5srPyzQdT4m"
         }
       ]
     },
@@ -231,7 +249,49 @@
       ]
     },
     {
-      "country": "General",
+      "country": "Egypt",
+      "projects": [
+        {
+          "name": "Wisdom and renewal of Nile water culture",
+          "theme": "Water harvesting",
+          "lat": "24.052",
+          "lon": "32.5236",
+          "publish": "WSA session 01/04/2025",
+          "intro": "<p>During the session of the Water School Africa, Nourane Amr of Nile Journeys (Nurturing Impulses for Living Ecosystems: NILE) describes her partnership with the local communities along the Nile Valley tapping into very ancient wisdom and know-how to illustrate how good environmental practices and effective water harvesting can enhance community sustainability. The word “NILE” in NILE Journeys represents more than just the Nile River; it symbolizes the energetic essence of this majestic waterway.</p><p>Nourane Amr explores one of the 21 project prototypes catalyzed by them, which are implemented in Heissa Island, near Aswan, Egypt, a serene gem of Nubian culture and history and is one of the last remaining Nubian islands, having survived the challenges of flooding caused by the construction of the reservoir dam.</p><p>Discover the untapped resilience of this community, standing strong through generations despite the challenges of the reservoir and dam construction.</p>",
+          "src": "https://www.youtube.com/embed/D64FRB-PND8?si=5TFfn_R4ZFq1WyfI"
+        }
+      ]
+    },
+    {
+      "country": "Rwanda",
+      "projects": [
+        {
+          "name": "Effective Watershed Reclamation by Communities in Cameroon",
+          "theme": "Community Reforestation",
+          "lat": "6.1667",
+          "lon": "10.7833",
+          "publish": "WSA session 04/06/2025",
+          "intro": "<p>Eric Wirsiy from CENDEP, Cameroon explores the impact of forest destruction on water availability. Massive forest areas have been destroyed in the name of development and farming activities, leaving communities without sufficient water for its requirements.</p><p>In Northwestern Cameroon, the community of Mbiame, with support from CENDEP, has restored a degraded forest through a massive reforestation program covering an area of over 1050 hectares.</p><p>The presentation communicates an inspiring and successful story of watershed reclamation and its impact on improving water availability locally.</p><p>",
+          "src": "https://www.youtube.com/embed/ueg8F-6CiG8?si=zdp1DfI9hECFb5LO"
+        }
+      ]
+    },
+    {
+      "country": "Cameroon",
+      "projects": [
+        {
+          "name": "Discussion",
+          "theme": "Water harvesting",
+          "lat": "0",
+          "lon": "8.362691",
+          "publish": "WSA session 01/10/2024",
+          "intro": "A dicussion amonst participants into the essence of water harvesting around the questions <ul><li>How do we make sure that our rain water harvesting structures can withstand heavy storms which are becoming more common and more intense due to climate change?</li><li>How do we reduce seepage from ponds when we aim to store water in surface ponds and/or keep fish?</li><li>What is the biggest barrier to doing water holding work in small local communities?</li><li>How can we increase the local knowledge of, and spread of effective community based solutions for droughts or floods?</li><li>What kind of livelihood opportunities arise when there is ample water? How can these be enhanced?</li></ul> This session is moderated by Minni Jain of the Flow Partnership and Walter Mugove of ReSCOPE Zambia.</p>",
+          "src": "https://www.youtube.com/embed/hV-yHdHycoY?si=HmYV3d-thfyhip11"
+        }
+      ]
+    },
+    {
+      "country": "Africa",
       "projects": [
         {
           "name": "Discussion",

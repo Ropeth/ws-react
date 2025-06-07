@@ -15,7 +15,7 @@ export default function Menu() {
         <li className="nav-item dropdown">
           <Link
             className="nav-link dropdown-toggle"
-            to="#"
+            to="/africa-literacy"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
@@ -45,7 +45,7 @@ export default function Menu() {
         <li className="nav-item dropdown">
           <Link
             className="nav-link dropdown-toggle"
-            to="#"
+            to="/india-literacy"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
@@ -71,7 +71,7 @@ export default function Menu() {
         <li className="nav-item dropdown">
           <Link
             className="nav-link dropdown-toggle"
-            to="#"
+            to="/europe-literacy"
             id="navbarDropdownMenuLink"
             data-toggle="dropdown"
             aria-haspopup="true"
@@ -127,6 +127,13 @@ export default function Menu() {
               target="_blank"
             >
               One Pond Fund
+            </Link>
+            <Link
+              className="dropdown-item newtab"
+              to="https://waterschoolsnetwork.org/"
+              target="_blank"
+            >
+              Water Schools Network
             </Link>
           </div>
         </li>
