@@ -85,6 +85,7 @@ function App() {
               currentPin={currentPin}
               setCurrentPin={setCurrentPin}
               coords={coords}
+              slug={slug}
             />
           )}
         </div>

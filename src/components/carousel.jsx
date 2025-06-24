@@ -5,18 +5,30 @@ export default function Carousel() {
       <div
         id="carouselExampleIndicators"
         className="carousel slide spaced"
-        data-ride="carousel"
+        data-bs-ride="carousel"
       >
         <ol className="carousel-indicators">
           <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            className="active"
           ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+          ></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -59,7 +71,7 @@ export default function Carousel() {
           className="carousel-control-prev"
           href="#carouselExampleIndicators"
           role="button"
-          data-slide="prev"
+          data-bs-slide="prev"
         >
           <span
             className="carousel-control-prev-icon"
@@ -71,7 +83,7 @@ export default function Carousel() {
           className="carousel-control-next"
           href="#carouselExampleIndicators"
           role="button"
-          data-slide="next"
+          data-bs-slide="next"
         >
           <span
             className="carousel-control-next-icon"

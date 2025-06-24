@@ -3,8 +3,9 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-inner">
         <div>
-          © Water Schools / The Flow Partnership are part of Earthlinks UK,
-          registered charity number 1133056
+          <strong>
+            ©waterschools.org copyright: The Flow Partnership/EarthlinksUK©
+          </strong>
         </div>
         <div>
           <a href="#" target="_blank">
@@ -17,6 +18,10 @@ export default function Footer() {
           </a>
         </div>
       </div>
+      <p className="footer-notice">
+        Water Schools / The Flow Partnership are part of Earthlinks UK,
+        registered charity number 1133056
+      </p>
     </div>
   );
 }

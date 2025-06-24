@@ -36,8 +36,8 @@ export default function Contact() {
   return (
     <div id="root">
       <Header />
-      <div id="main">
-        <div className="info contact">
+      <div id="main" className="symmetrical">
+        <div className="info">
           <h1>Contact</h1>
           <p className="bigger">
             Water schools are global and local in their nature and they grow

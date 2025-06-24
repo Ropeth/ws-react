@@ -7,7 +7,7 @@
       "json": "africa-literacy",
       "map": "Africa-brown.svg",
       "school": "Africa",
-      "content": "<p><span class='h1-inline'>Water School Africa (WSA) </span>is a partnership between communities engaged in natural water retention practices in their local villages/areas/regions.</p><p>The overall goal of this Pan African Water School is to stimulate community interaction and action to improve an understanding of, and boost capacity in sustainable local, community based water resource management across Africa. <strong><em>And then to share that widely with each other as well as with people and communities across the world. </em></strong></p><p>In countries across the world, small communities are doing pioneering work in creating and securing local water sources and reversing the adverse impacts of too much water (floods) or too little water (droughts). This Water Schools web portal presents their successful methods of water retention interventions through their own presentations and videos of their successful methods.</p>"
+      "content": "<p><span className='h1-inline'>Water School Africa (WSA) </span>is a partnership between communities engaged in natural water retention practices in their local villages/areas/regions.</p><p>The overall goal of this Pan African Water School is to stimulate community interaction and action to improve an understanding of, and boost capacity in sustainable local, community based water resource management across Africa. <strong><em>And then to share that widely with each other as well as with people and communities across the world. </em></strong></p><p>In countries across the world, small communities are doing pioneering work in creating and securing local water sources and reversing the adverse impacts of too much water (floods) or too little water (droughts). This Water Schools web portal presents their successful methods of water retention interventions through their own presentations and videos of their successful methods.</p>"
     },
     {
       "id": 2,
@@ -42,7 +42,7 @@
       "json": "india-literacy",
       "map": "India-brown.svg",
       "school": "India",
-      "content": "<h1>Water Schools India Literacy</h1><p>Text to follow</p>"
+      "content": "<h1>Water Schools India Literacy</h1><p><strong>Water is not just a resource, but a right, a responsibility, and a shared future.</strong></p><p>Water School India (WSI) is built on a simple yet powerful idea: water conservation and livelihood generation must go hand in hand.</p><p>Water School India believes meaningful work is deeply rooted in the traditional knowledge and rural wisdom that communities have carried for generations. It believes in conserving water and empowering people with the skills, knowledge, and opportunities to lead change in their own communities. When people have secure and dignified livelihoods, their ability and motivation to protect natural resources grows stronger.</p><p>The best solutions come from the ground up. Through the Jal Saheli (Friends of Water) group, WSI places women firmly at the forefront of water leadership, learning and change. The women in the local communities are the teachers, the role models, the change-makers in many of the WSI programs. </p><p>Water School India aims to train100,000’s of young people, women, community leaders, who will go back into their villages and towns across nation and turn knowledge into action. From groundwater management to local water planning, from reviving traditional practices to influencing water policy, these water stewards will be equipped to respond to today’s challenges with clarity, right knowledge and commitment.</p><p>Water School India is a growing community, a shared purpose, and a collective promise to our planet. Water security isn’t just a hope for the future, but a reality we start building today.</p>"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "json": "india-actions",
       "map": "India-green.svg",
       "school": "India",
-      "content": "<h1>Water Schools India Action</h1><p>Without action – nothing changes. In these following pages you will find water holding projects that are close to completion or need support to begin.</p>"
+      "content": "<h1>Water Schools India Action</h1><h2>ReForesting Baran</h2><p>The Reforesting Baran Project which is re-greening and regenerating 531 sq kms of the KUNO forest hinterland in Rajasthan, India (where the cheetahs from Namibia have been re-settled) and its global implications for rebalancing our climate. (Read update on project <a href='/docs/TFP_Baran-1.pdf' target='_blank'>here</a>).</p>"
     },
     {
       "id": 7,
@@ -77,6 +77,15 @@
       "json": "europe-literacy",
       "map": null,
       "content": "<h1>Water Schools Europe Methods</h1><p>The following presentations and projects ...</p>"
+    },
+    {
+      "id": 10,
+      "title": "Global Water Schools",
+      "slug": "world-literacy",
+      "json": "world-literacy",
+      "map": "world.png",
+      "school": "World",
+      "content": ""
     }
   ]
 }

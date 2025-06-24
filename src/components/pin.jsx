@@ -46,8 +46,8 @@ export default function Pin({
             : { left: x + "%", top: y + "%" }
         }
         value={{ project }}
-        data-toggle="modal"
-        data-target={"#" + pinId}
+        data-bs-toggle="modal"
+        data-bs-target={"#" + pinId}
         onClick={handleClick}
       />
       <Modal

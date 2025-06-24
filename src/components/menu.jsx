@@ -12,108 +12,96 @@ export default function Menu() {
             Home
           </Link>
         </li>
-        <li className="nav-item dropdown">
-          <Link
-            className="nav-link dropdown-toggle"
-            to="/africa-literacy"
-            id="navbarDropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Water School Africa
-          </Link>
-          <div
-            className="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <Link className="dropdown-item" to="/africa-literacy">
-              Literacy
-            </Link>
-            <Link className="dropdown-item" to="/africa-actions">
-              Actions
-            </Link>
 
-            <Link className="dropdown-item" to="/africa-methods">
-              Methods
-            </Link>
-            <Link className="dropdown-item" to="/africa-partners">
-              Partners
-            </Link>
-          </div>
-        </li>
-        <li className="nav-item dropdown">
-          <Link
-            className="nav-link dropdown-toggle"
-            to="/india-literacy"
-            id="navbarDropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Water School India
-          </Link>
-          <div
-            className="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <Link className="dropdown-item" to="/india-literacy">
-              Literacy
-            </Link>
-            <Link className="dropdown-item" to="/india-actions">
-              Actions
-            </Link>
-            <Link className="dropdown-item" to="/india-methods">
-              Methods
-            </Link>
-          </div>
-        </li>
-        <li className="nav-item dropdown">
-          <Link
-            className="nav-link dropdown-toggle"
-            to="/europe-literacy"
-            id="navbarDropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Water School Europe
-          </Link>
-          <div
-            className="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <Link className="dropdown-item" to="/europe-literacy">
-              Literacy
-            </Link>
-            <Link className="dropdown-item" to="/europe-methods">
-              Methods
-            </Link>
-          </div>
-        </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/contact">
-            Contact
+          <Link className="nav-link" to="/about">
+            About
           </Link>
         </li>
+
         <li className="nav-item dropdown">
           <Link
             className="nav-link dropdown-toggle"
             to="#"
-            id="navbarDropdownMenuLink"
-            data-toggle="dropdown"
+            id="navbarDropdownWaterSchoolsLink"
+            data-bs-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
-            More
+            Water Schools
           </Link>
           <div
             className="dropdown-menu"
-            aria-labelledby="navbarDropdownMenuLink"
+            aria-labelledby="navbarDropdownWaterSchoolsLink"
           >
-            <Link className="dropdown-item" to="/about">
-              About Water Schools
-            </Link>
+            <div className="dropdown-submenu">
+              <Link className="dropdown-item" to="#">
+                Water School Africa
+              </Link>
+              <div className="dropdown-menu">
+                <Link className="dropdown-item" to="/africa-literacy">
+                  Water Literacy
+                </Link>
+                <Link className="dropdown-item" to="/africa-methods">
+                  Methods
+                </Link>
+                <Link className="dropdown-item" to="/africa-actions">
+                  Actions
+                </Link>
+                <Link className="dropdown-item" to="/africa-partners">
+                  Hubs
+                </Link>
+              </div>
+            </div>
+
+            <div className="dropdown-submenu">
+              <Link className="dropdown-item" to="#">
+                Water School India
+              </Link>
+              <div className="dropdown-menu">
+                <Link className="dropdown-item" to="/india-literacy">
+                  Water Literacy
+                </Link>
+                <Link className="dropdown-item" to="/india-actions">
+                  Actions
+                </Link>
+                <Link className="dropdown-item" to="/india-methods">
+                  Methods
+                </Link>
+              </div>
+            </div>
+
+            <div className="dropdown-submenu">
+              <Link className="dropdown-item" to="#">
+                Water School Europe
+              </Link>
+              <div className="dropdown-menu">
+                <Link className="dropdown-item" to="/europe-literacy">
+                  Literacy
+                </Link>
+                <Link className="dropdown-item" to="/europe-methods">
+                  Methods
+                </Link>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li className="nav-item dropdown">
+          <Link
+            className="nav-link dropdown-toggle"
+            to="#"
+            id="navbarDropdownFlowPartnershipLink"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Flow Partnership
+          </Link>
+          <div
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownFlowPartnershipLink"
+          >
             <Link
               className="dropdown-item newtab"
               to="https://www.theflowpartnership.org/"
@@ -136,6 +124,12 @@ export default function Menu() {
               Water Schools Network
             </Link>
           </div>
+        </li>
+
+        <li className="nav-item">
+          <Link className="nav-link" to="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
     </div>

@@ -6,15 +6,18 @@ export default function Header() {
   return (
     <div className="header">
       <nav className="nav navbar navbar-expand-md navbar-light">
-        <Link className="navbar-brand" to="/">
+        <Link
+          className="navbar-brand d-flex flex-column align-items-center"
+          to="/"
+        >
           <img src={wsLogo} className="logo" alt="Water Schools" />
+          <p className="navbar-brand">Water Schools</p>
         </Link>
-        <p className="navbar-brand">Water Schools</p>
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -23,12 +26,12 @@ export default function Header() {
         </button>
         <Menu />
       </nav>
-      <div className="tagline">
+      {/* <div className="tagline">
         <p>
           Global, ground-level community sharing of successful water literacy
           and water retention methods
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

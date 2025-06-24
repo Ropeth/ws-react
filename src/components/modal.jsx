@@ -20,7 +20,7 @@ export default function Modal({ id, project, stopVideo, currentPin }) {
                 id="stop"
                 type="button"
                 className="close"
-                data-dismiss="modal"
+                data-bs-dismiss="modal"
                 aria-label="Close"
                 onClick={() => stopVideo(videoRef, project.src)}
               >

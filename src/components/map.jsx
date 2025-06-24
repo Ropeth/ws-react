@@ -1,5 +1,5 @@
 import PinsLayer from "../components/pinsLayer";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import { pages } from "../data/pages.json";
 
 export default function Map({
@@ -8,8 +8,9 @@ export default function Map({
   setCurrentPin,
   currentPin,
   coords,
+  slug,
 }) {
-  var { slug } = useParams();
+  //var { slug } = useParams();
   if (slug == undefined) {
     slug = "africa-literacy";
   }
