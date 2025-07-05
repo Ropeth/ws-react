@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-inner">
-        <div>
+        <div className="copyright">
           <strong>
             ©waterschools.org copyright: The Flow Partnership/EarthlinksUK©
           </strong>

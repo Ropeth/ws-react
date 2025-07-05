@@ -13,10 +13,33 @@ export default function Menu() {
           </Link>
         </li>
 
-        <li className="nav-item">
-          <Link className="nav-link" to="/about">
+        <li className="nav-item dropdown">
+          <Link
+            className="nav-link dropdown-toggle"
+            to="#"
+            id="navbarDropdownWaterSchoolsLink"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
             About
           </Link>
+          <div
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownWaterSchoolsLink"
+          >
+            <div className="dropdown-submenu">
+              <Link className="nav-link" to="/about">
+                About Water Schools
+              </Link>
+            </div>
+
+            <div className="dropdown-submenu">
+              <Link className="nav-link" to="/history-and-present">
+                History &amp; Present
+              </Link>
+            </div>
+          </div>
         </li>
 
         <li className="nav-item dropdown">

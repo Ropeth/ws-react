@@ -116,8 +116,9 @@ export default function Home() {
               water Issues.
             </li>
             <li>
-              <strong>Action:</strong> Implementation of local water-holding
-              features and methods to recharge those landscapes and communities.
+              <strong>Water Action:</strong> Implementation of local
+              water-holding features and methods to recharge those landscapes
+              and communities.
             </li>
           </ol>
           <p>
