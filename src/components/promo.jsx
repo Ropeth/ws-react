@@ -60,20 +60,30 @@ const promoVids = {
   India: [
     {
       id: 1,
-      title: "India 1",
-      url: "https://www.youtube.com/embed/AUgx1aKY8P0?si=rnW-7dTro_9ftItA",
-    },
-    {
-      id: 2,
-      title: "India 2",
-      url: "https://www.youtube.com/embed/ZMeIlRoN9W4?si=MpqfMta-dmN5zTTL",
+      title: "Parmarth and Water School India",
+      url: "https://www.youtube-nocookie.com/embed/CmIe-CMhD94?si=5XKsdroUEvvDjq5w",
     },
   ],
   Europe: [
     {
       id: 1,
-      title: "Europe 1",
-      url: "https://www.youtube.com/embed/AUgx1aKY8P0?si=rnW-7dTro_9ftItA",
+      title: "Water harvesting",
+      url: "https://www.youtube.com/embed/ykIm5y3-tac?si=fFKe4jMozCaRKNQG",
+    },
+    {
+      id: 2,
+      title: "How to make wooden log dams?",
+      url: "https://www.youtube.com/embed/v7i3ccCxfYE?si=uDagniY5vBmIYIwC",
+    },
+    {
+      id: 3,
+      title: "How to build a rain garden?",
+      url: "https://www.youtube.com/embed/ItnQkwFZFPk?si=76XbQ-VNP2EGKTQf",
+    },
+    {
+      id: 4,
+      title: "How to build a rain garden? (2)",
+      url: "https://www.youtube.com/embed/KcoO4UnfjYM?si=CAU6snoUabAixZtH",
     },
   ],
 };

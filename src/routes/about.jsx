@@ -1,4 +1,3 @@
-import worldMap from "../assets/world.png";
 import Footer from "../components/footer";
 import Header from "../components/header";
 

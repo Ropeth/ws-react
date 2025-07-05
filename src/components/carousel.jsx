@@ -1,4 +1,3 @@
-import worldMap from "../assets/world.png";
 export default function Carousel() {
   return (
     <>

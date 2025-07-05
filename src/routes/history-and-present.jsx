@@ -1,4 +1,3 @@
-import worldMap from "../assets/world.png";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -16,24 +15,28 @@ export default function History() {
                 The Flow Partnership
               </a>{" "}
               was launched together along with{" "}
-              <a
-                href="https://www.theflowpartnership.org/water-up"
-                target="_blank"
-              >
+              <a href="https://www.arup.com/" target="_blank">
                 ARUP
               </a>{" "}
               in 2018 at the House of Lords UK. You can read about the Water Up
               and Water School project that was established together in 2018
               here:
             </p>
-            <h2>WaterUp &ndash; Water School</h2>
+            <h2>
+              <a
+                href="https://www.theflowpartnership.org/water-up"
+                target="_blank"
+              >
+                WaterUp &ndash; Water School
+              </a>
+            </h2>
             <p>
               Water Up was about piloting innovative digital tools to catalyse
               widespread water resources management and to enable their
               availability as open source through the Water Schools.
             </p>
             <a
-              href="https://www.theflowpartnership.org/water-up"
+              href="https://waterschool.maps.arcgis.com/apps/MapSeries/index.html?appid=2c706d31e9414f57a8203ed3a4fcd9b7&wmode=opaque"
               target="_blank"
               className="feature"
             >

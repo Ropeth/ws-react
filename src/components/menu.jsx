@@ -59,6 +59,23 @@ export default function Menu() {
           >
             <div className="dropdown-submenu">
               <Link className="dropdown-item" to="#">
+                Water School India
+              </Link>
+              <div className="dropdown-menu">
+                <Link className="dropdown-item" to="/india-literacy">
+                  Water Literacy
+                </Link>
+                <Link className="dropdown-item" to="/india-actions">
+                  Actions
+                </Link>
+                <Link className="dropdown-item" to="/india-methods">
+                  Methods
+                </Link>
+              </div>
+            </div>
+
+            <div className="dropdown-submenu">
+              <Link className="dropdown-item" to="#">
                 Water School Africa
               </Link>
               <div className="dropdown-menu">
@@ -79,16 +96,13 @@ export default function Menu() {
 
             <div className="dropdown-submenu">
               <Link className="dropdown-item" to="#">
-                Water School India
+                Water School Europe
               </Link>
               <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/india-literacy">
+                <Link className="dropdown-item" to="/europe-literacy">
                   Water Literacy
                 </Link>
-                <Link className="dropdown-item" to="/india-actions">
-                  Actions
-                </Link>
-                <Link className="dropdown-item" to="/india-methods">
+                <Link className="dropdown-item" to="/europe-methods">
                   Methods
                 </Link>
               </div>
@@ -96,14 +110,22 @@ export default function Menu() {
 
             <div className="dropdown-submenu">
               <Link className="dropdown-item" to="#">
-                Water School Europe
+                Water School S. America
               </Link>
               <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/europe-literacy">
-                  Literacy
+                <Link className="dropdown-item" to="/s-america-literacy">
+                  Water Literacy
                 </Link>
-                <Link className="dropdown-item" to="/europe-methods">
-                  Methods
+              </div>
+            </div>
+
+            <div className="dropdown-submenu">
+              <Link className="dropdown-item" to="#">
+                Water School Middle East
+              </Link>
+              <div className="dropdown-menu">
+                <Link className="dropdown-item" to="/middle-east-literacy">
+                  Water Literacy
                 </Link>
               </div>
             </div>

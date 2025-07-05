@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": 1,
-      "title": "Water School Africa - Literacy",
+      "title": "Water School Africa - Water Literacy",
       "slug": "africa-literacy",
       "json": "africa-literacy",
       "map": "Africa-brown.svg",
@@ -37,12 +37,12 @@
     },
     {
       "id": 5,
-      "title": "Water School India - Literacy",
+      "title": "Water School India - Water Literacy",
       "slug": "india-literacy",
       "json": "india-literacy",
       "map": "India-brown.svg",
       "school": "India",
-      "content": "<h1>Water Schools India Literacy</h1><p><strong>Water is not just a resource, but a right, a responsibility, and a shared future.</strong></p><p>Water School India (WSI) is built on a simple yet powerful idea: water conservation and livelihood generation must go hand in hand.</p><p>Water School India believes meaningful work is deeply rooted in the traditional knowledge and rural wisdom that communities have carried for generations. It believes in conserving water and empowering people with the skills, knowledge, and opportunities to lead change in their own communities. When people have secure and dignified livelihoods, their ability and motivation to protect natural resources grows stronger.</p><p>The best solutions come from the ground up. Through the Jal Saheli (Friends of Water) group, WSI places women firmly at the forefront of water leadership, learning and change. The women in the local communities are the teachers, the role models, the change-makers in many of the WSI programs. </p><p>Water School India aims to train100,000’s of young people, women, community leaders, who will go back into their villages and towns across nation and turn knowledge into action. From groundwater management to local water planning, from reviving traditional practices to influencing water policy, these water stewards will be equipped to respond to today’s challenges with clarity, right knowledge and commitment.</p><p>Water School India is a growing community, a shared purpose, and a collective promise to our planet. Water security isn’t just a hope for the future, but a reality we start building today.</p>"
+      "content": "<h1>Water Schools India Water Literacy</h1><p><strong>Water is not just a resource, but a right, a responsibility, and a shared future.</strong></p><p>Water School India (WSI) is built on a simple yet powerful idea: water conservation and livelihood generation must go hand in hand.</p><p>Water School India believes meaningful work is deeply rooted in the traditional knowledge and rural wisdom that communities have carried for generations. It believes in conserving water and empowering people with the skills, knowledge, and opportunities to lead change in their own communities. When people have secure and dignified livelihoods, their ability and motivation to protect natural resources grows stronger.</p><p>The best solutions come from the ground up. Through the Jal Saheli (Friends of Water) group, WSI places women firmly at the forefront of water leadership, learning and change. The women in the local communities are the teachers, the role models, the change-makers in many of the WSI programs. </p><p>Water School India aims to train100,000’s of young people, women, community leaders, who will go back into their villages and towns across nation and turn knowledge into action. From groundwater management to local water planning, from reviving traditional practices to influencing water policy, these water stewards will be equipped to respond to today’s challenges with clarity, right knowledge and commitment.</p><p>Water School India is a growing community, a shared purpose, and a collective promise to our planet. Water security isn’t just a hope for the future, but a reality we start building today.</p>"
     },
     {
       "id": 6,
@@ -63,12 +63,12 @@
     },
     {
       "id": 8,
-      "title": "Water School Europe - Literacy",
+      "title": "Water School Europe - Water Literacy",
       "slug": "europe-literacy",
       "json": "europe-literacy",
       "map": "Europe-brown.svg",
       "school": "Europe",
-      "content": "<h1>Water Schools Europe Literacy</h1><p>Text to follow</p>"
+      "content": "<h1>Water Schools Europe Water Literacy</h1><p>Text to follow</p>"
     },
     {
       "id": 9,
@@ -80,10 +80,28 @@
     },
     {
       "id": 10,
+      "title": "Water School S. America - Water Literacy",
+      "slug": "s-america-literacy",
+      "json": "s-america-literacy",
+      "map": "s-america-brown.svg",
+      "school": "S. America",
+      "content": "<h1>Water Schools South America Water Literacy</h1><p>Text and content to follow</p>"
+    },
+    {
+      "id": 11,
+      "title": "Water School Middle East - Water Literacy",
+      "slug": "middle-east-literacy",
+      "json": "middle-east-literacy",
+      "map": "middle-east-brown.svg",
+      "school": "Middle East",
+      "content": "<h1>Water Schools Middle East Water Literacy</h1><p>Text and content to follow</p>"
+    },
+    {
+      "id": 12,
       "title": "Global Water Schools",
       "slug": "world-literacy",
       "json": "world-literacy",
-      "map": "world.png",
+      "map": "world.svg",
       "school": "World",
       "content": ""
     }

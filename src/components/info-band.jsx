@@ -1,4 +1,3 @@
-import worldMap from "../assets/world.png";
 export default function InfoBand() {
   return (
     <>
@@ -26,22 +25,40 @@ export default function InfoBand() {
           <div className="carousel-item active">
             <div className="d-block w-100">
               <div className="news-item">
-                <img
-                  className="rounded news-image"
-                  // style={{ maxWidth: 30 + "%" }}
-                  src="/images/language-of-water.jpg"
-                  alt="The Language of Water"
-                />
+                <a
+                  href="https://www.amazon.co.uk/Language-Water-Ancient-Techniques-Community/dp/1957869194"
+                  target="_blank"
+                >
+                  <img
+                    className="rounded news-image"
+                    style={{ maxHeight: 95 + "%" }}
+                    src="/images/language-of-water.jpg"
+                    alt="The Language of Water"
+                  />
+                </a>
                 <h3>
-                  The Language of Water: Ancient Techniques and Community
-                  Stories for a Water Secure Future
+                  The Language of Water:{" "}
+                  <em>
+                    <span className="light">
+                      Ancient Techniques and Community Stories for a Water
+                      Secure Future
+                    </span>
+                  </em>
                 </h3>
                 <p>
-                  The Language of Water describes community water work around
-                  the world.
+                  Going beyond simply addressing climate change, The Language of
+                  Water shows us how to actively change the climate by learning
+                  from communities around the world and their traditional
+                  relationships with water.{" "}
                 </p>
-                <p>All royalties go to the projects.</p>
-                <form
+                <a
+                  href="https://www.amazon.co.uk/Language-Water-Ancient-Techniques-Community/dp/1957869194"
+                  target="_blank"
+                >
+                  Click here to purchase from Amazon.co.uk
+                </a>
+                {/* <p>All royalties go to the projects.</p> */}
+                {/* <form
                   action="https://www.paypal.com/ncp/payment/GGXAZVKLY9BN4"
                   method="post"
                   target="_blank"
@@ -65,7 +82,7 @@ export default function InfoBand() {
                       className="paypal-image"
                     />
                   </section>
-                </form>
+                </form> */}
               </div>
             </div>
           </div>
@@ -98,15 +115,23 @@ export default function InfoBand() {
                   src="/images/jal-sahelis.png"
                   alt="Jal Sahelis"
                 />
-                <h3>Language of Water Sessions</h3>
+                <h2>Language of Water Web Sessions</h2>
                 <p>
-                  Starting 22<sup>nd</sup> July 2025
+                  Starting 22<sup>nd</sup> July 2025.{" "}
+                  <a href="/contact">Contact us to attend.</a>
                 </p>
-                <p>
+                <h3>
                   Inaugural session presented by the Jal Sahelis: Friends of
                   Water India.
+                </h3>
+                <p>
+                  <a
+                    href="https://www.unicef.org/india/stories/jal-sahelis-lead-water-conservation-efforts-rajasthan"
+                    target="_blank"
+                  >
+                    Click here to read Unicef's article about the Jal Sahelis.
+                  </a>
                 </p>
-                <p>More details soon… </p>
               </div>
             </div>
           </div>

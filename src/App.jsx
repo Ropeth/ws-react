@@ -75,6 +75,8 @@ function App() {
       <Header />
       {/* {slug.includes("literacy") && <Promo school={page.school} />} */}
       {slug == "africa-literacy" && <Promo school={page.school} />}
+      {slug == "india-literacy" && <Promo school={page.school} />}
+      {slug == "europe-literacy" && <Promo school={page.school} />}
       <div id="main">
         <div id="row1">
           <Main thisIntro={page.content} />

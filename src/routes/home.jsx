@@ -3,9 +3,8 @@ import { pages } from "../data/pages.json";
 import { useState, useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
-// import Promo from "../components/promo";
+import Promo from "../components/promo";
 import InfoBand from "../components/info-band";
-import worldMap from "../assets/world.png";
 
 import Map from "../components/map";
 
@@ -72,18 +71,27 @@ export default function Home() {
     <div id="root">
       <Header />
       {/* <Promo school="Africa" /> */}
-      {/* <Promo school="Home" /> */}
       <InfoBand />
       {/* <Carousel /> */}
       <div id="main" className="symmetrical">
         <div className="info home">
-          <h1>Welcome to Water Schools</h1>
-          <p>
-            Water has no colour and gives life to all EQUALLY. The single
-            largest way to restore the water cycles of our planet is through the
-            myriad communities living on the planet and the wisdom of water
-            retention they hold within them. The Water Schools amplify{" "}
-            <strong>their voice</strong> in bringing the planet back to balance.
+          <h1 className="sr-only">Welcome to Water Schools</h1>
+          <h2 className="center">Water is at the Centre of climate change</h2>
+          <p className="center">
+            41% of land on the planet has become desertified and this figure is
+            only going upwards.
+          </p>
+          <h2 className="center">
+            Local communitites are at the centre of the solution
+          </h2>
+          <p className="center">
+            When we work in collaboration with local communities, harnessing
+            their wisdom and knowledge, we can quickly reverse some of the worst
+            effects of climate change at scale.
+          </p>
+          <p className="center">
+            Water Schools amplify their voice and wisdom of water harvesting,
+            spread the solutions and enable water retention action at scale.
           </p>
           <Map
             pins={pins}
@@ -97,7 +105,7 @@ export default function Home() {
             src={worldMap}
             className="spaced"
             alt="Water Schools world map"
-          /> */}
+            /> */}
           <p>
             <em>
               A ground level movement of water literacy and water action spread
@@ -131,7 +139,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-
+      <Promo school="Home" />
       <Footer />
     </div>
   );
