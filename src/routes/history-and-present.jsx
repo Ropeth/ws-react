@@ -10,16 +10,16 @@ export default function History() {
         <div className="info">
           <h1>History &amp; Present</h1>
           <div className="inset">
-            <a href="https://www.arup.com/" target="_blank" className="feature">
-              <img src="./images/arup-website.jpg" />
-            </a>
             <p>
               The Water Schools strand envisioned by{" "}
               <a href="https://www.theflowpartnership.org/" target="_blank">
                 The Flow Partnership
               </a>{" "}
               was launched together along with{" "}
-              <a href="https://www.arup.com/" target="_blank">
+              <a
+                href="https://www.theflowpartnership.org/water-up"
+                target="_blank"
+              >
                 ARUP
               </a>{" "}
               in 2018 at the House of Lords UK. You can read about the Water Up
@@ -32,6 +32,13 @@ export default function History() {
               widespread water resources management and to enable their
               availability as open source through the Water Schools.
             </p>
+            <a
+              href="https://www.theflowpartnership.org/water-up"
+              target="_blank"
+              className="feature"
+            >
+              <img src="./images/water-up-website.jpg" />
+            </a>
             <p>
               Water Schools are about spreading that local wisdom and water
               literacy through various elements such as farmers presenting

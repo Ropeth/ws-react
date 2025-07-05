@@ -29,13 +29,13 @@ export default function Menu() {
             aria-labelledby="navbarDropdownWaterSchoolsLink"
           >
             <div className="dropdown-submenu">
-              <Link className="nav-link" to="/about">
+              <Link className="dropdown-item" to="/about">
                 About Water Schools
               </Link>
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="nav-link" to="/history-and-present">
+              <Link className="dropdown-item" to="/history-and-present">
                 History &amp; Present
               </Link>
             </div>
@@ -131,13 +131,6 @@ export default function Menu() {
               target="_blank"
             >
               Flow Partnership
-            </Link>
-            <Link
-              className="dropdown-item newtab"
-              to="https://www.onepondfund.org/"
-              target="_blank"
-            >
-              One Pond Fund
             </Link>
             <Link
               className="dropdown-item newtab"
