@@ -1,20 +1,6 @@
 {
   "pins": [
     {
-      "country": "Kenya",
-      "projects": [
-        {
-          "name": "RIDEP Kenya",
-          "theme": "Water harvesting",
-          "lat": -0.14753,
-          "lon": 37.97373,
-          "publish": "",
-          "intro": "<p>RIDEP enhances the resilience of Tharaka through demonstrations on soil and water conservation</p>",
-          "link": "https://ridepkenya.org/"
-        }
-      ]
-    },
-    {
       "country": "Zimbabwe",
       "projects": [
         {
@@ -25,6 +11,20 @@
           "publish": "",
           "intro": "<p>The Muonde Trust is a community-based organisation in the dry, south-west of Zimbabwe. Community-driven water-harvesting is at the heart of their work. Their formation was inspired by the work of Zimbabwe's Waterman, Zephaniah Phiri, who spent some years working in Mazvihwa in the 1980s, with those who later formed the Muonde Trust.</p>",
           "link": "https://muonde.org"
+        }
+      ]
+    },
+    {
+      "country": "Zambia",
+      "projects": [
+        {
+          "name": "Rescope",
+          "theme": "Water harvesting",
+          "lat": -15.424862,
+          "lon": 28.362691,
+          "publish": "",
+          "intro": "<p>ReScope focuses on education in water</p>",
+          "link": "https://www.seedingschools.org/"
         }
       ]
     },
@@ -43,16 +43,30 @@
       ]
     },
     {
-      "country": "Zambia",
+      "country": "Burkina Faso",
       "projects": [
         {
-          "name": "Rescope",
-          "theme": "Water harvesting",
-          "lat": -15.424862,
-          "lon": 28.362691,
+          "name": "Groundswell International",
+          "theme": "",
+          "lat": -1.6,
+          "lon": 13,
           "publish": "",
-          "intro": "<p>ReScope focuses on education in water</p>",
-          "link": "https://www.seedingschools.org/"
+          "intro": "",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "country": "Kenya",
+      "projects": [
+        {
+          "name": "RIDEP Kenya",
+          "theme": "Water harvesting",
+          "lat": -0.14753,
+          "lon": 37.97373,
+          "publish": "",
+          "intro": "<p>RIDEP enhances the resilience of Tharaka through demonstrations on soil and water conservation</p>",
+          "link": "https://ridepkenya.org/"
         }
       ]
     }

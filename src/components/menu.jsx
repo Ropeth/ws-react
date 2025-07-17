@@ -58,76 +58,33 @@ export default function Menu() {
             aria-labelledby="navbarDropdownWaterSchoolsLink"
           >
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="#">
+              <Link className="dropdown-item" to="/india-literacy">
                 Water School India
               </Link>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/india-literacy">
-                  Water Literacy
-                </Link>
-                <Link className="dropdown-item" to="/india-actions">
-                  Actions
-                </Link>
-                <Link className="dropdown-item" to="/india-methods">
-                  Methods
-                </Link>
-              </div>
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="#">
+              <Link className="dropdown-item" to="/africa-literacy">
                 Water School Africa
               </Link>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/africa-literacy">
-                  Water Literacy
-                </Link>
-                <Link className="dropdown-item" to="/africa-methods">
-                  Methods
-                </Link>
-                <Link className="dropdown-item" to="/africa-actions">
-                  Actions
-                </Link>
-                <Link className="dropdown-item" to="/africa-partners">
-                  Hubs
-                </Link>
-              </div>
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="#">
+              <Link className="dropdown-item" to="/europe-literacy">
                 Water School Europe
               </Link>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/europe-literacy">
-                  Water Literacy
-                </Link>
-                <Link className="dropdown-item" to="/europe-methods">
-                  Methods
-                </Link>
-              </div>
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="#">
+              <Link className="dropdown-item" to="/s-america-literacy">
                 Water School S. America
               </Link>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/s-america-literacy">
-                  Water Literacy
-                </Link>
-              </div>
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="#">
+              <Link className="dropdown-item" to="/middle-east-literacy">
                 Water School Middle East
               </Link>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/middle-east-literacy">
-                  Water Literacy
-                </Link>
-              </div>
             </div>
           </div>
         </li>

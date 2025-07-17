@@ -544,6 +544,9 @@ em {
   margin-bottom: 1rempx;
   padding: 5px;
 }
+#contact-form button {
+  float: right;
+}
 @media screen and (max-width: 768px) {
   .info.contact {
     padding: 0;
@@ -629,4 +632,14 @@ section {
 .carousel-control-prev {
   width: 6%;
   opacity: 1;
+}
+a.button {
+  display: inline-block;
+  background-color: var(--wspromobg);
+  border: 1px solid var(--wsdarkgreen);
+  padding: 0.1em 0.4em;
+  border-radius: 0.5em;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5em;
 }

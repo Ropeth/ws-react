@@ -60,6 +60,26 @@ const promoVids = {
   India: [
     {
       id: 1,
+      title: "Water for all",
+      url: "https://www.youtube.com/embed/JKXGfyR5_SY?si=6NiS21Fhhf96QB2x",
+    },
+    {
+      id: 2,
+      title: "Johads",
+      url: "https://www.youtube.com/embed/MRwavSnUhLQ?si=UsVX1eOHejAULaZ3",
+    },
+    {
+      id: 3,
+      title: "WaterUp Introduction",
+      url: "https://www.youtube.com/embed/xQFsqN05eb4?si=gRXJYABBHOjkx0of",
+    },
+    {
+      id: 4,
+      title: "WaterUp Language Neutral Tool",
+      url: "https://www.youtube.com/embed/sx_Fre3VUU0?si=U9Co0JNQEmAUayw2",
+    },
+    {
+      id: 5,
       title: "Parmarth and Water School India",
       url: "https://www.youtube-nocookie.com/embed/CmIe-CMhD94?si=5XKsdroUEvvDjq5w",
     },

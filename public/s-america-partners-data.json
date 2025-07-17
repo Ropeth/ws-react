@@ -1,0 +1,18 @@
+{
+  "pins": [
+    {
+      "country": "Colombia",
+      "projects": [
+        {
+          "name": "Origen Circular, Barichara",
+          "theme": "",
+          "lat": -73,
+          "lon": 6.6,
+          "publish": "",
+          "intro": "",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

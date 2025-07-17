@@ -7,7 +7,7 @@
       "json": "africa-literacy",
       "map": "Africa-brown.svg",
       "school": "Africa",
-      "content": "<p><span className='h1-inline'>Water School Africa (WSA) </span>is a partnership between communities engaged in natural water retention practices in their local villages/areas/regions.</p><p>The overall goal of this Pan African Water School is to stimulate community interaction and action to improve an understanding of, and boost capacity in sustainable local, community based water resource management across Africa. <strong><em>And then to share that widely with each other as well as with people and communities across the world. </em></strong></p><p>In countries across the world, small communities are doing pioneering work in creating and securing local water sources and reversing the adverse impacts of too much water (floods) or too little water (droughts). This Water Schools web portal presents their successful methods of water retention interventions through their own presentations and videos of their successful methods.</p>"
+      "content": "<h1>Water School Africa (WSA)</h1>   <a href='/africa-literacy' class='button'>Water Literacy</a>   <a href='/africa-actions' class='button'>Action</a>    <a href='/africa-methods' class='button'>Methods</a>       <a href='/africa-partners' class='button'>Hubs</a>    <h2>Water Literacy</h2><p>Water School Africa (WSA) is a partnership between communities engaged in natural water retention practices in their local villages/areas/regions. As it grows across the continent of Africa, you will find communities and methods rom all the 54 countries from the continent presenting their successful water harvesting stories.</p><p>The overall goal of this Pan African Water School is to stimulate community interaction and action to improve an understanding of, and boost capacity in sustainable local, community based water resource management across Africa. <i>And then to share that widely with each other as well as with people and communities across the world.</i></p>"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "json": "africa-actions",
       "map": "Africa-green.svg",
       "school": "Africa",
-      "content": "<h1>Water Schools Africa Action</h1><p>Without action – nothing changes. In these following pages you will find water holding projects that are close to completion or need support to begin.</p><p>Click on the pins on the map to find out more about these projects on <a href='https://www.onepondfund.org/' target='_blank'>onepondfund.org</a>.</p>"
+      "content": "<h1>Water School Africa (WSA)</h1>    <a href='/africa-literacy' class='button'>Water Literacy</a>   <a href='/africa-actions' class='button'>Action</a>    <a href='/africa-methods' class='button'>Methods</a>       <a href='/africa-partners' class='button'>Hubs</a>    <h2>Action</h2><p>Without action – nothing changes. In these following pages you will find water holding projects that are close to completion or need support to begin.</p>"
     },
     {
       "id": 3,
@@ -24,16 +24,16 @@
       "slug": "africa-methods",
       "json": "africa-literacy",
       "map": null,
-      "content": "<h1>Water Schools Africa Methods</h1><p>The following presentations and projects were presented by the various communities on the online forum of Water School Africa over the last couple of years.</p>"
+      "content": "<h1>Water School Africa</h1>    <a href='/africa-literacy' class='button'>Water Literacy</a>   <a href='/africa-actions' class='button'>Action</a>    <a href='/africa-methods' class='button'>Methods</a>       <a href='/africa-partners' class='button'>Hubs</a>    <h2>Methods</h2><p>The following presentations and projects were presented by the various communities on the online forum of Water School Africa over the last couple of years.</p>"
     },
     {
       "id": 4,
-      "title": "Water School Africa - Partners",
+      "title": "Water School Africa - Hubs",
       "slug": "africa-partners",
       "json": "africa-partners",
       "map": "Africa-blue.svg",
       "school": "Africa",
-      "content": "<h1>Water Schools Africa Partners</h1><p>We trust in true partnership and facilitate mutual sharing of an unfiltered learning between communities. The successful methods of water retention are often based in traditional wisdom which becomes a resonant route to amplifying action locally. When a local method is successful, it gets talked about more and other communities find it easy to understand and replicate that success.</p><p>WSA partners with local respected and successful NGOs to facilitate water literacy in their communities, as articulated by the communities themselves.</p><p>Please click on a pin to see the current partners in different countries in Africa.</p>"
+      "content": "<h1>Water School Africa</h1>    <a href='/africa-literacy' class='button'>Water Literacy</a>   <a href='/africa-actions' class='button'>Action</a>    <a href='/africa-methods' class='button'>Methods</a>       <a href='/africa-partners' class='button'>Hubs</a>    <h2>Hubs</h2><p>We trust in true partnership and facilitate mutual sharing of an unfiltered learning between communities. The successful methods of water retention are often based in traditional wisdom which becomes a resonant route to amplifying action locally. When a local method is successful, it gets talked about more and other communities find it easy to understand and replicate that success.</p><p>WSA partners with local respected and successful NGOs to facilitate water literacy in their communities, as articulated by the communities themselves.</p><p>Please click on a pin to see the current partners in different countries in Africa.</p>"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "json": "india-literacy",
       "map": "India-brown.svg",
       "school": "India",
-      "content": "<h1>Water Schools India Water Literacy</h1><p><strong>Water is not just a resource, but a right, a responsibility, and a shared future.</strong></p><p>Water School India (WSI) is built on a simple yet powerful idea: water conservation and livelihood generation must go hand in hand.</p><p>Water School India believes meaningful work is deeply rooted in the traditional knowledge and rural wisdom that communities have carried for generations. It believes in conserving water and empowering people with the skills, knowledge, and opportunities to lead change in their own communities. When people have secure and dignified livelihoods, their ability and motivation to protect natural resources grows stronger.</p><p>The best solutions come from the ground up. Through the Jal Saheli (Friends of Water) group, WSI places women firmly at the forefront of water leadership, learning and change. The women in the local communities are the teachers, the role models, the change-makers in many of the WSI programs. </p><p>Water School India aims to train100,000’s of young people, women, community leaders, who will go back into their villages and towns across nation and turn knowledge into action. From groundwater management to local water planning, from reviving traditional practices to influencing water policy, these water stewards will be equipped to respond to today’s challenges with clarity, right knowledge and commitment.</p><p>Water School India is a growing community, a shared purpose, and a collective promise to our planet. Water security isn’t just a hope for the future, but a reality we start building today.</p>"
+      "content": "<h1>Water School India (WSI)</h1>    <a href='/india-literacy' class='button'>Water Literacy</a>   <a href='/india-actions' class='button'>Action</a>    <a href='/india-methods' class='button'>Methods</a>    <a href='/india-partners' class='button'>Hubs</a>    <h2>Water Literacy</h2><p><strong>Water is not just a resource, but a right, a responsibility, and a shared future.</strong></p><p>Water School India (WSI) is built on a simple yet powerful idea: water conservation and livelihood generation must go hand in hand.</p><p>Water School India believes meaningful work is deeply rooted in the traditional knowledge and rural wisdom that communities have carried for generations. It believes in conserving water and empowering people with the skills, knowledge, and opportunities to lead change in their own communities. When people have secure and dignified livelihoods, their ability and motivation to protect natural resources grows stronger.</p><p>The best solutions come from the ground up. Through the Jal Saheli (Friends of Water) group, WSI places women firmly at the forefront of water leadership, learning and change. The women in the local communities are the teachers, the role models, the change-makers in many of the WSI programs. </p><p>Water School India aims to train100,000’s of young people, women, community leaders, who will go back into their villages and towns across nation and turn knowledge into action. From groundwater management to local water planning, from reviving traditional practices to influencing water policy, these water stewards will be equipped to respond to today’s challenges with clarity, right knowledge and commitment.</p><p>Water School India is a growing community, a shared purpose, and a collective promise to our planet. Water security isn’t just a hope for the future, but a reality we start building today.</p>"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "json": "india-actions",
       "map": "India-green.svg",
       "school": "India",
-      "content": "<h1>Water Schools India Action</h1><h2>ReForesting Baran</h2><p>The Reforesting Baran Project which is re-greening and regenerating 531 sq kms of the KUNO forest hinterland in Rajasthan, India (where the cheetahs from Namibia have been re-settled) and its global implications for rebalancing our climate. (Read update on project <a href='/docs/TFP_Baran-1.pdf' target='_blank'>here</a>).</p>"
+      "content": "<h1>Water School India (WSI)</h1>    <a href='/india-literacy' class='button'>Water Literacy</a>   <a href='/india-actions' class='button'>Action</a>    <a href='/india-methods' class='button'>Methods</a>    <a href='/india-partners' class='button'>Hubs</a>    <h2>Action</h2><h2>ReForesting Baran</h2><p>The Reforesting Baran Project which is re-greening and regenerating 531 sq kms of the KUNO forest hinterland in Rajasthan, India (where the cheetahs from Namibia have been re-settled) and its global implications for rebalancing our climate. (Read update on project <a href='/docs/TFP_Baran-1.pdf' target='_blank'>here</a>).</p>"
     },
     {
       "id": 7,
@@ -59,45 +59,72 @@
       "slug": "india-methods",
       "json": "india-literacy",
       "map": null,
-      "content": "<h1>Water Schools India Methods</h1><p>The following presentations and projects ...</p>"
+      "content": "<h1>Water School India (WSI)</h1>    <a href='/india-literacy' class='button'>Water Literacy</a>   <a href='/india-actions' class='button'>Action</a>    <a href='/india-methods' class='button'>Methods</a>    <a href='/india-partners' class='button'>Hubs</a>    <h2>Methods</h2><p>The following presentations and projects ...</p>"
     },
     {
       "id": 8,
+      "title": "Water School India - Hubs",
+      "slug": "india-partners",
+      "json": "india-partners",
+      "map": "India-blue.svg",
+      "school": "India",
+      "content": "<h1>Water School India (WSI)</h1>    <a href='/india-literacy' class='button'>Water Literacy</a>   <a href='/india-actions' class='button'>Action</a>    <a href='/india-methods' class='button'>Methods</a>    <a href='/india-partners' class='button'>Hubs</a>    <h2>Hubs</h2><p><strong>Parmarth Social Service Organisation PSSS/India</strong has been working for the last 30 years in regenerating the landscapes and water structures of Bundelkhand and Rajasthan in India, touching the lives of over 1 million people across 724 villages.</p><p>PSSS has also initiated a very powerful project called Jal Sahelis (Friends of Water), where women from the most deprived and backward regions in India, faced with every imaginable obstacle in their path, have taken charge and are bringing water to their villages, alleviating severe drought. Their work and success is a tremendous achievement for the world and a masterclass in determination, persistence and action. They have been applauded and awarded by the President of India too!</p>"
+    },
+    {
+      "id": 9,
       "title": "Water School Europe - Water Literacy",
       "slug": "europe-literacy",
       "json": "europe-literacy",
       "map": "Europe-brown.svg",
       "school": "Europe",
-      "content": "<h1>Water Schools Europe Water Literacy</h1><p>Text to follow</p>"
+      "content": "<h1>Water School Europe (WSE)</h1>    <a href='/europe-literacy' class='button'>Water Literacy</a>   <a href='/europe-methods' class='button'>Methods</a>    <a href='/europe-partners' class='button'>Hubs</a> <h2>Water Literacy</h2><p>It's the Beavers who do it …</p>"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Water School Europe - Methods",
       "slug": "europe-methods",
       "json": "europe-literacy",
       "map": null,
-      "content": "<h1>Water Schools Europe Methods</h1><p>The following presentations and projects ...</p>"
+      "content": "<h1>Water School Europe (WSE)</h1>    <a href='/europe-literacy' class='button'>Water Literacy</a>   <a href='/europe-methods' class='button'>Methods</a>    <a href='/europe-partners' class='button'>Hubs</a> <h2>Methods</h2><p>The following presentations and projects ...</p>"
     },
     {
-      "id": 10,
+      "id": 11,
+      "title": "Water School Europe - Hubs",
+      "slug": "europe-partners",
+      "json": "europe-partners",
+      "map": "Europe-brown.svg",
+      "school": "Europe",
+      "content": "<h1>Water School Europe (WSE)</h1>    <a href='/europe-literacy' class='button'>Water Literacy</a>   <a href='/europe-methods' class='button'>Methods</a>    <a href='/europe-partners' class='button'>Hubs</a> <h2>Hubs</h2><p>Text to follow</p>"
+    },
+    {
+      "id": 12,
       "title": "Water School S. America - Water Literacy",
       "slug": "s-america-literacy",
       "json": "s-america-literacy",
       "map": "s-america-brown.svg",
       "school": "S. America",
-      "content": "<h1>Water Schools South America Water Literacy</h1><p>Text and content to follow</p>"
+      "content": "<h1>Water School South America</h1>    <a href='/s-america-literacy' class='button'>Water Literacy</a>   <a href='/s-america-partners' class='button'>Hubs</a> <h2>Water Literacy</h2><p>Water School South America began with a promise from the children of Barichara, Colombia. </p><p>“Felipe Medina of Origen Circular, Barichara Colombia, contacted The Flow Partnership with tales of dry tributaries in Barichara, wondering what they could do and how they might involve their community. </p><p>The story that Felipe told of Barichara is not exceptional. It traces how a once thriving ecosystem, through neglect and miscalculation, has been turned into a water-deprived area without a working waste disposal treatment plant that is reliant on a faraway reservoir to pump water in from outside the region. The traditional methods that used to hold the water have been disregarded, the creeks and springs are dry, and water shortages are now common. The forest has been cut, the land has dried out, and the rainfall has diminished without the trees acting to circulate the moisture in the air. Abundant water on our planet is not a guarantee. There is nothing to stop us from breaking the water cycle anywhere and everywhere if we choose to do so. Through our actions, we can easily, over time, become a dry and dusty planet like Mars, incapable of supporting life. Water presents the same challenge for Felipe Medina in Colombia as it does for Rajendra Singh in India, or Zephaniah Phiri in Africa. “ </p><p>“Our goals of learning how to live regeneratively remain largely elusive… this deep [dream] of a life transformation takes time to manifest, after all…. But it wasn’t until we walked in the forest with a group of children at play that we began to actually do something about it. And this small step may prove to be all the difference in our lives.” - Joe Brewer</p><p>(From <i>“The Language of Water”</i> by Minni Jain and Philip Franses, Synergetic Press 2025)</p>"
     },
     {
-      "id": 11,
+      "id": 13,
+      "title": "Water School S. America - Hubs",
+      "slug": "s-america-partners",
+      "json": "s-america-partners",
+      "map": "s-america-brown.svg",
+      "school": "S. America",
+      "content": "<h1>Water School South America</h1>    <a href='/s-america-literacy' class='button'>Water Literacy</a>   <a href='/s-america-partners' class='button'>Hubs</a>   <h2>Hubs</h2><p>Text to follow</p>"
+    },
+    {
+      "id": 14,
       "title": "Water School Middle East - Water Literacy",
       "slug": "middle-east-literacy",
       "json": "middle-east-literacy",
       "map": "middle-east-brown.svg",
       "school": "Middle East",
-      "content": "<h1>Water Schools Middle East Water Literacy</h1><p>Text and content to follow</p>"
+      "content": "<h1>Water School Middle East Water Literacy</h1><p>Text and content to follow</p>"
     },
     {
-      "id": 12,
+      "id": 15,
       "title": "Global Water Schools",
       "slug": "world-literacy",
       "json": "world-literacy",

@@ -76,13 +76,13 @@ export default function Home() {
       <div id="main" className="symmetrical">
         <div className="info home">
           <h1 className="sr-only">Welcome to Water Schools</h1>
-          <h2 className="center">Water is at the Centre of climate change</h2>
+          <h2 className="center">Water is at the centre of climate change</h2>
           <p className="center">
             41% of land on the planet has become desertified and this figure is
             only going upwards.
           </p>
           <h2 className="center">
-            Local communitites are at the centre of the solution
+            Local communities are at the centre of the solution
           </h2>
           <p className="center">
             When we work in collaboration with local communities, harnessing
