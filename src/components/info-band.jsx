@@ -117,8 +117,7 @@ export default function InfoBand() {
                 />
                 <h2>Language of Water Web Sessions</h2>
                 <p>
-                  Starting 22<sup>nd</sup> July 2025.{" "}
-                  <a href="/contact">Contact us to attend.</a>
+                  Coming soon <a href="/contact">Contact us to attend.</a>
                 </p>
                 <h3>
                   Inaugural session presented by the Jal Sahelis: Friends of
