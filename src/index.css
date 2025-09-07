@@ -3,6 +3,7 @@
 :root {
   font-size: 16px;
   --wsblue: #21b6a8;
+  --wsdarkblue: #054a61;
   --wslightblue: #d2e8f0;
   --seablue: #d7eef7;
   --wsgreen: #18a558;
@@ -215,7 +216,7 @@ li.dropdown-submenu {
   background: rgb(11 76 6 / 50%) !important;
 }
 .carousel-inner .news-item {
-  height: 150px;
+  height: 160px;
   transition: -webkit-transform 4s ease;
   transition: transform 4s ease;
   transition: transform 4s ease, -webkit-transform 2s ease;
@@ -475,7 +476,7 @@ a.pres {
 }
 em {
   font-weight: 600;
-  color: var(--wsblue);
+  color: var(--wsdarkblue);
 }
 .info.home b,
 .info.home strong {
@@ -503,12 +504,26 @@ em {
   width: 100%;
 }
 .inset > p {
-  flex: 1 1 75%;
+  flex: 1 1 55%;
 }
 .inset > img {
   width: 20%;
   max-width: 100px;
   flex: 0 1 20%;
+}
+.inset > img.large-inline {
+  max-width: 100%;
+  flex: 0 1 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .inset > img.large-inline {
+    max-width: 100%;
+    flex: 0 1 100%;
+  }
+  .inset > p {
+    flex: 1 1 100%;
+  }
 }
 .inset .feature {
   width: 200px;

@@ -203,8 +203,24 @@
           "x": 54,
           "y": 40,
           "publish": "",
-          "intro": "<p>Michal Kravcik and Danka Kravcikova of People and Water Solvakia have developed far reaching tools to estimate the run off of water in a region and to implement measures to hold the water in the ground. </p><p>One way of slowing the rain so it can sink into the ground is to build log dams higher up the catchment, in the forest, which will impede the run off from storm events, allow infiltration and distribute the water into the wider landscape.</p><p>The footage is filmed from the building of a leaky wooden dam at a Summer School event in 2019, attended by the Flow Partnership",
+          "intro": "<p>Michal Kravcik and Danka Kravcikova of People and Water Solvakia have developed far reaching tools to estimate the run off of water in a region and to implement measures to hold the water in the ground. </p><p>One way of slowing the rain so it can sink into the ground is to build log dams higher up the catchment, in the forest, which will impede the run off from storm events, allow infiltration and distribute the water into the wider landscape.</p><p>The footage is filmed from the building of a leaky wooden dam at a Summer School event in 2019, attended by the Flow Partnership</p>",
           "src": "https://www.youtube.com/embed/ULHDRyvpL0k?si=wU-Bc3bGoY9rg-UG"
+        }
+      ]
+    },
+    {
+      "country": "Colombia",
+      "projects": [
+        {
+          "name": "Water School South America",
+          "theme": "Water retention",
+          "lat": "6.6",
+          "lon": "-73",
+          "x": 28.4,
+          "y": 63,
+          "publish": "",
+          "intro": "<p>Water School South America began with a promise from the children of Barichara, Colombia. Their parents contacted The Flow Partnership in 2021 with tales of dry tributaries in Barichara, wondering what <em>they</em> could do and how they might involve their community in regeneration to become water secure.</p><p>From then on, a ground movement of traditional water retention practices, modern successful techniques and intervention, has brought the local mayors and politicians on side. A whole host of concerned and willing folk in the local communities in Colombia and in the other countries have been coming together and setting up a system of learning and implementation with the Flow Partnership’s Water Schools, that will be culturally relevant and impactful across the continent.</p><p>Water School South America is launching as a water literacy, knowledge exchange, and seed-dispersion platform for community-led restoration in the region.</p><p>It will stimulate decentralized action by from concept to demonstration and then realisation. It will link the methodology of the global Water Schools platform to inspire other communities with online presentations of successful methods and stimulate decentralized water activation through mechanisms such as the “Water Cup” challenge—an incentive-based mechanism for communities to implement water retention practices using their own initiative and resources.</p><p>It will also continuously facilitate South–South learning exchanges with practitioners from Water School India and Africa.</p><p>More soon…</p>",
+          "src": ""
         }
       ]
     }

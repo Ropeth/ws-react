@@ -10,11 +10,11 @@ export default function History() {
           <h1>History &amp; Present</h1>
           <div className="inset">
             <p>
-              The Water Schools strand envisioned by{" "}
+              The Water Schools are envisioned by{" "}
               <a href="https://www.theflowpartnership.org/" target="_blank">
                 The Flow Partnership
               </a>{" "}
-              was launched together along with{" "}
+              and were launched together with{" "}
               <a href="https://www.arup.com/" target="_blank">
                 ARUP
               </a>{" "}
