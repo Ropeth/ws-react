@@ -16,9 +16,11 @@ export default function About() {
             </p>
             <p>
               <em>
-                What if more and more communities could learn this water wisdom
-                from each other and then take action to hold the water in the
-                ground locally?
+                <strong>
+                  What if more and more communities could learn this water
+                  wisdom from each other and then take action to hold the water
+                  in the ground locally?
+                </strong>
               </em>
             </p>
             <img src="/images/ws-icon-2.png" />
@@ -57,8 +59,10 @@ export default function About() {
             <img src="/images/ws-icon-4.png" />
             <p>
               <em>
-                Find the most suitable method to revive your own local
-                catchments and landscape.
+                <strong>
+                  Find the most suitable method to revive your own local
+                  catchments and landscape.
+                </strong>
               </em>
             </p>
             <p>
@@ -72,8 +76,10 @@ export default function About() {
             <p>
               <strong>
                 <em>
-                  No more talk. Real people taking real action in partnership
-                  with each other.
+                  <strong>
+                    No more talk. Real people taking real action in partnership
+                    with each other.
+                  </strong>
                 </em>
               </strong>
             </p>

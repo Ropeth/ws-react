@@ -3,6 +3,7 @@ import { pages } from "./data/pages.json";
 import { useParams } from "react-router-dom";
 import Header from "./components/header";
 import Main from "./components/main";
+import Row from "./components/row";
 import Map from "./components/map";
 import MethodsCont from "./components/methods-container";
 import Footer from "./components/footer";
@@ -91,6 +92,11 @@ function App() {
             />
           )}
         </div>
+        {page.map != null && (
+          <div id="row2">
+            <Row thisIntro={page.row2} />
+          </div>
+        )}
         {page.map == null && (
           <div id="row2">
             <div id="methods-container">

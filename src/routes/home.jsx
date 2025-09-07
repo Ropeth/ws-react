@@ -108,11 +108,13 @@ export default function Home() {
             /> */}
           <p>
             <em>
-              A ground level movement of water literacy and water action spread
-              by these diverse communities has begun across the world. Water
-              Schools are independent forums where local communities, farmers,
-              individuals and anyone who is interested comes to share or learn
-              successful water recharge methods from each other.
+              <strong>
+                A ground level movement of water literacy and water action
+                spread by these diverse communities has begun across the world.
+                Water Schools are independent forums where local communities,
+                farmers, individuals and anyone who is interested comes to share
+                or learn successful water recharge methods from each other.
+              </strong>
             </em>
           </p>
           <p>The focus is twofold:</p>
@@ -132,8 +134,10 @@ export default function Home() {
           <p>
             <strong>
               <em>
-                Just ordinary and extraordinary people harvesting rainwater, to
-                make a healthy and water rich planet possible.
+                <strong>
+                  Just ordinary and extraordinary people harvesting rainwater,
+                  to make a healthy and water rich planet possible.
+                </strong>
               </em>
             </strong>
           </p>

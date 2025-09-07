@@ -48,10 +48,12 @@ export default function Contact() {
           </p>
           <p>
             <em>
-              If you know a successful method of holding water in the ground or
-              of a community, in any part of the world, that is using successful
-              methods of landscape water retention, please send us an email and
-              introduce them to us and us to them.
+              <strong>
+                If you know a successful method of holding water in the ground
+                or of a community, in any part of the world, that is using
+                successful methods of landscape water retention, please send us
+                an email and introduce them to us and us to them.
+              </strong>
             </em>
           </p>
         </div>

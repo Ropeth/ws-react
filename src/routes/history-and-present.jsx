@@ -103,9 +103,11 @@ export default function History() {
             </p>
             <p>
               <em>
-                And it was decided to keep them free to use since the owners of
-                this knowledge are the communities themselves who share their
-                wisdom generously and freely.
+                <strong>
+                  And it was decided to keep them free to use since the owners
+                  of this knowledge are the communities themselves who share
+                  their wisdom generously and freely.
+                </strong>
               </em>
             </p>
           </div>
