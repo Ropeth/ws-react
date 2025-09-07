@@ -1,6 +1,5 @@
 import Contact from "./routes/contact.jsx";
 import About from "./routes/about.jsx";
-import WhatWeDo from "./routes/what-we-do.jsx";
 import Home from "./routes/home.jsx";
 import History from "./routes/history-and-present.jsx";
 import App from "./App.jsx";
@@ -10,7 +9,6 @@ export const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/home", element: <Home /> },
   { path: "/about", element: <About /> },
-  { path: "/what-we-do", element: <WhatWeDo /> },
   { path: "/contact", element: <Contact /> },
   { path: "/history-and-present", element: <History /> },
   { path: ":slug", element: <App /> },

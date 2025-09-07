@@ -240,7 +240,7 @@ li.dropdown-submenu {
 }
 #row1 {
   display: flex;
-  flex-wrap: none;
+  flex-wrap: nowrap;
   align-content: flex-start;
 }
 
@@ -400,7 +400,21 @@ a.pres {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 75%;
+  }
+}
+img.float-left {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  max-width: 40%;
+}
+img.float-right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  max-width: 40%;
+}
 /*///////////
 // METHOD  //
 ///////////*/

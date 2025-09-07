@@ -35,12 +35,6 @@ export default function Menu() {
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="/what-we-do">
-                What We Do
-              </Link>
-            </div>
-
-            <div className="dropdown-submenu">
               <Link className="dropdown-item" to="/history-and-present">
                 History &amp; Present
               </Link>
@@ -112,7 +106,7 @@ export default function Menu() {
           >
             <Link
               className="dropdown-item newtab"
-              to="https://www.theflowpartnership.org/"
+              to="https://www.theflowpartnership.org/what-we-do"
               target="_blank"
             >
               Flow Partnership

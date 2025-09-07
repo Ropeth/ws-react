@@ -13,7 +13,10 @@ export default function Footer() {
           </a>
         </div>
         <div>
-          <a href="https://www.theflowpartnership.org/" target="_blank">
+          <a
+            href="https://www.theflowpartnership.org/what-we-do"
+            target="_blank"
+          >
             theflowpartnership.org
           </a>
         </div>

@@ -11,7 +11,10 @@ export default function History() {
           <div className="inset">
             <p>
               The Water Schools are envisioned by{" "}
-              <a href="https://www.theflowpartnership.org/" target="_blank">
+              <a
+                href="https://www.theflowpartnership.org/what-we-do"
+                target="_blank"
+              >
                 The Flow Partnership
               </a>{" "}
               and were launched together with{" "}
