@@ -108,10 +108,13 @@ const promoVids = {
   ],
 };
 const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 1550 },
+  megaLargeDesktop: {
+    breakpoint: { max: 1550, min: 3000 },
     items: 5,
+  },
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 1550 },
+    items: 4,
   },
   desktop: {
     breakpoint: { max: 1550, min: 1250 },

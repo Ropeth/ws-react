@@ -29,7 +29,7 @@ export default function Map({
         coords={coords}
       />
       <div className="map-label">
-        <p>Click on the map pins above for more information.</p>
+        <p>Click on the map pins above for more information</p>
       </div>
     </div>
   );

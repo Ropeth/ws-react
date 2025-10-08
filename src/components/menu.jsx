@@ -82,8 +82,8 @@ export default function Menu() {
             </div>
 
             <div className="dropdown-submenu">
-              <Link className="dropdown-item" to="/middle-east-literacy">
-                Water School Middle East
+              <Link className="dropdown-item" to="/nepal-literacy">
+                Water School Nepal
               </Link>
             </div>
           </div>

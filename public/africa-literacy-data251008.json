@@ -71,15 +71,6 @@
           "intro": "<p>Josephat Barasa of Practical Permaculture Institute, along with colleague Walter Mugove show the impact of the water retaining structures on the farms, the landscapes and  the communities. The presentation shows photos of Josephat's work in school gardens, farms of men and women farmers.</p><p>Some questions the presentation addresses: How does one scale out this work in water retention on farms and landscapes? What are the challenges encountered and how have they been overcome? How can smallholders farmers and children remain motivated to keep on working on water retention?</p>",
           "src": "https://www.youtube-nocookie.com/embed/JhYCeg5xBVk?si=W8hi5iRaR-4XVGN_",
           "presentation": "https://waterways.world/AfricaWaterSchool_JB.pdf"
-        },
-		{
-          "name": "Harvesting Hope: Lessons from a Kenyan Rainwater Exchange Visit",
-          "theme": "Water Harvesting",
-          "lat": 0.1484,
-          "lon": 37.97,
-          "publish": "WSA session 02/09/2025",
-          "intro": "<p>From June 09 to June 14, 2025, 13 farmers from five African countries participated in a learning exchange visit with farmers in Marimanti, Kenya.The visited was hosted by RIDEP on behalf of the Water School Africa.  The farmers learnt from each other’s water harvesting techniques as well as visted 6 different sites showcasing various water harvesting techniques across diverse geographical landscapes in Kenya..</p><p>
-		  "src": "https://www.youtube.com/embed/ubc0ekHSXU0?si=SeugPZU56YL_Gyvd"       
         }
       ]
     },
@@ -272,6 +263,20 @@
       ]
     },
     {
+      "country": "Rwanda",
+      "projects": [
+        {
+          "name": "Water Harvesting in Rwanda",
+          "theme": "Water Harvesting",
+          "lat": "-2.00",
+          "lon": "30.00",
+          "publish": "WSA session 06/05/2025",
+          "intro": "<p>The  INGABO syndicate is a network of over 16,000 farmers, 54.1% of which are women spread across 10 provinces in Rwanda. Recognized by the government in 2005, it promotes different sustainable water harvesting techniques. The INGABO syndicate also encourages different traditional methods to retain moisture and sustain food cropping. This syndicate is a member of the East Africa Farmers Federation and the World Farmers Organization.</p><p>In this session our hosts from INGABO syndicate are the CEO Mbabazi Fracois Xavier, Senior Agronomist Manariyo Victor, Communication Officer Byiringiro Jean Paul and Session presenter Agronomist Dutonnyekumana Prosper together with community farmers picked around the 10 provinces of Rwanda. We learn from the farmers who are transforming their lives through sustainable water harvesting how the syndicate empowers communities through training in water retention to alleviate hunger and poverty.</p>",
+          "src": "https://www.youtube.com/embed/ZWQctjNfdNo?si=j-gMypYM_rSpe-x2"
+        }
+      ]
+    },
+    {
       "country": "Cameroon",
       "projects": [
         {
@@ -282,48 +287,6 @@
           "publish": "WSA session 04/06/2025",
           "intro": "<p>Eric Wirsiy from CENDEP, Cameroon explores the impact of forest destruction on water availability. Massive forest areas have been destroyed in the name of development and farming activities, leaving communities without sufficient water for its requirements.</p><p>In Northwestern Cameroon, the community of Mbiame, with support from CENDEP, has restored a degraded forest through a massive reforestation program covering an area of over 1050 hectares.</p><p>The presentation communicates an inspiring and successful story of watershed reclamation and its impact on improving water availability locally.</p><p>",
           "src": "https://www.youtube.com/embed/ueg8F-6CiG8?si=zdp1DfI9hECFb5LO"
-        }
-      ]
-    },
-    {
-      "country": "Uganda",
-      "projects": [
-        {
-          "name": "Community-led Water-harvesting in Uganda",
-          "theme": "Water harvesting",
-          "lat": "0.62778",
-          "lon": "30.96777",
-          "publish": "WSA session 05/08/2025",
-          "intro": "<p>Jackson Kanunu shares his family's inspiring story of Dream Farm in Uganda, and their vision for providing water to the community he is deeply connected to. </p><p>“A testament to the power of resilience and community spirit.”</p><p>Jackson’s journey started with displacement caused by war in 1986, which forced him and his very old mother, Bataguza Faith, to begin anew in a resettlement program. Despite difficulties, Jackson's mother worked tirelessly to educate him, caring for school gardens and tending to school cows. After completing his education and through their collective efforts, they acquired land. In a remarkable act of generosity, they donated six acres to the community for development projects, including a community-led water harvesting initiative, called Dream Farm.</p><p>",
-          "src": "https://www.youtube.com/embed/kMZfy-26lKE?si=WZoo8jKAhD8FB943"
-        }
-      ]
-    },
-	{
-      "country": "Ghana",
-      "projects": [
-        {
-          "name": "Sustainable Water Harvesting for Food Security: Lessons from Northern Ghana",
-          "theme": "Water harvesting",
-          "lat": "-1.0",
-          "lon": "-10.0",
-          "publish": "WSA session 07/10/2025",
-          "intro": "<p>Issifu Sulemana, Team Lead at the Centre for Ecological Agriculture and Livelihoods (CEAL-Ghana),  shares his learning on sustainable land and water management practices and climate change adaptation. With experience of training over 10,000 smallholder farmers and leading advocacy efforts, Issifu discusses approaches that work to realise sustainable water harvesting and building resilience in the face of climate change. </p><p>Learning together how to practise community water harvesting is like receiving the keys to our own future - by continually experimenting, in each case the best way forward is found.</p><p>",
-          "src": "https://www.youtube.com/embed/eO3he0pIiWg?si=YyKTS2gxj9YC9xIC"
-        }
-      ]
-    },
-    {
-      "country": "Rwanda",
-      "projects": [
-        {
-          "name": "Water Harvesting in Rwanda",
-          "theme": "Water harvesting",
-          "lat": "-2.00",
-          "lon": "30.00",
-          "publish": "WSA session 06/05/2025",
-  	  "intro": "<p>The  INGABO syndicate is a network of over 16,000 farmers, 54.1% of which are women spread across 10 provinces in Rwanda. Recognized by the government in 2005, it promotes different sustainable water harvesting techniques. The INGABO syndicate also encourages different traditional methods to retain moisture and sustain food cropping. This syndicate is a member of the East Africa Farmers Federation and the World Farmers Organization.</p><p>In this session our hosts from INGABO syndicate are the CEO Mbabazi Fracois Xavier, Senior Agronomist Manariyo Victor, Communication Officer Byiringiro Jean Paul and Session presenter Agronomist Dutonnyekumana Prosper together with community farmers picked around the 10 provinces of Rwanda. We learn from the farmers who are transforming their lives through sustainable water harvesting how the syndicate empowers communities through training in water retention to alleviate hunger and poverty.</p>",
-          "src": "https://www.youtube.com/embed/ZWQctjNfdNo?si=j-gMypYM_rSpe-x2"
         }
       ]
     },

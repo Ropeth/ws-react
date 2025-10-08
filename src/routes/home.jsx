@@ -77,19 +77,19 @@ export default function Home() {
         <div className="info home">
           <h1 className="sr-only">Welcome to Water Schools</h1>
           <h2 className="center">Water is at the centre of climate change</h2>
-          <p className="center">
+          <p className="center balance">
             41% of land on the planet has become desertified and this figure is
             only going upwards.
           </p>
           <h2 className="center">
             Local communities are at the centre of the solution
           </h2>
-          <p className="center">
+          <p className=" balance center">
             When we work in collaboration with local communities, harnessing
             their wisdom and knowledge, we can quickly reverse some of the worst
             effects of climate change at scale.
           </p>
-          <p className="center">
+          <p className=" balance center">
             Water Schools amplify their voice and wisdom of water harvesting,
             spread the solutions and enable water retention action at scale.
           </p>
