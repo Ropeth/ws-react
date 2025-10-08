@@ -72,14 +72,14 @@
           "src": "https://www.youtube-nocookie.com/embed/JhYCeg5xBVk?si=W8hi5iRaR-4XVGN_",
           "presentation": "https://waterways.world/AfricaWaterSchool_JB.pdf"
         },
-		{
+        {
           "name": "Harvesting Hope: Lessons from a Kenyan Rainwater Exchange Visit",
           "theme": "Water Harvesting",
           "lat": 0.1484,
           "lon": 37.97,
           "publish": "WSA session 02/09/2025",
-          "intro": "<p>From June 09 to June 14, 2025, 13 farmers from five African countries participated in a learning exchange visit with farmers in Marimanti, Kenya.The visited was hosted by RIDEP on behalf of the Water School Africa.  The farmers learnt from each other’s water harvesting techniques as well as visted 6 different sites showcasing various water harvesting techniques across diverse geographical landscapes in Kenya..</p><p>
-		  "src": "https://www.youtube.com/embed/ubc0ekHSXU0?si=SeugPZU56YL_Gyvd"       
+          "intro": "<p>From June 09 to June 14, 2025, 13 farmers from five African countries participated in a learning exchange visit with farmers in Marimanti, Kenya.The visited was hosted by RIDEP on behalf of the Water School Africa.  The farmers learnt from each other’s water harvesting techniques as well as visted 6 different sites showcasing various water harvesting techniques across diverse geographical landscapes in Kenya.</p>",
+          "src": "https://www.youtube.com/embed/ubc0ekHSXU0?si=SeugPZU56YL_Gyvd"
         }
       ]
     },
@@ -134,8 +134,8 @@
         {
           "name": "Muonde Trust Training",
           "theme": "Exchange visit",
-          "lat": "-21.506297",
-          "lon": "28.2839",
+          "lat": -21.506297,
+          "lon": 28.2839,
           "publish": "WSA session 07/01/2025",
           "intro": "<p>Some farmers from Burkina Faso, Kenya and Zambia undertook a learning exchange visit to the Muonde community in Mazvihwa communal lands, Zvishavane, in Zimbabwe in December 2024. Representatives of the farmers from each participating country share what they took away from the exchange visit</p>",
           "src": "https://www.youtube.com/embed/4csxfr7tv-c?si=-_0V6f_aB9qKeU4B"
@@ -178,8 +178,8 @@
         {
           "name": "Water harvesting work at Poshayi primary school",
           "theme": "Water harvesting",
-          "lat": "-19.0771",
-          "lon": "29.9769",
+          "lat": -19.0771,
+          "lon": 29.9769,
           "publish": "WSA session 11/02/2025",
           "intro": "<p>Learners at Poshayi primary school in Shurugwi district of Zimbabwe redesign their school grounds in a holistic way to include structures that help them to improve water retention on their landscape. </p>",
           "src": "https://www.youtube.com/embed/XkISAUvaiKc?si=OFCQh5srPyzQdT4m"
@@ -263,8 +263,8 @@
         {
           "name": "Wisdom and renewal of Nile water culture",
           "theme": "Water harvesting",
-          "lat": "24.052",
-          "lon": "32.5236",
+          "lat": 24.052,
+          "lon": 32.5236,
           "publish": "WSA session 01/04/2025",
           "intro": "<p>During the session of the Water School Africa, Nourane Amr of Nile Journeys (Nurturing Impulses for Living Ecosystems: NILE) describes her partnership with the local communities along the Nile Valley tapping into very ancient wisdom and know-how to illustrate how good environmental practices and effective water harvesting can enhance community sustainability. The word “NILE” in NILE Journeys represents more than just the Nile River; it symbolizes the energetic essence of this majestic waterway.</p><p>Nourane Amr explores one of the 21 project prototypes catalyzed by them, which are implemented in Heissa Island, near Aswan, Egypt, a serene gem of Nubian culture and history and is one of the last remaining Nubian islands, having survived the challenges of flooding caused by the construction of the reservoir dam.</p><p>Discover the untapped resilience of this community, standing strong through generations despite the challenges of the reservoir and dam construction.</p>",
           "src": "https://www.youtube.com/embed/D64FRB-PND8?si=5TFfn_R4ZFq1WyfI"
@@ -277,10 +277,10 @@
         {
           "name": "Effective Watershed Reclamation by Communities in Cameroon",
           "theme": "Community Reforestation",
-          "lat": "6.1667",
-          "lon": "10.7833",
+          "lat": 6.1667,
+          "lon": 10.7833,
           "publish": "WSA session 04/06/2025",
-          "intro": "<p>Eric Wirsiy from CENDEP, Cameroon explores the impact of forest destruction on water availability. Massive forest areas have been destroyed in the name of development and farming activities, leaving communities without sufficient water for its requirements.</p><p>In Northwestern Cameroon, the community of Mbiame, with support from CENDEP, has restored a degraded forest through a massive reforestation program covering an area of over 1050 hectares.</p><p>The presentation communicates an inspiring and successful story of watershed reclamation and its impact on improving water availability locally.</p><p>",
+          "intro": "<p>Eric Wirsiy from CENDEP, Cameroon explores the impact of forest destruction on water availability. Massive forest areas have been destroyed in the name of development and farming activities, leaving communities without sufficient water for its requirements.</p><p>In Northwestern Cameroon, the community of Mbiame, with support from CENDEP, has restored a degraded forest through a massive reforestation program covering an area of over 1050 hectares.</p><p>The presentation communicates an inspiring and successful story of watershed reclamation and its impact on improving water availability locally.</p>",
           "src": "https://www.youtube.com/embed/ueg8F-6CiG8?si=zdp1DfI9hECFb5LO"
         }
       ]
@@ -291,24 +291,24 @@
         {
           "name": "Community-led Water-harvesting in Uganda",
           "theme": "Water harvesting",
-          "lat": "0.62778",
-          "lon": "30.96777",
+          "lat": 0.62778,
+          "lon": 30.96777,
           "publish": "WSA session 05/08/2025",
-          "intro": "<p>Jackson Kanunu shares his family's inspiring story of Dream Farm in Uganda, and their vision for providing water to the community he is deeply connected to. </p><p>“A testament to the power of resilience and community spirit.”</p><p>Jackson’s journey started with displacement caused by war in 1986, which forced him and his very old mother, Bataguza Faith, to begin anew in a resettlement program. Despite difficulties, Jackson's mother worked tirelessly to educate him, caring for school gardens and tending to school cows. After completing his education and through their collective efforts, they acquired land. In a remarkable act of generosity, they donated six acres to the community for development projects, including a community-led water harvesting initiative, called Dream Farm.</p><p>",
+          "intro": "<p>Jackson Kanunu shares his family's inspiring story of Dream Farm in Uganda, and their vision for providing water to the community he is deeply connected to. </p><p>“A testament to the power of resilience and community spirit.”</p><p>Jackson’s journey started with displacement caused by war in 1986, which forced him and his very old mother, Bataguza Faith, to begin anew in a resettlement program. Despite difficulties, Jackson's mother worked tirelessly to educate him, caring for school gardens and tending to school cows. After completing his education and through their collective efforts, they acquired land. In a remarkable act of generosity, they donated six acres to the community for development projects, including a community-led water harvesting initiative, called Dream Farm.</p>",
           "src": "https://www.youtube.com/embed/kMZfy-26lKE?si=WZoo8jKAhD8FB943"
         }
       ]
     },
-	{
+    {
       "country": "Ghana",
       "projects": [
         {
           "name": "Sustainable Water Harvesting for Food Security: Lessons from Northern Ghana",
           "theme": "Water harvesting",
-          "lat": "-1.0",
-          "lon": "-10.0",
+          "lat": 8,
+          "lon": -1,
           "publish": "WSA session 07/10/2025",
-          "intro": "<p>Issifu Sulemana, Team Lead at the Centre for Ecological Agriculture and Livelihoods (CEAL-Ghana),  shares his learning on sustainable land and water management practices and climate change adaptation. With experience of training over 10,000 smallholder farmers and leading advocacy efforts, Issifu discusses approaches that work to realise sustainable water harvesting and building resilience in the face of climate change. </p><p>Learning together how to practise community water harvesting is like receiving the keys to our own future - by continually experimenting, in each case the best way forward is found.</p><p>",
+          "intro": "<p>Issifu Sulemana, Team Lead at the Centre for Ecological Agriculture and Livelihoods (CEAL-Ghana),  shares his learning on sustainable land and water management practices and climate change adaptation. With experience of training over 10,000 smallholder farmers and leading advocacy efforts, Issifu discusses approaches that work to realise sustainable water harvesting and building resilience in the face of climate change. </p><p>Learning together how to practise community water harvesting is like receiving the keys to our own future - by continually experimenting, in each case the best way forward is found.</p>",
           "src": "https://www.youtube.com/embed/eO3he0pIiWg?si=YyKTS2gxj9YC9xIC"
         }
       ]
@@ -319,10 +319,12 @@
         {
           "name": "Water Harvesting in Rwanda",
           "theme": "Water harvesting",
-          "lat": "-2.00",
-          "lon": "30.00",
+          "lat": -2.0,
+          "lon": 30.0,
+          "x": 67,
+          "y": 55,
           "publish": "WSA session 06/05/2025",
-  	  "intro": "<p>The  INGABO syndicate is a network of over 16,000 farmers, 54.1% of which are women spread across 10 provinces in Rwanda. Recognized by the government in 2005, it promotes different sustainable water harvesting techniques. The INGABO syndicate also encourages different traditional methods to retain moisture and sustain food cropping. This syndicate is a member of the East Africa Farmers Federation and the World Farmers Organization.</p><p>In this session our hosts from INGABO syndicate are the CEO Mbabazi Fracois Xavier, Senior Agronomist Manariyo Victor, Communication Officer Byiringiro Jean Paul and Session presenter Agronomist Dutonnyekumana Prosper together with community farmers picked around the 10 provinces of Rwanda. We learn from the farmers who are transforming their lives through sustainable water harvesting how the syndicate empowers communities through training in water retention to alleviate hunger and poverty.</p>",
+          "intro": "<p>The  INGABO syndicate is a network of over 16,000 farmers, 54.1% of which are women spread across 10 provinces in Rwanda. Recognized by the government in 2005, it promotes different sustainable water harvesting techniques. The INGABO syndicate also encourages different traditional methods to retain moisture and sustain food cropping. This syndicate is a member of the East Africa Farmers Federation and the World Farmers Organization.</p><p>In this session our hosts from INGABO syndicate are the CEO Mbabazi Fracois Xavier, Senior Agronomist Manariyo Victor, Communication Officer Byiringiro Jean Paul and Session presenter Agronomist Dutonnyekumana Prosper together with community farmers picked around the 10 provinces of Rwanda. We learn from the farmers who are transforming their lives through sustainable water harvesting how the syndicate empowers communities through training in water retention to alleviate hunger and poverty.</p>",
           "src": "https://www.youtube.com/embed/ZWQctjNfdNo?si=j-gMypYM_rSpe-x2"
         }
       ]
