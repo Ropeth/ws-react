@@ -8,17 +8,17 @@ export default function MethodsCont({
   thisPage,
 }) {
   var filteredProjects = projects.filter(
-    (project) => selectedMethod === "All" || project.theme === selectedMethod
+    (project) => selectedMethod === "All" || project.theme === selectedMethod,
   );
   useEffect(() => {
     filteredProjects = projects.filter(
-      (project) => selectedMethod === "All" || project.theme === selectedMethod
+      (project) => selectedMethod === "All" || project.theme === selectedMethod,
     );
   }, [thisPage, selectedMethod]);
 
   return (
     <>
-      <h4>{country}</h4>
+      <h4 className="country">{country}</h4>
       {filteredProjects.length === 0 && <p>No projects found</p>}
       {filteredProjects.map((project, key) => {
         return <Method key={key} project={project} />;

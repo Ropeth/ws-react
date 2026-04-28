@@ -23,8 +23,8 @@ export default function About() {
                 </strong>
               </em>
             </p>
-            <img src="/images/ws-icon-2.png" />
-            <img src="/images/ws-icon-7.png" />
+            <img className="small-icon-img" src="/images/ws-icon-2.png" />
+            <img className="small-icon-img" src="/images/ws-icon-7.png" />
             <p>
               If enough people on the ground know how to and actually hold the
               rain water that falls from the sky, then globally we could begin
@@ -37,8 +37,8 @@ export default function About() {
               or colonial echoes, restoring the planet's water cycles back to
               health – at ground level.
             </p>
-            <img src="/images/ws-icon-6.png" />
-            <img src="/images/ws-icon-3.png" />
+            <img className="small-icon-img" src="/images/ws-icon-6.png" />
+            <img className="small-icon-img" src="/images/ws-icon-3.png" />
             <p>
               A Water School is <strong>a forum</strong> for you and your
               community to come to and learn how to hold water, regenerate your
@@ -55,8 +55,8 @@ export default function About() {
               decentralised water retention and water conservation methods from
               across the planet.
             </p>
-            <img src="/images/ws-icon-5.png" />
-            <img src="/images/ws-icon-4.png" />
+            <img className="small-icon-img" src="/images/ws-icon-5.png" />
+            <img className="small-icon-img" src="/images/ws-icon-4.png" />
             <p>
               <em>
                 <strong>
@@ -72,7 +72,7 @@ export default function About() {
               into increasing global fresh water availability and responding to
               changing climate patterns.
             </p>
-            <img src="/images/ws-icon-8.png" />
+            <img className="small-icon-img" src="/images/ws-icon-8.png" />
             <p>
               <strong>
                 <em>

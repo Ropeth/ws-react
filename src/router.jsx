@@ -2,6 +2,7 @@ import Contact from "./routes/contact.jsx";
 import About from "./routes/about.jsx";
 import Home from "./routes/home.jsx";
 import History from "./routes/history-and-present.jsx";
+import JalSahelis from "./routes/tribal-women-as-water-leaders.jsx";
 import App from "./App.jsx";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -11,5 +12,6 @@ export const router = createBrowserRouter([
   { path: "/about", element: <About /> },
   { path: "/contact", element: <Contact /> },
   { path: "/history-and-present", element: <History /> },
+  { path: "/tribal-women-as-water-leaders", element: <JalSahelis /> },
   { path: ":slug", element: <App /> },
 ]);

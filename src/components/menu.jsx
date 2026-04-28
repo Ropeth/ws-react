@@ -38,6 +38,12 @@ export default function Menu() {
               <Link className="dropdown-item" to="/history-and-present">
                 History &amp; Present
               </Link>
+              <Link
+                className="dropdown-item"
+                to="/tribal-women-as-water-leaders"
+              >
+                Tribal Women as Water Leaders
+              </Link>
             </div>
           </div>
         </li>

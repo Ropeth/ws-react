@@ -25,6 +25,30 @@ export default function InfoBand() {
           <div className="carousel-item active">
             <div className="d-block w-100">
               <div className="news-item">
+                <a href="/tribal-women-as-water-leaders" target="_blank">
+                  <img
+                    className="rounded news-image"
+                    style={{ maxHeight: 95 + "%" }}
+                    src="/images/jal-sahelis-2.jpg"
+                    alt="Jal Sahelis meeting"
+                  />
+                </a>
+                <h3>Women grassroots leaders transforming water systems</h3>
+                <h4>Water School India</h4>
+                <p>
+                  In the quiet, water-scarce landscapes of Rajasthan, a silent
+                  transformation has begun to unfold &ndash; led by the strength
+                  and determination of the women living there.
+                </p>
+                <a href="/tribal-women-as-water-leaders" target="_blank">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="d-block w-100">
+              <div className="news-item">
                 <a
                   href="https://www.amazon.co.uk/Language-Water-Ancient-Techniques-Community/dp/1957869194"
                   target="_blank"
