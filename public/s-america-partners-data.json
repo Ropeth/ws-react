@@ -5,12 +5,12 @@
       "projects": [
         {
           "name": "Origen Circular, Barichara",
-          "theme": "",
-          "lat": -73,
-          "lon": 6.6,
+          "theme": "Water retention",
+          "lat": 6.6,
+          "lon": -73,
           "publish": "",
-          "intro": "",
-          "link": "#"
+          "intro": "Chorreras, a historical site along the Barichara Creek, is currently being activated as a bioregional learning hub.",
+          "link": "https://www.origencircular.com/water-school"
         }
       ]
     }

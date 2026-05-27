@@ -11,8 +11,9 @@ export default function JalSahelis() {
       <div id="main" className="symmetrical">
         <div className="info">
           <h1>
-            Empowering Tribal Women as Water Leaders: Bringing the Jal Sahelis
-            to Baran
+            Empowering Tribal Women as Water Leaders:
+            <br />
+            <em>Bringing the Jal Sahelis to Baran</em>
           </h1>
           <h2>Water School India</h2>
           <div className="inset">

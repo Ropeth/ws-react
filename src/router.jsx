@@ -1,4 +1,4 @@
-import Contact from "./routes/contact.jsx";
+import Contact from "./routes/contact3.jsx";
 import About from "./routes/about.jsx";
 import Home from "./routes/home.jsx";
 import History from "./routes/history-and-present.jsx";
