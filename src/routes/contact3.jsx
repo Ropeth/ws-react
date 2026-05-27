@@ -9,6 +9,8 @@ export default function Contact() {
   if (state.succeeded) {
     //   return <p>Thanks for joining!</p>;
     toast.success("Thanks for reaching out!");
+    //clear form fields
+    document.getElementById("contact-form").reset();
   }
 
   return (
