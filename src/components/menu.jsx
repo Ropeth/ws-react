@@ -81,11 +81,11 @@ export default function Menu() {
               </Link>
             </div>
 
-            <div className="dropdown-submenu">
+            {/* <div className="dropdown-submenu">
               <Link className="dropdown-item" to="/nepal-literacy">
                 Water School Nepal
               </Link>
-            </div>
+            </div> */}
           </div>
         </li>
 
